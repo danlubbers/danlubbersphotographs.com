@@ -2,20 +2,15 @@ import React from 'react';
 import { PageProps, graphql } from 'gatsby';
 import './index.scss';
 
-// import imageData from '../data/image-content.json';
-
-// import ImageSlider from '../components/ImageSlider/ImageSlider';
-import ImageTest from '../components/ImageTest/ImageTest';
 import Header from '../components/Header/Header';
+import ImageTest from '../components/ImageTest/ImageTest';
 
 const Home: React.FC<PageProps> = ({ data }) => {
-  console.log(data.photos.edges[1]);
+  console.log(data.photos.edges);
 
   return (
     <main>
       <Header />
-      {/* <ImageSlider sliderData={imageData} /> */}
-      {/* <ImageTest sliderData={data.allImageContentJson.edges} /> */}
       <ImageTest sliderData={data.photos.edges} />
     </main>
   );
@@ -31,10 +26,11 @@ export const query = graphql`
     ) {
       edges {
         node {
+          id
+          base
           childImageSharp {
             gatsbyImageData
           }
-          base
         }
       }
     }
