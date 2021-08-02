@@ -1,22 +1,33 @@
 [
   {
-    "uuid": "efde357d-54d8-49be-9211-73420cacef24",
     "name": "Cristina Floro",
-    "imgSrc": "https://s3.amazonaws.com/content.danlubbers.com/img/index/danlubbers-index-portfolio-1c.jpg"
+    "category": "index",
+    "src": "../assets/images/index/floro-cristina-5107-gatsby-test.jpg"
   },
   {
-    "uuid": "c3cd232d-78d9-4b90-98d4-60ce7bc3ec1a",
     "name": "Will Oldham",
-    "imgSrc": "https://s3.amazonaws.com/content.danlubbers.com/img/index/danlubbers-index-portfolio-1a.jpg"
+    "category": "index",
+    "src": "../assets/images/index/danlubbers-index-portfolio-1a.jpg"
   },
   {
-    "uuid": "9fdf12cc-b48e-492b-a404-13cdf83c8a17",
     "name": "Samantha Roman",
-    "imgSrc": "https://s3.amazonaws.com/content.danlubbers.com/img/index/danlubbers-index-portfolio-1b.jpg"
+    "category": "index",
+    "src": "../assets/images/index/danlubbers-index-portfolio-1b.jpg"
   },
   {
-    "uuid": "545e5991-00f3-48ef-91f3-8af255684deb",
     "name": "Kirby Coleman",
-    "imgSrc": "https://s3.amazonaws.com/content.danlubbers.com/img/index/danlubbers-index-portfolio-1.jpg"
+    "category": "index",
+    "src": "../assets/images/index/danlubbers-index-portfolio-1.jpg"
+  },
+
+  {
+    "name": "Jefferson Steamboat ",
+    "category": "scenic",
+    "src": "../assets/images/scenic/danlubbers-scenic-portfolio-1.jpg"
+  },
+  {
+    "name": "Creation Falls",
+    "category": "scenic",
+    "src": "../assets/images/scenic/danlubbers-scenic-portfolio-2.jpg"
   }
 ]

@@ -6,12 +6,17 @@ import Header from '../components/Header/Header';
 import ImageTest from '../components/ImageTest/ImageTest';
 
 const Home: React.FC<PageProps> = ({ data }) => {
-  console.log(data.photos.edges);
+  console.log(data);
+
+  // const filteredPhotoData = data.photos.nodes.filter((photoData) => {
+  //   console.log(`filtered`, photoData);
+  //   return photoData.category === `index`;
+  // });
 
   return (
     <main>
       <Header />
-      <ImageTest sliderData={data.photos.edges} />
+      <ImageTest sliderData={data.imageContent.nodes} />
     </main>
   );
 };
@@ -20,16 +25,18 @@ export default Home;
 
 export const query = graphql`
   query {
-    photos: allFile(
-      filter: { relativeDirectory: { eq: "index" } }
-      sort: { order: ASC, fields: base }
-    ) {
-      edges {
-        node {
-          id
-          base
+    imageContent: allImageContentJson(filter: { category: { eq: "index" } }) {
+      nodes {
+        category
+        id
+        name
+        src {
           childImageSharp {
-            gatsbyImageData
+            gatsbyImageData(
+              placeholder: BLURRED
+              blurredOptions: { width: 100 }
+              quality: 80
+            )
           }
         }
       }

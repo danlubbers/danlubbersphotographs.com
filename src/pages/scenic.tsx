@@ -1,16 +1,17 @@
 import React from 'react';
 import { PageProps, graphql } from 'gatsby';
 import './index.scss';
-import ImageTest from '../components/ImageTest/ImageTest';
+
 import Header from '../components/Header/Header';
+import ImageTest from '../components/ImageTest/ImageTest';
 
 const Scenic: React.FC<PageProps> = ({ data }) => {
-  console.log(data.photos.edges[1]);
+  console.log(data.photos.nodes);
 
   return (
     <main>
       <Header />
-      <ImageTest sliderData={data.photos.edges} />
+      <ImageTest sliderData={data.photos.nodes} />
     </main>
   );
 };
@@ -19,16 +20,19 @@ export default Scenic;
 
 export const query = graphql`
   query {
-    photos: allFile(
-      filter: { relativeDirectory: { eq: "scenic" } }
-      sort: { order: ASC, fields: base }
-    ) {
-      edges {
-        node {
+    photos: allImageContentJson(filter: { category: { eq: "scenic" } }) {
+      nodes {
+        category
+        id
+        name
+        src {
           childImageSharp {
-            gatsbyImageData
+            gatsbyImageData(
+              placeholder: BLURRED
+              blurredOptions: { width: 100 }
+              quality: 80
+            )
           }
-          base
         }
       }
     }

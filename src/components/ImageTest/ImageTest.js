@@ -1,5 +1,5 @@
 import React, { useState, useCallback, useEffect } from 'react';
-import { GatsbyImage } from 'gatsby-plugin-image';
+import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
 import '../ImageSlider/ImageSlider.scss';
 
@@ -35,21 +35,20 @@ function ImageTest({ sliderData }) {
   };
 
   const imageSliderData = sliderData.map((data, idx) => {
-    console.log(`id`, data.node.base);
+    const image = getImage(data.src);
 
     return (
-      <div
+      <picture
         className={idx === current ? `slide-active` : `slide`}
-        key={data.node.id}
+        key={data.id}
       >
         {idx === current && (
-          <GatsbyImage
-            className="image"
-            image={data.node.childImageSharp.gatsbyImageData}
-            alt={data.node.base}
-          />
+          <>
+            <h1>{data.name}</h1>
+            <GatsbyImage className="image" image={image} alt={data.name} />
+          </>
         )}
-      </div>
+      </picture>
     );
   });
 
