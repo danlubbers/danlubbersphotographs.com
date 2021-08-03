@@ -1,0 +1,40 @@
+@import '../../styles/variables.scss';
+
+article,
+.bioContainer {
+  color: black;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+
+  .imageContainer {
+    grid-column: 1 / span 2;
+    background-color: cadetblue;
+  }
+  .descriptionContainer {
+    grid-column: 3 / span 8;
+    background-color: chartreuse;
+  }
+  .clientsContainer {
+    grid-column: 1 / span 8;
+
+    background-color: coral;
+    .clientsWrapper {
+      height: 100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+
+      .clients {
+        background-color: beige;
+        p {
+          text-align: left;
+        }
+      }
+      .editorials {
+      }
+      .press {
+        background-color: cornflowerblue;
+      }
+    }
+  }
+}

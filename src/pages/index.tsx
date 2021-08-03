@@ -3,6 +3,7 @@ import { PageProps, graphql } from 'gatsby';
 import './index.scss';
 
 import Header from '../components/Header/Header';
+import Bio from '../components/Bio/Bio';
 import ImageTest from '../components/ImageTest/ImageTest';
 import Footer from '../components/Footer/Footer';
 
@@ -15,11 +16,14 @@ const Home: React.FC<PageProps> = ({ data }) => {
   // });
 
   return (
-    <main>
+    <>
       <Header />
-      <ImageTest sliderData={data.imageContent.nodes} />
+      <main>
+        <Bio />
+        <ImageTest sliderData={data.imageContent.nodes} />
+      </main>
       <Footer />
-    </main>
+    </>
   );
 };
 
