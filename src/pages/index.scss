@@ -1,10 +1,18 @@
+@import '../styles//variables.scss';
+
 html {
   text-align: center;
-  background-color: #0e0e0e;
 }
 
 body {
   font-family: 'montserrat';
   font-weight: 100;
-  color: rgb(150, 150, 150);
+  color: $font-color;
+  background-color: $site-background-color;
+}
+
+main {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }

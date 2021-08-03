@@ -1,6 +1,6 @@
 import React, { useState, useCallback, useEffect } from 'react';
 import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
-import './ImageSlider.scss';
+import './_ImageSlider.scss';
 
 interface ImageData {
   sliderData: {

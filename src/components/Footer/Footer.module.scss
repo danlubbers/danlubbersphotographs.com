@@ -1,3 +1,5 @@
+@import '../../styles/variables.scss';
+
 footer {
   margin: 25px 0;
 
@@ -7,11 +9,11 @@ footer {
     letter-spacing: 1px;
 
     .footer-link {
-      color: rgb(150, 150, 150);
+      color: $font-color;
       text-decoration: none;
     }
     .footer-link:hover {
-      color: rgb(200, 0, 0);
+      color: $hover-color;
       transition: all 0.5s ease-in-out;
     }
   }

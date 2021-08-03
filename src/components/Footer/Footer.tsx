@@ -1,12 +1,12 @@
 import React from 'react';
-import './Footer.scss';
+import * as styles from './Footer.module.scss';
 
 const Footer = () => (
   <footer>
-    <p className="footer-text">
+    <p className={styles.footerText}>
       ALL IMAGES COPYRIGHT ©{` `}
       <a
-        className="footer-link"
+        className={styles.footerLink}
         href="http://www.danlubbers.com"
         target="_blank"
         rel="noreferrer"
@@ -15,7 +15,7 @@ const Footer = () => (
       </a>
       {` `}| SITE BUILT BY{` `}
       <a
-        className="footer-link"
+        className={styles.footerLink}
         href="http://www.danlubbers.com"
         target="_blank"
         rel="noreferrer"

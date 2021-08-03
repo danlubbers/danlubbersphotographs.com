@@ -1,17 +1,17 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import './Header.scss';
+import * as styles from './Header.module.scss';
 import headerLogo from '../../assets/logos/danlubbers_logo.svg';
 
 const Header = () => (
   <header>
-    <Link to="/">
+    {/* <Link to="/">
       <img src={headerLogo} alt="logo" />
-    </Link>
+    </Link> */}
 
     <nav>
       <ul>
-        <Link className="link" to="/scenic">
+        <Link className={styles.link} to="/scenic">
           <li>PORTFOLIO</li>
         </Link>
 

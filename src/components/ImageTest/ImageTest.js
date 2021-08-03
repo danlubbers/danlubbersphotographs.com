@@ -1,7 +1,7 @@
 import React, { useState, useCallback, useEffect } from 'react';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
-import '../ImageSlider/ImageSlider.scss';
+import * as styles from '../ImageSlider/ImageSlider.module.scss';
 
 function ImageTest({ sliderData }) {
   console.log('SLIDER', sliderData);
@@ -38,11 +38,20 @@ function ImageTest({ sliderData }) {
     const image = getImage(data.src);
 
     return (
-      <div className={idx === current ? `slide-active` : `slide`} key={data.id}>
+      <div
+        className={
+          idx === current ? `${styles.slideActive}` : `${styles.slide}`
+        }
+        key={data.id}
+      >
         {idx === current && (
-          <div className="image-container">
-            <h1 className="image-name">{data.name}</h1>
-            <GatsbyImage className="image" image={image} alt={data.name} />
+          <div className={styles.imageContainer}>
+            <h1 className={styles.imageName}>{data.name}</h1>
+            <GatsbyImage
+              className={styles.image}
+              image={image}
+              alt={data.name}
+            />
           </div>
         )}
       </div>
@@ -50,9 +59,9 @@ function ImageTest({ sliderData }) {
   });
 
   return (
-    <section className="slider">
-      <FiChevronLeft className="left-arrow" onClick={prevSlide} />
-      <FiChevronRight className="right-arrow" onClick={nextSlide} />
+    <section className={styles.slider}>
+      <FiChevronLeft className={styles.leftArrow} onClick={prevSlide} />
+      <FiChevronRight className={styles.rightArrow} onClick={nextSlide} />
       {imageSliderData}
     </section>
   );
