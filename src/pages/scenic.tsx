@@ -6,12 +6,12 @@ import Header from '../components/Header/Header';
 import ImageTest from '../components/ImageTest/ImageTest';
 
 const Scenic: React.FC<PageProps> = ({ data }) => {
-  console.log(data.photos.nodes);
+  console.log(data);
 
   return (
     <main>
       <Header />
-      <ImageTest sliderData={data.photos.nodes} />
+      <ImageTest sliderData={data.imageContent.nodes} />
     </main>
   );
 };
@@ -20,7 +20,7 @@ export default Scenic;
 
 export const query = graphql`
   query {
-    photos: allImageContentJson(filter: { category: { eq: "scenic" } }) {
+    imageContent: allImageContentJson(filter: { category: { eq: "scenic" } }) {
       nodes {
         category
         id

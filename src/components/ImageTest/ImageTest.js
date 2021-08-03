@@ -38,17 +38,14 @@ function ImageTest({ sliderData }) {
     const image = getImage(data.src);
 
     return (
-      <picture
-        className={idx === current ? `slide-active` : `slide`}
-        key={data.id}
-      >
+      <div className={idx === current ? `slide-active` : `slide`} key={data.id}>
         {idx === current && (
-          <>
-            <h1>{data.name}</h1>
+          <div className="image-container">
+            <h1 className="image-name">{data.name}</h1>
             <GatsbyImage className="image" image={image} alt={data.name} />
-          </>
+          </div>
         )}
-      </picture>
+      </div>
     );
   });
 

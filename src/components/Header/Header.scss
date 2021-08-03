@@ -1,8 +1,40 @@
 header {
   width: 100%;
+  padding: 0 20px;
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 
   img {
-    max-width: 800px;
+    max-width: 35vw;
+  }
+
+  nav {
+    ul {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+
+      .link {
+        margin-right: 20px;
+        text-decoration: none;
+      }
+      li {
+        margin: 0 20px;
+        font-weight: 300;
+        letter-spacing: 1.5px;
+        color: rgb(150, 150, 150);
+        cursor: pointer;
+      }
+      li:nth-last-child(1) {
+        margin: 0 0 0 20px;
+      }
+
+      li:hover {
+        color: rgb(200, 0, 0);
+        transition: 0.5s ease-in-out;
+      }
+    }
   }
 }

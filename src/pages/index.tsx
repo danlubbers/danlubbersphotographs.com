@@ -4,6 +4,7 @@ import './index.scss';
 
 import Header from '../components/Header/Header';
 import ImageTest from '../components/ImageTest/ImageTest';
+import Footer from '../components/Footer/Footer';
 
 const Home: React.FC<PageProps> = ({ data }) => {
   console.log(data);
@@ -17,6 +18,7 @@ const Home: React.FC<PageProps> = ({ data }) => {
     <main>
       <Header />
       <ImageTest sliderData={data.imageContent.nodes} />
+      <Footer />
     </main>
   );
 };

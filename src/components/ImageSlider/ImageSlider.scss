@@ -1,7 +1,7 @@
 section,
 .slider {
   position: relative;
-  height: 100vh;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,22 +12,21 @@ section,
     top: 50%;
     right: 32px;
     font-size: 2rem;
-    color: rgb(255, 255, 255);
+    color: rgb(125, 125, 125);
     z-index: 10;
     cursor: pointer;
     user-select: none;
-    opacity: 0.2;
   }
+
   .left-arrow {
-    position: absolute;
-    top: 50%;
+    @extend .right-arrow;
     left: 32px;
-    font-size: 2rem;
-    color: rgb(255, 255, 255);
-    z-index: 10;
-    cursor: pointer;
-    user-select: none;
-    opacity: 0.2;
+  }
+
+  .right-arrow:hover,
+  .left-arrow:hover {
+    color: rgb(200, 0, 0);
+    transition: 0.5s ease-in-out;
   }
 
   .slide {
@@ -37,13 +36,25 @@ section,
   .slide-active {
     opacity: 1;
     transition-duration: 0.5s;
-    transform: scale(1.08);
   }
 
-  .image {
-    max-width: 1200px;
+  .image-container {
+    position: relative;
+    .image-name {
+      position: absolute;
+      width: 100%;
+      font-size: 1em;
+      color: rgb(125, 125, 125);
+      background-color: rgba(5, 5, 5, 0.8);
+      opacity: 0;
+    }
+    .image {
+      max-width: 1200px;
+    }
   }
-  .image:hover {
-    opacity: 0.8;
+  .image-container:hover .image-name {
+    transition: all 0.5s ease-in-out;
+    opacity: 1;
+    z-index: 10;
   }
 }
