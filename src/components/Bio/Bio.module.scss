@@ -6,48 +6,56 @@ article,
   width: 100%;
   height: 100%;
   top: 58px;
-  color: black;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(2, 1fr);
   justify-content: center;
+  background-color: $bio-transparency-background-color;
   z-index: 20;
   opacity: 1;
   transition: all 0.5s ease;
 
   .imageContainer {
     grid-column: 1 / span 2;
-    background-color: cadetblue;
+    padding-top: 25px;
 
     .bioImage {
-      width: 400px;
-      height: 400px;
+      max-width: 400px;
     }
   }
   .descriptionContainer {
     grid-column: 3 / span 8;
-    background-color: chartreuse;
+    // background-color: chartreuse;
+    padding: 25px;
+    letter-spacing: 1.25px;
+    font-weight: 200;
+
+    .descriptionText {
+    }
+
+    .descriptionQuote {
+      margin-top: 25px;
+    }
   }
   .clientsContainer {
     grid-column: 1 / span 8;
 
-    background-color: coral;
     .clientsWrapper {
       height: 100%;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
 
       .clients {
-        background-color: beige;
+        // background-color: beige;
         p {
           text-align: left;
         }
       }
       .editorials {
-        background-color: salmon;
+        // background-color: salmon;
       }
       .press {
-        background-color: cornflowerblue;
+        // background-color: cornflowerblue;
       }
     }
   }
