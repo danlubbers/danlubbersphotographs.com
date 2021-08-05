@@ -3,9 +3,8 @@ import { PageProps, graphql } from 'gatsby';
 import './index.scss';
 
 import Header from '../components/Header/Header';
-import Bio from '../components/Bio/Bio';
-import ImageTest from '../components/ImageTest/ImageTest';
 import Footer from '../components/Footer/Footer';
+import ImageTest from '../components/ImageTest/ImageTest';
 
 const Home: React.FC<PageProps> = ({ data }) => {
   console.log(data);
@@ -16,14 +15,11 @@ const Home: React.FC<PageProps> = ({ data }) => {
   // });
 
   return (
-    <>
-      <Header />
-      <main>
-        <Bio />
-        <ImageTest sliderData={data.imageContent.nodes} />
-      </main>
+    <main>
+      <Header bioImage={data.bioImage.nodes[0]} />
+      <ImageTest sliderData={data.imageContent.nodes} />
       <Footer />
-    </>
+    </main>
   );
 };
 
@@ -38,13 +34,16 @@ export const query = graphql`
         name
         src {
           childImageSharp {
-            gatsbyImageData(
-              placeholder: BLURRED
-              blurredOptions: { width: 100 }
-              quality: 80
-            )
+            gatsbyImageData
           }
         }
+      }
+    }
+    bioImage: allImageSharp(
+      filter: { id: { eq: "5f0c3728-d190-5ff4-8004-4a51125b4487" } }
+    ) {
+      nodes {
+        gatsbyImageData
       }
     }
   }

@@ -1,26 +1,40 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'gatsby';
 import * as styles from './Header.module.scss';
 import headerLogo from '../../assets/logos/danlubbers_logo.svg';
 
-const Header = () => (
-  <header>
-    {/* <Link to="/">
-      <img src={headerLogo} alt="logo" />
-    </Link> */}
+import Bio from '../Bio/Bio';
 
-    <nav>
-      <ul>
-        <Link className={styles.link} to="/scenic">
-          <li>PORTFOLIO</li>
-        </Link>
+const Header = ({ bioImage }) => {
+  console.log(bioImage);
 
-        <li>BIO</li>
+  const [isBio, setIsBio] = useState(false);
 
-        <li>CONNECT</li>
-      </ul>
-    </nav>
-  </header>
-);
+  const handleClickBio = () => {
+    setIsBio(!isBio);
+  };
+  return (
+    <>
+      <header>
+        {/* <Link to="/">
+          <img src={headerLogo} alt="logo" />
+        </Link> */}
+
+        <nav>
+          <ul>
+            <Link className={styles.link} to="/scenic">
+              <li>PORTFOLIO</li>
+            </Link>
+
+            <li onClick={handleClickBio}>BIO</li>
+
+            <li>CONNECT</li>
+          </ul>
+        </nav>
+      </header>
+      <Bio isBio={isBio} bioImage={bioImage} />
+    </>
+  );
+};
 
 export default Header;

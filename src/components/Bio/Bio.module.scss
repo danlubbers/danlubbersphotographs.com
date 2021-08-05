@@ -1,15 +1,28 @@
 @import '../../styles/variables.scss';
 
 article,
-.bioContainer {
+.bioContainerActive {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 58px;
   color: black;
-  height: 100vh;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-content: center;
+  z-index: 20;
+  opacity: 1;
+  transition: all 0.5s ease;
 
   .imageContainer {
     grid-column: 1 / span 2;
     background-color: cadetblue;
+
+    .bioImage {
+      width: 400px;
+      height: 400px;
+    }
   }
   .descriptionContainer {
     grid-column: 3 / span 8;
@@ -31,10 +44,17 @@ article,
         }
       }
       .editorials {
+        background-color: salmon;
       }
       .press {
         background-color: cornflowerblue;
       }
     }
   }
+}
+
+.bioContainerInactive {
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s ease;
 }

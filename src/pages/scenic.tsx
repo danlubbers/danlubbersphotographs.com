@@ -3,6 +3,7 @@ import { PageProps, graphql } from 'gatsby';
 import './index.scss';
 
 import Header from '../components/Header/Header';
+import Footer from '../components/Footer/Footer';
 import ImageTest from '../components/ImageTest/ImageTest';
 
 const Scenic: React.FC<PageProps> = ({ data }) => {
@@ -12,6 +13,7 @@ const Scenic: React.FC<PageProps> = ({ data }) => {
     <main>
       <Header />
       <ImageTest sliderData={data.imageContent.nodes} />
+      <Footer />
     </main>
   );
 };
