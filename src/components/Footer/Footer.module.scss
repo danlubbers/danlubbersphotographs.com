@@ -1,7 +1,9 @@
 @import '../../styles/variables.scss';
 
 footer {
-  margin: 25px 0;
+  height: 25px;
+  background-color: $site-background-color;
+  z-index: 100;
 
   .footer-text {
     font-size: 0.8em;

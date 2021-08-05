@@ -17,9 +17,9 @@ const Bio: React.FC<BioProps> = ({ isBio, bioImage }) => {
         isBio ? styles.bioContainerActive : styles.bioContainerInactive
       }
     >
-      <div className={styles.closeBtnWrapper}>
+      {/* <div className={styles.closeBtnWrapper}>
         <FiX className={styles.closeBtn} />
-      </div>
+      </div> */}
       <div className={styles.bioWrapper}>
         <div className={styles.imageContainer}>
           <GatsbyImage className={styles.bioImage} image={image} alt="test" />

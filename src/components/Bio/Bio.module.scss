@@ -34,6 +34,7 @@ article,
     width: 85%;
     margin-top: 20px;
     display: grid;
+    gap: 20px;
     grid-template-columns: repeat(6, 1fr);
     justify-content: center;
 
@@ -47,8 +48,7 @@ article,
       }
     }
     .descriptionContainer {
-      margin-left: 25px;
-      grid-column: 3 / span 8;
+      grid-column: 3 / end;
       // background-color: chartreuse;
 
       letter-spacing: 1.25px;
@@ -62,7 +62,6 @@ article,
       }
     }
     .clientsEditorialPressContainer {
-      margin-top: 25px;
       grid-column: 1 / end;
       grid-row: 2 / end;
       text-align: left;
@@ -71,7 +70,7 @@ article,
 
       .clientsWrapper {
         display: grid;
-        grid-gap: 20px;
+        gap: 20px;
         grid-template-columns: 1fr 1fr 1fr;
 
         .clients {
