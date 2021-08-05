@@ -1,5 +1,6 @@
 import React from 'react';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
+import { FiX } from 'react-icons/fi';
 import * as styles from './Bio.module.scss';
 
 interface BioProps {
@@ -16,6 +17,9 @@ const Bio: React.FC<BioProps> = ({ isBio, bioImage }) => {
         isBio ? styles.bioContainerActive : styles.bioContainerInactive
       }
     >
+      <div className={styles.closeBtnWrapper}>
+        <FiX className={styles.closeBtn} />
+      </div>
       <div className={styles.bioWrapper}>
         <div className={styles.imageContainer}>
           <GatsbyImage className={styles.bioImage} image={image} alt="test" />
