@@ -26,34 +26,65 @@ const Header = ({ bioImage }) => {
   return (
     <>
       <header>
-        {/* <Link to="/">
+        <Link to="/">
           <img src={headerLogo} alt="logo" />
-        </Link> */}
+        </Link>
 
         <nav>
-          <ul>
+          <ul className={styles.navWrapper}>
             <div onMouseLeave={handleClickLeavePortfolio}>
-              <li onMouseEnter={handleClickPortfolio}>PORTFOLIO</li>
+              <li
+                className={styles.navTitle}
+                onMouseEnter={handleClickPortfolio}
+              >
+                PORTFOLIO
+              </li>
               <ul
                 className={
                   isPortfolio
-                    ? styles.portfolioLinksActive
-                    : styles.portfolioLinksInactive
+                    ? styles.portfolioDropdownActive
+                    : styles.portfolioDropdownInactive
                 }
               >
                 <Link className={styles.link} to="/portraits">
-                  <li>Portraits</li>
+                  <li className={styles.galleryTitle}>Portraits</li>
                 </Link>
                 <Link className={styles.link} to="/scenic">
-                  <li>Scenic</li>
+                  <li className={styles.galleryTitle}>Scenic</li>
+                </Link>
+                <Link className={styles.link} to="/action">
+                  <li className={styles.galleryTitle}>Action</li>
+                </Link>
+                <Link className={styles.link} to="/lifestyle">
+                  <li className={styles.galleryTitle}>Lifestyle</li>
+                </Link>
+                <Link className={styles.link} to="/still-life">
+                  <li className={styles.galleryTitle}>Still life</li>
+                </Link>
+                <Link className={styles.link} to="/musicians">
+                  <li className={styles.galleryTitle}>Musicians</li>
+                </Link>
+                <Link className={styles.link} to="/iphoneography">
+                  <li className={styles.galleryTitle}>Iphoneography</li>
+                </Link>
+                <Link className={styles.link} to="/published">
+                  <li className={styles.galleryTitle}>Published</li>
+                </Link>
+                <Link className={styles.link} to="/retouched">
+                  <li className={styles.galleryTitle}>
+                    Retouching Before & After
+                  </li>
                 </Link>
               </ul>
             </div>
-            <li className={isBio && styles.bioActive} onClick={handleClickBio}>
+            <li
+              className={isBio ? styles.bioActive : styles.navTitle}
+              onClick={handleClickBio}
+            >
               BIO
             </li>
 
-            <li>CONNECT</li>
+            <li className={styles.navTitle}>CONNECT</li>
           </ul>
         </nav>
       </header>
