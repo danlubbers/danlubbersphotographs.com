@@ -1,6 +1,6 @@
 import React from 'react';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
-import { FiX } from 'react-icons/fi';
+// import { FiX } from 'react-icons/fi';
 import * as styles from './Bio.module.scss';
 
 interface BioProps {

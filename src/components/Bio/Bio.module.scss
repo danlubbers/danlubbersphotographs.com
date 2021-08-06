@@ -14,6 +14,7 @@ article,
   z-index: 20;
   opacity: 1;
   transition: all 0.1s ease-in-out;
+  overflow: scroll;
 
   .closeBtnWrapper {
     width: 85%;
@@ -73,61 +74,37 @@ article,
         gap: 20px;
         grid-template-columns: 1fr 1fr 1fr;
 
+        li {
+          margin: 4px 0;
+          font-weight: 200;
+          a {
+            color: $font-color;
+            text-decoration: none;
+            transition: all 0.5s ease;
+          }
+          a:hover {
+            color: $hover-color;
+            transition: all 0.5s ease;
+          }
+        }
         .clients {
           padding: 0;
-          .clientsTitle {
-            color: $hover-color;
-            margin-bottom: 20px;
-          }
-          li {
-            margin: 4px 0;
-            font-weight: 200;
-            a {
-              color: $font-color;
-              text-decoration: none;
-            }
-            a:hover {
-              color: $hover-color;
-            }
-          }
-          // background-color: beige;
+        }
+        .clientsTitle {
+          margin-bottom: 20px;
+          color: $hover-color;
         }
         .editorials {
-          padding: 0;
-          // background-color: salmon;
-          .editorialsTitle {
-            color: $hover-color;
-            margin-bottom: 20px;
-          }
-          li {
-            margin: 4px 0;
-            font-weight: 200;
-            a {
-              color: $font-color;
-              text-decoration: none;
-            }
-            a:hover {
-              color: $hover-color;
-            }
-          }
+          @extend .clients;
+        }
+        .editorialsTitle {
+          @extend .clientsTitle;
         }
         .press {
-          padding: 0;
-          // background-color: cornflowerblue;
-          .pressTitle {
-            color: $hover-color;
-          }
-          li {
-            margin: 4px 0;
-            font-weight: 200;
-            a {
-              color: $font-color;
-              text-decoration: none;
-            }
-            a:hover {
-              color: $hover-color;
-            }
-          }
+          @extend .clients;
+        }
+        .pressTitle {
+          @extend .clientsTitle;
         }
       }
     }
@@ -137,5 +114,4 @@ article,
 .bioContainerInactive {
   visibility: hidden;
   opacity: 0;
-  // transition: all 0.5s ease;
 }

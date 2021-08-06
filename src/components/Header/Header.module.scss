@@ -1,6 +1,7 @@
 @import '../../styles/variables.scss';
 
 header {
+  position: relative;
   width: 100%;
   margin: 20px 0;
   padding: 0 20px;
@@ -8,16 +9,19 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  overflow: visible;
 
   img {
     max-width: 35vw;
   }
 
   nav {
+    display: grid;
     ul {
       width: 100%;
       display: flex;
       justify-content: flex-end;
+      z-index: 2000;
 
       .link {
         margin-right: 20px;
@@ -29,6 +33,10 @@ header {
         letter-spacing: 1.5px;
         color: $font-color;
         cursor: pointer;
+        transition: all 0.5s ease;
+      }
+      .bioActive {
+        color: $hover-color;
       }
       li:nth-last-child(1) {
         margin: 0 0 0 20px;
@@ -36,7 +44,17 @@ header {
 
       li:hover {
         color: $hover-color;
-        transition: 0.5s ease-in-out;
+        transition: all 0.5s ease;
+      }
+
+      .portfolioLinksActive {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+      }
+      .portfolioLinksInactive {
+        display: none;
       }
     }
   }

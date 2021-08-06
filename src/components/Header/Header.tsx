@@ -9,9 +9,19 @@ const Header = ({ bioImage }) => {
   console.log(bioImage);
 
   const [isBio, setIsBio] = useState(false);
+  const [isPortfolio, setIsPortfolio] = useState(false);
+
+  const handleClickPortfolio = () => {
+    setIsPortfolio(true);
+  };
+
+  const handleClickLeavePortfolio = () => {
+    setIsPortfolio(false);
+  };
 
   const handleClickBio = () => {
     setIsBio(!isBio);
+    setIsPortfolio(false);
   };
   return (
     <>
@@ -22,11 +32,26 @@ const Header = ({ bioImage }) => {
 
         <nav>
           <ul>
-            <Link className={styles.link} to="/scenic">
-              <li>PORTFOLIO</li>
-            </Link>
-
-            <li onClick={handleClickBio}>BIO</li>
+            <div onMouseLeave={handleClickLeavePortfolio}>
+              <li onMouseEnter={handleClickPortfolio}>PORTFOLIO</li>
+              <ul
+                className={
+                  isPortfolio
+                    ? styles.portfolioLinksActive
+                    : styles.portfolioLinksInactive
+                }
+              >
+                <Link className={styles.link} to="/portraits">
+                  <li>Portraits</li>
+                </Link>
+                <Link className={styles.link} to="/scenic">
+                  <li>Scenic</li>
+                </Link>
+              </ul>
+            </div>
+            <li className={isBio && styles.bioActive} onClick={handleClickBio}>
+              BIO
+            </li>
 
             <li>CONNECT</li>
           </ul>

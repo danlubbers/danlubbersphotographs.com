@@ -1,7 +1,8 @@
 @import '../../styles/variables.scss';
 
 footer {
-  height: 25px;
+  padding-top: 20px;
+  height: 50px;
   background-color: $site-background-color;
   z-index: 100;
 
@@ -13,10 +14,11 @@ footer {
     .footer-link {
       color: $font-color;
       text-decoration: none;
+      transition: all 0.5s ease;
     }
     .footer-link:hover {
       color: $hover-color;
-      transition: all 0.5s ease-in-out;
+      transition: all 0.5s ease;
     }
   }
 }
