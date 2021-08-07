@@ -4,16 +4,16 @@ article,
 .bioContainerActive {
   position: absolute;
   width: 100%;
-  height: calc(100vh - 58px);
+  height: calc(100vh - 50px);
   top: 58px;
-  padding: 25px;
+  padding: 50px 100px 0;
   display: grid;
   justify-items: center;
   font-weight: 200;
   background-color: $transparency-background-color;
   z-index: 20;
   opacity: 1;
-  transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease;
   overflow: scroll;
 
   .closeBtnWrapper {
@@ -32,7 +32,7 @@ article,
   }
 
   .bioWrapper {
-    width: 85%;
+    // width: 85%;
     margin-top: 20px;
     display: grid;
     gap: 20px;
@@ -44,7 +44,7 @@ article,
       grid-column: 1 / span 2;
 
       .bioImage {
-        max-width: 400px;
+        max-width: 300px;
         border-radius: 10px;
       }
     }
@@ -75,7 +75,7 @@ article,
         grid-template-columns: 1fr 1fr 1fr;
 
         li {
-          margin: 4px 0;
+          margin: 8px 0;
           font-weight: 200;
           a {
             color: $font-color;

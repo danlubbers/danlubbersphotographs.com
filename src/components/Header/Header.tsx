@@ -4,12 +4,14 @@ import * as styles from './Header.module.scss';
 import headerLogo from '../../assets/logos/danlubbers_logo.svg';
 
 import Bio from '../Bio/Bio';
+import Connect from '../Connect/Connect';
 
 const Header = ({ bioImage }) => {
   console.log(bioImage);
 
-  const [isBio, setIsBio] = useState(false);
   const [isPortfolio, setIsPortfolio] = useState(false);
+  const [isBio, setIsBio] = useState(false);
+  const [isConnect, setIsConnect] = useState(false);
 
   const handleClickPortfolio = () => {
     setIsPortfolio(true);
@@ -22,13 +24,20 @@ const Header = ({ bioImage }) => {
   const handleClickBio = () => {
     setIsBio(!isBio);
     setIsPortfolio(false);
+    setIsConnect(false);
+  };
+
+  const handleClickConnect = () => {
+    setIsConnect(!isConnect);
+    setIsBio(false);
+    setIsPortfolio(false);
   };
   return (
     <>
       <header>
-        <Link to="/">
+        {/* <Link to="/">
           <img src={headerLogo} alt="logo" />
-        </Link>
+        </Link> */}
 
         <nav>
           <ul className={styles.navWrapper}>
@@ -84,11 +93,17 @@ const Header = ({ bioImage }) => {
               BIO
             </li>
 
-            <li className={styles.navTitle}>CONNECT</li>
+            <li
+              className={isConnect ? styles.connectActive : styles.navTitle}
+              onClick={handleClickConnect}
+            >
+              CONNECT
+            </li>
           </ul>
         </nav>
       </header>
       <Bio isBio={isBio} bioImage={bioImage} />
+      <Connect isConnect={isConnect} />
     </>
   );
 };

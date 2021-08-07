@@ -1,0 +1,65 @@
+@import '../../styles/variables.scss';
+
+article,
+.connectContainerActive {
+  position: absolute;
+  width: 100%;
+  height: calc(100vh - 58px);
+  top: 58px;
+  display: grid;
+  justify-items: center;
+  font-weight: 200;
+  background-color: $transparency-background-color;
+  z-index: 20;
+  opacity: 1;
+  transition: all 0.1s ease;
+
+  .socialMediaWrapper {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    // background-color: slategray;
+
+    .email {
+      margin-bottom: 10px;
+      font-weight: 400;
+
+      .emailLink {
+        font-weight: 200;
+        color: $font-color;
+        text-decoration: none;
+      }
+    }
+    .emailLink:hover {
+      color: $hover-color;
+    }
+
+    .socialMedia {
+      margin: 5px 0;
+      display: flex;
+      align-items: center;
+
+      .socialMediaLink {
+        display: flex;
+        align-items: center;
+        color: $font-color;
+        text-decoration: none;
+        transition: all 0.5s ease;
+        cursor: pointer;
+      }
+      p {
+        margin-left: 10px;
+      }
+    }
+    .socialMediaLink:hover {
+      color: $hover-color;
+      transition: all 0.5s ease;
+    }
+  }
+}
+
+.connectContainerInactive {
+  visibility: hidden;
+  opacity: 0;
+}
