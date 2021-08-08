@@ -4,8 +4,8 @@ article,
 .connectContainerActive {
   position: absolute;
   width: 100%;
-  height: calc(100vh - 58px);
-  top: 58px;
+  height: calc(100vh - 5.8rem);
+  top: 5.8rem;
   display: grid;
   justify-items: center;
   font-weight: 200;
@@ -22,10 +22,12 @@ article,
     // background-color: slategray;
 
     .email {
-      margin-bottom: 10px;
+      margin-bottom: 1rem;
+      font-size: 1.6rem;
       font-weight: 400;
 
       .emailLink {
+        font-size: 1.6rem;
         font-weight: 200;
         color: $font-color;
         text-decoration: none;
@@ -36,7 +38,7 @@ article,
     }
 
     .socialMedia {
-      margin: 5px 0;
+      margin: 0.5rem 0;
       display: flex;
       align-items: center;
 
@@ -49,7 +51,8 @@ article,
         cursor: pointer;
       }
       p {
-        margin-left: 10px;
+        margin-left: 1rem;
+        font-size: 1.6rem;
       }
     }
     .socialMediaLink:hover {

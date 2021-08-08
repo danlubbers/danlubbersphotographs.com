@@ -4,9 +4,9 @@ article,
 .bioContainerActive {
   position: absolute;
   width: 100%;
-  height: calc(100vh - 50px);
-  top: 58px;
-  padding: 50px 100px 0;
+  height: calc(100vh - 5rem);
+  top: 5.8rem;
+  padding: 5rem 10rem 0;
   display: grid;
   justify-items: center;
   font-weight: 200;
@@ -16,26 +16,26 @@ article,
   transition: all 0.1s ease;
   overflow: scroll;
 
-  .closeBtnWrapper {
-    width: 85%;
-    text-align: right;
-    .closeBtn {
-      font-size: 1.5em;
-      color: $font-color;
-      cursor: pointer;
-      user-select: none;
-    }
-    .closeBtn:hover {
-      color: $hover-color;
-      transition: 0.5s ease-in-out;
-    }
-  }
+  // .closeBtnWrapper {
+  //   width: 85%;
+  //   text-align: right;
+  //   .closeBtn {
+  //     font-size: 1.5em;
+  //     color: $font-color;
+  //     cursor: pointer;
+  //     user-select: none;
+  //   }
+  //   .closeBtn:hover {
+  //     color: $hover-color;
+  //     transition: 0.5s ease-in-out;
+  //   }
+  // }
 
   .bioWrapper {
     // width: 85%;
-    margin-top: 20px;
+    margin-top: 2rem;
     display: grid;
-    gap: 20px;
+    gap: 2rem;
     grid-template-columns: repeat(6, 1fr);
     justify-content: center;
 
@@ -44,8 +44,8 @@ article,
       grid-column: 1 / span 2;
 
       .bioImage {
-        max-width: 300px;
-        border-radius: 10px;
+        max-width: 30rem;
+        border-radius: 1rem;
       }
     }
     .descriptionContainer {
@@ -55,11 +55,13 @@ article,
       letter-spacing: 1.25px;
 
       .descriptionText {
+        font-size: 1.6rem;
         text-align: left;
       }
 
       .descriptionQuote {
-        margin-top: 25px;
+        font-size: 1.6rem;
+        margin-top: 2.5rem;
       }
     }
     .clientsEditorialPressContainer {
@@ -71,13 +73,15 @@ article,
 
       .clientsWrapper {
         display: grid;
-        gap: 20px;
+        gap: 2rem;
         grid-template-columns: 1fr 1fr 1fr;
 
         li {
-          margin: 8px 0;
+          margin: 0.8rem 0;
+          font-size: 1.6rem;
           font-weight: 200;
           a {
+            font-size: 1.4rem;
             color: $font-color;
             text-decoration: none;
             transition: all 0.5s ease;
@@ -89,9 +93,10 @@ article,
         }
         .clients {
           padding: 0;
+          font-size: 1.6rem;
         }
         .clientsTitle {
-          margin-bottom: 20px;
+          margin-bottom: 1.6rem;
           color: $hover-color;
         }
         .editorials {
