@@ -12,7 +12,7 @@ section,
   .right-arrow {
     position: absolute;
     top: 50%;
-    right: 100px;
+    right: 10rem;
     font-size: 2rem;
     color: $arrow-color;
     z-index: 10;
@@ -23,7 +23,7 @@ section,
 
   .left-arrow {
     @extend .right-arrow;
-    left: 100px;
+    left: 10rem;
   }
 
   .right-arrow:hover,
@@ -43,13 +43,13 @@ section,
 
   .image-container {
     position: relative;
-    max-width: 1200px;
-    max-height: 800px;
+    max-width: 120rem;
+    max-height: 80rem;
 
     .image-name {
       position: absolute;
       width: 100%;
-      font-size: 1em;
+      font-size: 1.6em;
       color: $font-color;
       background-color: $image-banner-background-color;
       opacity: 0;
