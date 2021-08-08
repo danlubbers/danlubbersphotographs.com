@@ -13,6 +13,11 @@ const Header = ({ bioImage }) => {
   const [isBio, setIsBio] = useState(false);
   const [isConnect, setIsConnect] = useState(false);
 
+  const handleClickHome = () => {
+    setIsBio(false);
+    setIsConnect(false);
+  };
+
   const handleClickPortfolio = () => {
     setIsPortfolio(true);
   };
@@ -35,7 +40,7 @@ const Header = ({ bioImage }) => {
   return (
     <div className={styles.headerContainer}>
       <header>
-        <Link className={styles.logoLink} to="/">
+        <Link className={styles.logoLink} to="/" onClick={handleClickHome}>
           <img src={headerLogo} alt="logo" />
         </Link>
 
