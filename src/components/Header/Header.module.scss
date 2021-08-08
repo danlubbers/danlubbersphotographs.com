@@ -1,79 +1,82 @@
 @import '../../styles/variables.scss';
 
-header {
-  position: relative;
-  width: 100%;
-  height: 100%;
+.headerContainer {
+  header {
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    z-index: 2000;
 
-  padding: 40px 20px 0 20px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-  z-index: 2000;
-
-  img {
-    max-width: 35vw;
-  }
-
-  nav {
-    // background-color: teal;
-    .navWrapper {
-      display: flex;
-      justify-content: flex-end;
-      // background-color: skyblue;
-
-      .navTitle {
-        width: 100%;
-        margin: 0 20px;
-        font-weight: 300;
-        letter-spacing: 1.5px;
-        color: $font-color;
-        cursor: pointer;
-        transition: all 0.5s ease;
-        // background-color: slategrey;
+    .logoLink {
+      width: 100%;
+      max-width: 30vw;
+      img {
       }
+    }
 
-      .portfolioDropdownActive {
-        position: absolute;
-        padding: 0;
-        text-align: left;
-        background-color: $transparency-background-color;
+    nav {
+      // background-color: teal;
+      .navWrapper {
+        display: flex;
+        justify-content: flex-end;
+        // background-color: skyblue;
 
-        .link {
+        .navTitle {
+          width: 100%;
+          margin: 0 20px;
+          font-weight: 300;
+          letter-spacing: 1.5px;
+          color: $font-color;
+          cursor: pointer;
+          transition: all 0.5s ease;
+          // background-color: slategrey;
+        }
+
+        .portfolioDropdownActive {
+          position: absolute;
+          padding: 0;
+          text-align: left;
+          background-color: $transparency-background-color;
+
+          .link {
+            @extend .navTitle;
+
+            margin: 0 auto;
+            text-decoration: none;
+            background-color: sienna;
+          }
+
+          .galleryTitle {
+            margin: 5px 0;
+          }
+        }
+        .portfolioDropdownInactive {
+          display: none;
+        }
+
+        .bioActive {
           @extend .navTitle;
-
-          margin: 0 auto;
-          text-decoration: none;
-          background-color: sienna;
+          color: $hover-color;
+        }
+        .connectActive {
+          @extend .navTitle;
+          color: $hover-color;
+        }
+        .navTitle:first-child {
+          margin: 0;
+        }
+        .navTitle:nth-last-child(1) {
+          margin: 0;
         }
 
-        .galleryTitle {
-          margin: 5px 0;
+        .navTitle:hover {
+          color: $hover-color;
+          transition: all 0.5s ease;
         }
-      }
-      .portfolioDropdownInactive {
-        display: none;
-      }
-
-      .bioActive {
-        @extend .navTitle;
-        color: $hover-color;
-      }
-      .connectActive {
-        @extend .navTitle;
-        color: $hover-color;
-      }
-      .navTitle:first-child {
-        margin: 0;
-      }
-      .navTitle:nth-last-child(1) {
-        margin: 0;
-      }
-
-      .navTitle:hover {
-        color: $hover-color;
-        transition: all 0.5s ease;
       }
     }
   }

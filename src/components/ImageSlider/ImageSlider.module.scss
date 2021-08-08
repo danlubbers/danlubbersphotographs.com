@@ -43,6 +43,9 @@ section,
 
   .image-container {
     position: relative;
+    max-width: 1200px;
+    max-height: 800px;
+
     .image-name {
       position: absolute;
       width: 100%;
@@ -52,7 +55,10 @@ section,
       opacity: 0;
     }
     .image {
-      max-width: 1200px;
+      width: auto;
+      height: auto;
+      max-width: MaxSize;
+      max-height: MaxSize;
     }
   }
   .image-container:hover .image-name {

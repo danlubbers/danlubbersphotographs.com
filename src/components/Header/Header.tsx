@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'gatsby';
 import * as styles from './Header.module.scss';
-import headerLogo from '../../assets/logos/danlubbers_logo.svg';
+import headerLogo from '../../assets/logos/danlubbers_logo_#A52A25_outlined.svg';
 
 import Bio from '../Bio/Bio';
 import Connect from '../Connect/Connect';
@@ -33,11 +33,11 @@ const Header = ({ bioImage }) => {
     setIsPortfolio(false);
   };
   return (
-    <>
+    <div className={styles.headerContainer}>
       <header>
-        {/* <Link to="/">
+        <Link className={styles.logoLink} to="/">
           <img src={headerLogo} alt="logo" />
-        </Link> */}
+        </Link>
 
         <nav>
           <ul className={styles.navWrapper}>
@@ -104,7 +104,7 @@ const Header = ({ bioImage }) => {
       </header>
       <Bio isBio={isBio} bioImage={bioImage} />
       <Connect isConnect={isConnect} />
-    </>
+    </div>
   );
 };
 

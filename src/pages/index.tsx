@@ -34,7 +34,11 @@ export const query = graphql`
         name
         src {
           childImageSharp {
-            gatsbyImageData
+            gatsbyImageData(
+              quality: 100
+              webpOptions: { quality: 100 }
+              jpgOptions: { quality: 100 }
+            )
           }
         }
       }
