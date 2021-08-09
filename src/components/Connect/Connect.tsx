@@ -13,7 +13,7 @@ interface ConnectProps {
 }
 
 const Connect: React.FC<ConnectProps> = ({ isConnect }) => {
-  console.log(isConnect);
+  // console.log(isConnect);
 
   return (
     <article

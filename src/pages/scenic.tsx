@@ -11,7 +11,7 @@ const Scenic: React.FC<PageProps> = ({ data }) => {
 
   return (
     <main>
-      <Header />
+      <Header bioImage={data.bioImage.nodes[0]} />
       <ImageTest sliderData={data.imageContent.nodes} />
       <Footer />
     </main>
@@ -27,15 +27,24 @@ export const query = graphql`
         category
         id
         name
+        description
         src {
           childImageSharp {
             gatsbyImageData(
-              placeholder: BLURRED
-              blurredOptions: { width: 100 }
-              quality: 80
+              height: 800
+              quality: 100
+              webpOptions: { quality: 90 }
+              jpgOptions: { quality: 100 }
             )
           }
         }
+      }
+    }
+    bioImage: allImageSharp(
+      filter: { id: { eq: "5f0c3728-d190-5ff4-8004-4a51125b4487" } }
+    ) {
+      nodes {
+        gatsbyImageData
       }
     }
   }

@@ -46,14 +46,26 @@ section,
     max-width: 120rem;
     max-height: 80rem;
 
-    .image-name {
+    .imageDescriptionContainer {
       position: absolute;
       width: 100%;
-      font-size: 1.6em;
-      color: $font-color;
+      padding: 1rem 0;
       background-color: $image-banner-background-color;
-      opacity: 0;
+      // opacity: 0;
+
+      .imageName {
+        margin-bottom: 0.5rem;
+        font-size: 1.6em;
+        font-weight: 300;
+        color: $font-color;
+      }
+      .imageDescription {
+        font-size: 1.4em;
+        font-weight: 200;
+        color: $font-color;
+      }
     }
+
     .image {
       width: auto;
       height: auto;
@@ -61,7 +73,7 @@ section,
       max-height: MaxSize;
     }
   }
-  .image-container:hover .image-name {
+  .image-container:hover .imageDescriptionContainer {
     transition: all 0.5s ease-in-out;
     opacity: 1;
     z-index: 10;

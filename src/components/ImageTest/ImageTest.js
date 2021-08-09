@@ -4,7 +4,7 @@ import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
 import * as styles from '../ImageSlider/ImageSlider.module.scss';
 
 function ImageTest({ sliderData }) {
-  console.log('SLIDER', sliderData);
+  // console.log('SLIDER', sliderData);
   const [current, setCurrent] = useState(0);
   const { length } = sliderData;
 
@@ -46,7 +46,10 @@ function ImageTest({ sliderData }) {
       >
         {idx === current && (
           <div className={styles.imageContainer}>
-            <h1 className={styles.imageName}>{data.name}</h1>
+            <div className={styles.imageDescriptionContainer}>
+              <h1 className={styles.imageName}>{data.name}</h1>
+              <h1 className={styles.imageDescription}>{data.description}</h1>
+            </div>
             <GatsbyImage
               className={styles.image}
               image={image}

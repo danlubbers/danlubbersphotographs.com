@@ -9,11 +9,6 @@ import ImageTest from '../components/ImageTest/ImageTest';
 const Home: React.FC<PageProps> = ({ data }) => {
   console.log(data);
 
-  // const filteredPhotoData = data.photos.nodes.filter((photoData) => {
-  //   console.log(`filtered`, photoData);
-  //   return photoData.category === `index`;
-  // });
-
   return (
     <main>
       <Header bioImage={data.bioImage.nodes[0]} />
@@ -32,11 +27,13 @@ export const query = graphql`
         category
         id
         name
+        description
         src {
           childImageSharp {
             gatsbyImageData(
+              height: 800
               quality: 100
-              webpOptions: { quality: 100 }
+              webpOptions: { quality: 90 }
               jpgOptions: { quality: 100 }
             )
           }

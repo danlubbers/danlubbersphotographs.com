@@ -57,6 +57,7 @@ article,
       .descriptionText {
         font-size: 1.6rem;
         text-align: left;
+        line-height: 2rem;
       }
 
       .descriptionQuote {
@@ -69,7 +70,7 @@ article,
       grid-row: 2 / end;
       text-align: left;
       font-weight: 400;
-      letter-spacing: 1.25px;
+      letter-spacing: 0.15rem;
 
       .clientsWrapper {
         display: grid;

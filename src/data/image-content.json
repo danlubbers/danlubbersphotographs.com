@@ -1,28 +1,63 @@
 [
   {
     "name": "Cristina Floro",
+    "description": "Model",
     "category": "index",
     "src": "../assets/images/index/floro-cristina-5107-gatsby-test.jpg"
   },
   {
-    "name": "Will Oldham",
+    "name": "Will Oldham aka: Bonnie Prince Billy",
+    "description": "Musician | Actor | Author | Poet",
     "category": "index",
     "src": "../assets/images/index/will-oldham-20170626-_MG_2228.jpg"
   },
   {
-    "name": "Will Oldham",
-    "category": "index",
-    "src": "../assets/images/index/will-oldham-20170626-_MG_2228-test.jpg"
-  },
-  {
     "name": "Samantha Roman",
+    "description": "Model",
     "category": "index",
     "src": "../assets/images/index/samantha-roman-20180102-_MG_3110.jpg"
   },
   {
     "name": "Kirby Coleman",
+    "description": "Model | Hat Maker | Fashionista",
     "category": "index",
-    "src": "../assets/images/index//kirby-coleman-20170702-_MG_2387-8x10-version-1.jpg"
+    "src": "../assets/images/index/kirby-coleman-20170702-_MG_2387-8x10-version-1.jpg"
+  },
+  {
+    "name": "Sunny Ra",
+    "description": "Master Painter",
+    "category": "index",
+    "src": "../assets/images/index/sunny-ra-20170714-_MG_2692-8x10.jpg"
+  },
+  {
+    "name": "Carl Bakanowski",
+    "description": "Cyclist",
+    "category": "index",
+    "src": "../assets/images/index/bakanowski_MG_9168.jpg"
+  },
+  {
+    "name": "Sarah Ventura Sutherland",
+    "description": "Sea and Stone Clothing",
+    "category": "index",
+    "src": "../assets/images/index/sarah-ventura-20160921-_MG_9099-v4.jpg"
+  },
+  {
+    "name": "Mitchell Webster",
+    "description": "Bull Rider | Hunter | Outdoorsman | Welder",
+    "category": "index",
+    "src": "../assets/images/index/mitchell-webster-20170708-_MG_2474-cropped.jpg"
+  },
+  {
+    "name": "Jeff Louden",
+    "description": "Chief Technology Officer | Time Magazine",
+    "category": "index",
+    "src": "../assets/images/index/jeff-louden-20170906-_MG_2752-cropped.jpg"
+  },
+  {
+    "name": "Kat Rist",
+    "description": "Model | MUA",
+    "category": "index",
+    "src": "../assets/images/index/kat-rist-20160315-_MG_7353_v1-cropped.jpg"
   },
 
   {
