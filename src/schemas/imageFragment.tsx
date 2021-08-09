@@ -1,6 +1,6 @@
 import { graphql } from 'gatsby';
 
-export const getImageData = graphql`
+export const getImageDataFragment = graphql`
   fragment getImageData on ImageContentJsonConnection {
     nodes {
       category
@@ -17,6 +17,14 @@ export const getImageData = graphql`
           )
         }
       }
+    }
+  }
+`;
+
+export const bioImageFragment = graphql`
+  fragment bioImage on ImageSharpConnection {
+    nodes {
+      gatsbyImageData
     }
   }
 `;

@@ -20,9 +20,7 @@ export const query = graphql`
     bioImage: allImageSharp(
       filter: { id: { eq: "5f0c3728-d190-5ff4-8004-4a51125b4487" } }
     ) {
-      nodes {
-        gatsbyImageData
-      }
+      ...bioImage
     }
   }
 `;
