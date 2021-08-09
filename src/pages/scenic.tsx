@@ -4,7 +4,7 @@ import './index.scss';
 
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
-import ImageTest from '../components/ImageTest/ImageTest';
+import ImageSlider from '../components/ImageSlider/ImageSlider';
 
 const Scenic: React.FC<PageProps> = ({ data }) => {
   console.log(data);
@@ -12,7 +12,7 @@ const Scenic: React.FC<PageProps> = ({ data }) => {
   return (
     <main>
       <Header bioImage={data.bioImage.nodes[0]} />
-      <ImageTest sliderData={data.imageContent.nodes} />
+      <ImageSlider sliderData={data.imageContent.nodes} />
       <Footer />
     </main>
   );

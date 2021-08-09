@@ -1,16 +1,10 @@
 import React, { useState, useCallback, useEffect } from 'react';
+import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
-import './_ImageSlider.scss';
+import * as styles from '../ImageSlider/ImageSlider.module.scss';
 
-interface ImageData {
-  sliderData: {
-    name: string;
-    imgSrc: string;
-    uuid: string;
-  }[];
-}
-
-const ImageSlider: React.FC<ImageData> = ({ sliderData }) => {
+function ImageTest({ sliderData }) {
+  // console.log('SLIDER', sliderData);
   const [current, setCurrent] = useState(0);
   const { length } = sliderData;
 
@@ -40,24 +34,39 @@ const ImageSlider: React.FC<ImageData> = ({ sliderData }) => {
     setCurrent(current === 0 ? length - 1 : current - 1);
   };
 
-  const imageSliderData = sliderData.map((detail, idx) => (
-    <div
-      className={idx === current ? `slide-active` : `slide`}
-      key={detail.uuid}
-    >
-      {idx === current && (
-        <img className="image" src={detail.imgSrc} alt={detail.name} />
-      )}
-    </div>
-  ));
+  const imageSliderData = sliderData.map((data, idx) => {
+    const image = getImage(data.src);
+
+    return (
+      <div
+        className={
+          idx === current ? `${styles.slideActive}` : `${styles.slide}`
+        }
+        key={data.id}
+      >
+        {idx === current && (
+          <div className={styles.imageContainer}>
+            <div className={styles.imageDescriptionContainer}>
+              <h1 className={styles.imageName}>{data.name}</h1>
+              <h1 className={styles.imageDescription}>{data.description}</h1>
+            </div>
+            <GatsbyImage
+              className={styles.image}
+              image={image}
+              alt={data.name}
+            />
+          </div>
+        )}
+      </div>
+    );
+  });
 
   return (
-    <section className="slider">
-      <FiChevronLeft className="left-arrow" onClick={prevSlide} />
-      <FiChevronRight className="right-arrow" onClick={nextSlide} />
+    <section className={styles.slider}>
+      <FiChevronLeft className={styles.leftArrow} onClick={prevSlide} />
+      <FiChevronRight className={styles.rightArrow} onClick={nextSlide} />
       {imageSliderData}
     </section>
   );
-};
-
-export default ImageSlider;
+}
+export default ImageTest;
