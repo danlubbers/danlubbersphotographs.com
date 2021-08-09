@@ -20,9 +20,3 @@ body {
   background-color: $site-background-color;
   box-sizing: border-box;
 }
-
-main {
-  min-height: 100vh;
-  display: grid;
-  grid-template-rows: 10rem 1fr auto;
-}

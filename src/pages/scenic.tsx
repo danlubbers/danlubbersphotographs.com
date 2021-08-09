@@ -2,21 +2,13 @@ import React from 'react';
 import { PageProps, graphql } from 'gatsby';
 import './index.scss';
 
-import Header from '../components/Header/Header';
-import Footer from '../components/Footer/Footer';
-import ImageSlider from '../components/ImageSlider/ImageSlider';
+import ImageCategory from '../components/ImageCategory/ImageCategory';
 
-const Scenic: React.FC<PageProps> = ({ data }) => {
-  console.log(data);
-
-  return (
-    <main>
-      <Header bioImage={data.bioImage.nodes[0]} />
-      <ImageSlider sliderData={data.imageContent.nodes} />
-      <Footer />
-    </main>
-  );
-};
+const Scenic: React.FC<PageProps> = ({ data }) => (
+  <main>
+    <ImageCategory data={data} />
+  </main>
+);
 
 export default Scenic;
 
