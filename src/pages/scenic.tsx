@@ -15,22 +15,7 @@ export default Scenic;
 export const query = graphql`
   query {
     imageContent: allImageContentJson(filter: { category: { eq: "scenic" } }) {
-      nodes {
-        category
-        id
-        name
-        description
-        src {
-          childImageSharp {
-            gatsbyImageData(
-              height: 800
-              quality: 100
-              webpOptions: { quality: 90 }
-              jpgOptions: { quality: 100 }
-            )
-          }
-        }
-      }
+      ...getImageData
     }
     bioImage: allImageSharp(
       filter: { id: { eq: "5f0c3728-d190-5ff4-8004-4a51125b4487" } }
