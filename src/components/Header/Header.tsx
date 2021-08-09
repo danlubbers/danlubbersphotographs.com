@@ -7,49 +7,47 @@ import Bio from '../Bio/Bio';
 import Connect from '../Connect/Connect';
 
 const Header = ({ bioImage }) => {
-  console.log(bioImage);
-
   const [isPortfolio, setIsPortfolio] = useState(false);
   const [isBio, setIsBio] = useState(false);
   const [isConnect, setIsConnect] = useState(false);
 
-  const handleClickHome = () => {
-    setIsBio(false);
-    setIsConnect(false);
+  const handleClickNavDisplays = (navTitle: string) => {
+    if (navTitle === `logo`) {
+      setIsBio(false);
+      setIsConnect(false);
+    }
+    if (navTitle === `enterPortfolio`) setIsPortfolio(true);
+    if (navTitle === `leavePortfolio`) setIsPortfolio(false);
+
+    if (navTitle === `bio`) {
+      setIsBio(!isBio);
+      setIsPortfolio(false);
+      setIsConnect(false);
+    }
+    if (navTitle === `connect`) {
+      setIsConnect(!isConnect);
+      setIsBio(false);
+      setIsPortfolio(false);
+    }
   };
 
-  const handleClickPortfolio = () => {
-    setIsPortfolio(true);
-  };
-
-  const handleClickLeavePortfolio = () => {
-    setIsPortfolio(false);
-  };
-
-  const handleClickBio = () => {
-    setIsBio(!isBio);
-    setIsPortfolio(false);
-    setIsConnect(false);
-  };
-
-  const handleClickConnect = () => {
-    setIsConnect(!isConnect);
-    setIsBio(false);
-    setIsPortfolio(false);
-  };
   return (
     <div className={styles.headerContainer}>
       <header>
-        <Link className={styles.logoLink} to="/" onClick={handleClickHome}>
+        <Link
+          className={styles.logoLink}
+          to="/"
+          onClick={() => handleClickNavDisplays(`logo`)}
+        >
           <img src={headerLogo} alt="logo" />
         </Link>
 
         <nav>
           <ul className={styles.navWrapper}>
-            <div onMouseLeave={handleClickLeavePortfolio}>
+            <div onMouseLeave={() => handleClickNavDisplays(`leavePortfolio`)}>
               <li
                 className={styles.navTitle}
-                onMouseEnter={handleClickPortfolio}
+                onMouseEnter={() => handleClickNavDisplays(`enterPortfolio`)}
               >
                 PORTFOLIO
               </li>
@@ -93,14 +91,16 @@ const Header = ({ bioImage }) => {
             </div>
             <li
               className={isBio ? styles.bioActive : styles.navTitle}
-              onClick={handleClickBio}
+              onClick={() => handleClickNavDisplays(`bio`)}
+              aria-hidden="true"
             >
               BIO
             </li>
 
             <li
               className={isConnect ? styles.connectActive : styles.navTitle}
-              onClick={handleClickConnect}
+              onClick={() => handleClickNavDisplays(`connect`)}
+              aria-hidden="true"
             >
               CONNECT
             </li>
