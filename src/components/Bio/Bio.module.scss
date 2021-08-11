@@ -12,195 +12,92 @@
   opacity: 1;
   transition: all 0.1s ease;
   overflow: scroll;
-
-  // .closeBtnWrapper {
-  //   width: 85%;
-  //   text-align: right;
-  //   .closeBtn {
-  //     font-size: 1.5em;
-  //     color: $font-color;
-  //     cursor: pointer;
-  //     user-select: none;
-  //   }
-  //   .closeBtn:hover {
-  //     color: $hover-color;
-  //     transition: 0.5s ease-in-out;
-  //   }
-  // }
-
-  .bioWrapper {
-    // width: 85%;
-    margin-top: 2rem;
-    display: grid;
-    gap: 2rem;
-    grid-template-columns: repeat(6, 1fr);
-    justify-content: center;
-
-    .imageContainer {
-      justify-self: flex-start;
-      grid-column: 1 / span 2;
-
-      .bioImage {
-        max-width: 30rem;
-        border-radius: 1rem;
-      }
-    }
-    .descriptionContainer {
-      grid-column: 3 / end;
-      // background-color: chartreuse;
-
-      letter-spacing: 1.25px;
-
-      .descriptionText {
-        font-size: 1.6rem;
-        text-align: left;
-        line-height: 2rem;
-      }
-
-      .descriptionQuote {
-        font-size: 1.6rem;
-        margin-top: 2.5rem;
-      }
-    }
-    .clientsEditorialPressContainer {
-      grid-column: 1 / end;
-      grid-row: 2 / end;
-      text-align: left;
-      font-weight: 400;
-      letter-spacing: 0.15rem;
-
-      .clientsWrapper {
-        display: grid;
-        gap: 2rem;
-        grid-template-columns: 1fr 1fr 1fr;
-
-        li {
-          margin: 0.8rem 0;
-          font-size: 1.6rem;
-          font-weight: 200;
-          a {
-            font-size: 1.4rem;
-            color: $font-color;
-            text-decoration: none;
-            transition: all 0.5s ease;
-          }
-          a:hover {
-            color: $hover-color;
-            transition: all 0.5s ease;
-          }
-        }
-        .clients {
-          padding: 0;
-          font-size: 1.6rem;
-        }
-        .clientsTitle {
-          margin-bottom: 1.6rem;
-          color: $hover-color;
-        }
-        .editorials {
-          @extend .clients;
-        }
-        .editorialsTitle {
-          @extend .clientsTitle;
-        }
-        .press {
-          @extend .clients;
-        }
-        .pressTitle {
-          @extend .clientsTitle;
-        }
-      }
-    }
-  }
 }
 
 .bioContainerInactive {
+  @extend .bioContainerActive;
   visibility: hidden;
   opacity: 0;
-  position: absolute;
-  max-width: 114rem;
-  height: calc(100vh - 9.8rem);
-  top: 5.8rem;
-  padding: 5rem 2rem 0;
-  font-weight: 200;
-  background-color: $transparency-background-color;
-  z-index: 20;
-  transition: all 0.1s ease;
-  overflow: scroll;
+}
 
-  .bioWrapper {
-    margin-top: 2rem;
-    display: grid;
-    gap: 2rem;
-    grid-template-columns: repeat(6, 1fr);
-    justify-content: center;
+.bioWrapper {
+  // width: 85%;
+  margin-top: 2rem;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(6, 1fr);
+  justify-content: center;
 
-    .imageContainer {
-      justify-self: flex-start;
-      grid-column: 1 / span 2;
+  .imageContainer {
+    justify-self: flex-start;
+    grid-column: 1 / span 2;
 
-      .bioImage {
-        max-width: 30rem;
-        border-radius: 1rem;
-      }
+    .bioImage {
+      max-width: 30rem;
+      border-radius: 1rem;
     }
-    .descriptionContainer {
-      grid-column: 3 / end;
-      letter-spacing: 1.25px;
+  }
+  .descriptionContainer {
+    grid-column: 3 / end;
+    letter-spacing: 1.25px;
 
-      .descriptionText {
-        font-size: 1.6rem;
-        text-align: left;
-        line-height: 2rem;
-      }
-
-      .descriptionQuote {
-        font-size: 1.6rem;
-        margin-top: 2.5rem;
-      }
-    }
-    .clientsEditorialPressContainer {
-      grid-column: 1 / end;
-      grid-row: 2 / end;
+    .descriptionText {
+      font-size: 1.6rem;
       text-align: left;
-      font-weight: 400;
-      letter-spacing: 0.15rem;
+      line-height: 2rem;
+    }
 
-      .clientsWrapper {
-        display: grid;
-        gap: 2rem;
-        grid-template-columns: 1fr 1fr 1fr;
+    .descriptionQuote {
+      font-size: 1.6rem;
+      margin-top: 2.5rem;
+    }
+  }
+  .clientsEditorialPressContainer {
+    grid-column: 1 / end;
+    grid-row: 2 / end;
+    text-align: left;
+    font-weight: 400;
+    letter-spacing: 0.15rem;
 
-        li {
-          margin: 0.8rem 0;
-          font-size: 1.6rem;
-          font-weight: 200;
-          a {
-            font-size: 1.4rem;
-            color: $font-color;
-            text-decoration: none;
-          }
+    .clientsWrapper {
+      display: grid;
+      gap: 2rem;
+      grid-template-columns: 1fr 1fr 1fr;
+
+      li {
+        margin: 0.8rem 0;
+        font-size: 1.6rem;
+        font-weight: 200;
+        a {
+          font-size: 1.4rem;
+          color: $font-color;
+          text-decoration: none;
+          transition: all 0.5s ease;
         }
-        .clients {
-          padding: 0;
-          font-size: 1.6rem;
-        }
-        .clientsTitle {
-          margin-bottom: 1.6rem;
+        a:hover {
           color: $hover-color;
+          transition: all 0.5s ease;
         }
-        .editorials {
-          @extend .clients;
-        }
-        .editorialsTitle {
-          @extend .clientsTitle;
-        }
-        .press {
-          @extend .clients;
-        }
-        .pressTitle {
-          @extend .clientsTitle;
-        }
+      }
+      .clients {
+        padding: 0;
+        font-size: 1.6rem;
+      }
+      .clientsTitle {
+        margin-bottom: 1.6rem;
+        color: $hover-color;
+      }
+      .editorials {
+        @extend .clients;
+      }
+      .editorialsTitle {
+        @extend .clientsTitle;
+      }
+      .press {
+        @extend .clients;
+      }
+      .pressTitle {
+        @extend .clientsTitle;
       }
     }
   }

@@ -1,12 +1,10 @@
 @import '../../styles/variables.scss';
 
 nav {
-  // background-color: teal;
   .navWrapper {
     display: flex;
     justify-content: flex-end;
     list-style: none;
-    // background-color: skyblue;
 
     .navTitle {
       width: 100%;
@@ -17,7 +15,6 @@ nav {
       color: $font-color;
       cursor: pointer;
       transition: all 0.5s ease;
-      // background-color: slategrey;
     }
 
     .portfolioDropdownActive {

@@ -1,5 +1,5 @@
 @import '../../styles/variables.scss';
-// article,
+
 .connectContainerActive {
   position: absolute;
   width: 114rem;
@@ -13,109 +13,57 @@
   z-index: 20;
   opacity: 1;
   transition: all 0.1s ease;
-
-  .socialMediaWrapper {
-    width: 100%;
-    padding-top: rem;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    // background-color: slategray;
-
-    .email {
-      margin-bottom: 1rem;
-      font-size: 1.6rem;
-      font-weight: 400;
-
-      .emailLink {
-        font-size: 1.6rem;
-        font-weight: 200;
-        color: $font-color;
-        text-decoration: none;
-      }
-    }
-    .emailLink:hover {
-      color: $hover-color;
-    }
-
-    .socialMedia {
-      margin: 0.5rem 0;
-      display: flex;
-      align-items: center;
-
-      .socialMediaLink {
-        display: flex;
-        align-items: center;
-        color: $font-color;
-        text-decoration: none;
-        transition: all 0.5s ease;
-        cursor: pointer;
-      }
-      p {
-        margin-left: 1rem;
-        font-size: 1.6rem;
-      }
-    }
-    .socialMediaLink:hover {
-      color: $hover-color;
-      transition: all 0.5s ease;
-    }
-  }
 }
 
 .connectContainerInactive {
+  @extend .connectContainerActive;
   visibility: hidden;
   opacity: 0;
-  position: absolute;
-  width: 114rem;
-  height: calc(100vh - 5.8rem);
-  top: 5.8rem;
-  padding: 5rem 2rem 0;
-  display: grid;
-  justify-items: center;
-  font-weight: 200;
-  background-color: $transparency-background-color;
-  z-index: 20;
-  transition: all 0.1s ease;
+}
 
-  .socialMediaWrapper {
-    width: 100%;
-    padding-top: rem;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    // background-color: slategray;
+.socialMediaWrapper {
+  width: 100%;
+  padding-top: rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 
-    .email {
-      margin-bottom: 1rem;
+  .email {
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+
+    .emailLink {
       font-size: 1.6rem;
-      font-weight: 400;
-
-      .emailLink {
-        font-size: 1.6rem;
-        font-weight: 200;
-        color: $font-color;
-        text-decoration: none;
-      }
+      font-weight: 200;
+      color: $font-color;
+      text-decoration: none;
     }
+  }
+  .emailLink:hover {
+    color: $hover-color;
+  }
 
-    .socialMedia {
-      margin: 0.5rem 0;
+  .socialMedia {
+    margin: 0.5rem 0;
+    display: flex;
+    align-items: center;
+
+    .socialMediaLink {
       display: flex;
       align-items: center;
-
-      .socialMediaLink {
-        display: flex;
-        align-items: center;
-        color: $font-color;
-        text-decoration: none;
-        transition: all 0.5s ease;
-        cursor: pointer;
-      }
-      p {
-        margin-left: 1rem;
-        font-size: 1.6rem;
-      }
+      color: $font-color;
+      text-decoration: none;
+      transition: all 0.5s ease;
+      cursor: pointer;
     }
+    p {
+      margin-left: 1rem;
+      font-size: 1.6rem;
+    }
+  }
+  .socialMediaLink:hover {
+    color: $hover-color;
+    transition: all 0.5s ease;
   }
 }
