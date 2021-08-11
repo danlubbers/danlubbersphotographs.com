@@ -64,7 +64,7 @@ const Header = ({ bioImage }) => {
                 <Link className={styles.link} to="/scenic">
                   <li className={styles.galleryTitle}>Scenic</li>
                 </Link>
-                <Link className={styles.link} to="/action">
+                {/* <Link className={styles.link} to="/action">
                   <li className={styles.galleryTitle}>Action</li>
                 </Link>
                 <Link className={styles.link} to="/lifestyle">
@@ -86,7 +86,7 @@ const Header = ({ bioImage }) => {
                   <li className={styles.galleryTitle}>
                     Retouching Before & After
                   </li>
-                </Link>
+                </Link> */}
               </ul>
             </div>
             <li

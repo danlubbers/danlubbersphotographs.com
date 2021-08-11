@@ -9,6 +9,8 @@
 }
 
 html {
+  max-width: $main-width;
+  margin: 0 auto;
   text-align: center;
   font-size: 62.5%; // This equals 10px so 1 rem = 10px ( 10rem / 16px = .625%)
 }
@@ -19,4 +21,10 @@ body {
   color: $font-color;
   background-color: $site-background-color;
   box-sizing: border-box;
+}
+
+main {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 10rem 1fr auto;
 }

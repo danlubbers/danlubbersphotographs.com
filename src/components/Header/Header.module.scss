@@ -9,6 +9,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
+    background-color: $site-background-color;
     z-index: 2000;
 
     .logoLink {
@@ -24,6 +25,7 @@
       .navWrapper {
         display: flex;
         justify-content: flex-end;
+        list-style: none;
         // background-color: skyblue;
 
         .navTitle {
@@ -42,6 +44,7 @@
           position: absolute;
           padding: 0;
           text-align: left;
+          list-style: none;
           background-color: $transparency-background-color;
 
           .link {

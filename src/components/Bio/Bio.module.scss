@@ -3,12 +3,10 @@
 article,
 .bioContainerActive {
   position: absolute;
-  width: 100%;
+  max-width: 100%;
   height: calc(100vh - 9.8rem);
   top: 5.8rem;
   padding: 5rem 10rem 0;
-  display: grid;
-  justify-items: center;
   font-weight: 200;
   background-color: $transparency-background-color;
   z-index: 20;

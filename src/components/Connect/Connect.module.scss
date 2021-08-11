@@ -3,7 +3,7 @@
 article,
 .connectContainerActive {
   position: absolute;
-  width: 100%;
+  width: 114rem;
   height: calc(100vh - 5.8rem);
   top: 5.8rem;
   display: grid;
@@ -15,7 +15,8 @@ article,
   transition: all 0.1s ease;
 
   .socialMediaWrapper {
-    width: 80%;
+    width: 100%;
+    padding-top: rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
