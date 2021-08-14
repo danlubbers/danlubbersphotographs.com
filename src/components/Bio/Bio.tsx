@@ -62,36 +62,7 @@ const Bio: React.FC<BioProps> = ({ isBio, bioImage }) => {
                   Amazon
                 </a>
               </li>
-              <li>
-                <a
-                  href="https://www.ohellomedia.com/"
-                  title="O Hello Media"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  O Hello Media
-                </a>
-              </li>
-              <li>
-                <a
-                  href="http://www.pwc.com/"
-                  title="PwC"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  PwC - PricewaterhouseCoopers
-                </a>
-              </li>
-              <li>
-                <a
-                  href="http://www.menswearhouse.com/"
-                  title="Mens Wearhouse"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Mens Wearhouse
-                </a>
-              </li>
+
               <li>
                 <a
                   href="http://www.redbull.com/"
@@ -160,6 +131,36 @@ const Bio: React.FC<BioProps> = ({ isBio, bioImage }) => {
                   rel="noreferrer"
                 >
                   The Tang Museum
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.ohellomedia.com/"
+                  title="O Hello Media"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  O Hello Media
+                </a>
+              </li>
+              <li>
+                <a
+                  href="http://www.pwc.com/"
+                  title="PwC"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  PwC - PricewaterhouseCoopers
+                </a>
+              </li>
+              <li>
+                <a
+                  href="http://www.menswearhouse.com/"
+                  title="Mens Wearhouse"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Mens Wearhouse
                 </a>
               </li>
               <li>

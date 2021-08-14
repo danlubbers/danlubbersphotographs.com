@@ -7,6 +7,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 0;
   outline: none;
 
   .right-arrow {
@@ -43,12 +44,21 @@
 
   .image-container {
     position: relative;
-    max-width: 120rem;
-    max-height: 80rem;
+    margin: 0 auto;
+    @media (max-height: 890px) {
+      width: 80%;
+    }
+    @media (max-height: 765px) {
+      width: 70%;
+    }
+    @media (max-height: 650px) {
+      width: 60%;
+    }
 
     .imageDescriptionContainer {
       position: absolute;
       width: 100%;
+      margin: 0 auto;
       padding: 1rem 0;
       background-color: $image-banner-background-color;
       // opacity: 0;
@@ -67,10 +77,6 @@
     }
 
     .image {
-      width: auto;
-      height: auto;
-      max-width: MaxSize;
-      max-height: MaxSize;
     }
   }
   .image-container:hover .imageDescriptionContainer {
