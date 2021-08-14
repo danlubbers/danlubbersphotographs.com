@@ -45,6 +45,8 @@
   .image-container {
     position: relative;
     margin: 0 auto;
+
+    // Low res displays and smaller laptops
     @media (max-height: 890px) {
       width: 80%;
     }

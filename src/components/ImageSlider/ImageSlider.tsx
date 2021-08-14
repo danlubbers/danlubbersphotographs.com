@@ -36,7 +36,6 @@ function ImageTest({ sliderData }) {
 
   const imageSliderData = sliderData.map((data, idx) => {
     const image = getImage(data.src);
-
     return (
       <div
         className={
