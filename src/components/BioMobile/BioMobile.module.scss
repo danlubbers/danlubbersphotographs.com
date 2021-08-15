@@ -1,0 +1,72 @@
+@import '../../styles/variables.scss';
+
+.bioMobileContainer {
+  padding: 0 2rem;
+  // background-color: azure;
+
+  .bioTitle {
+    margin-bottom: 1rem;
+  }
+  .descriptionContainer {
+    text-align: left;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    letter-spacing: 0.2rem;
+
+    .descriptionText {
+      margin-bottom: 2rem;
+    }
+
+    .descriptionQuote {
+      text-align: center;
+      font-weight: 300;
+    }
+  }
+
+  .clientsEditorialPressContainer {
+    margin: 2rem auto;
+    text-align: left;
+    line-height: 2rem;
+
+    .clients {
+      margin-bottom: 2rem;
+      .clientsTitle {
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+        color: $hover-color;
+      }
+      .detailsWrapper {
+        display: inline-block;
+      }
+      .detailsLink {
+        font-size: 1.4rem;
+        font-weight: 200;
+        letter-spacing: 0.2rem;
+        color: $font-color;
+        list-style: none;
+        text-decoration: none;
+      }
+      .detailsTitle {
+        padding-left: 0.8rem;
+      }
+    }
+    .editorials {
+      @extend .clients;
+      .editorialsTitle {
+        @extend .clientsTitle;
+      }
+      .editorialsLink {
+        @extend .detailsLink;
+      }
+    }
+    .press {
+      @extend .clients;
+      .pressTitle {
+        @extend .clientsTitle;
+      }
+      .pressLink {
+        @extend .detailsLink;
+      }
+    }
+  }
+}
