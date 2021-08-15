@@ -23,19 +23,6 @@ nav {
       text-align: left;
       list-style: none;
       background-color: $transparency-background-color;
-
-      .link {
-        @extend .navTitle;
-
-        margin: 0 auto;
-        text-decoration: none;
-        // background-color: sienna;
-      }
-
-      .galleryTitle {
-        margin: 5px 0;
-        font-size: 1.4rem;
-      }
     }
     .portfolioDropdownInactive {
       display: none;
