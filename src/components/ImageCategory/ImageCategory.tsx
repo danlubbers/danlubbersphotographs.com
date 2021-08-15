@@ -4,6 +4,7 @@ import Footer from '../Footer/Footer';
 import ImageSlider from '../ImageSlider/ImageSlider';
 import ImageMobile from '../ImageMobile/ImageMobile';
 import BioMobile from '../BioMobile/BioMobile';
+import ConnectMobile from '../ConnectMobile/ConnectMobile';
 
 const ImageCategory = ({ data }) => {
   const { innerWidth } = window;
@@ -11,13 +12,13 @@ const ImageCategory = ({ data }) => {
   return (
     <>
       <Header bioImage={data.bioImage.nodes[0]} />
-      {/* CHANGE CONDITIONAL BACK WHEN FINISHED TESTING MOBILE */}
       {innerWidth > 769 ? (
         <ImageSlider sliderData={data.imageContent.nodes} />
       ) : (
         <>
           <ImageMobile imageData={data.imageContent.nodes} />
           <BioMobile />
+          <ConnectMobile />
         </>
       )}
       <Footer />
