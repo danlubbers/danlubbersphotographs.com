@@ -12,8 +12,8 @@ export const getImageDataFragment = graphql`
           gatsbyImageData(
             height: 800
             quality: 100
-            webpOptions: { quality: 90 }
-            jpgOptions: { quality: 100 }
+            webpOptions: { quality: 85 }
+            jpgOptions: { quality: 85 }
           )
         }
       }
