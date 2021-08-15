@@ -1,0 +1,47 @@
+[
+  {
+    "uuid": "97f2afa1-48ce-4052-9420-72f63e34e3f8",
+    "name": "National Geographic Adventure",
+    "link": "http://adventure.nationalgeographic.com/adventure"
+  },
+  {
+    "uuid": "58d8c620-9d41-4bfb-a0ae-4645cf98bb48",
+    "name": "Rock &amp; Ice Magazine",
+    "link": "http://www.rockandice.com"
+  },
+  {
+    "uuid": "0bbc1424-3ace-4706-9ee8-f72af0a66cbb",
+    "name": "Climbing Magazine",
+    "link": "http://www.climbing.com"
+  },
+  {
+    "uuid": "66ffbbde-6712-437b-86c9-c031b37a1afc",
+    "name": "Urban Climber Magazine",
+    "link": ""
+  },
+  {
+    "uuid": "ac7291c8-5ff6-4f66-977e-3d726d8781a8",
+    "name": "Dead Point Magazine",
+    "link": "http://www.dpmclimbing.com"
+  },
+  {
+    "uuid": "0c007d59-a36f-49a4-954d-f05d4a0b3e61",
+    "name": "Accelerate: Access & Inclusion at The Tang Teaching Museum No.3",
+    "link": "https://issuu.com/tangteachingmuseum/docs/accelerate-volume-3"
+  },
+  {
+    "uuid": "0ba20930-eadd-4ada-bf4e-52bdb86dc03d",
+    "name": "UAW-Ford Community Magazine",
+    "link": "http://www.uawfordcommunity.org"
+  },
+  {
+    "uuid": "20ef94fc-7f57-4e71-8870-d30a5f893c82",
+    "name": "Spin Magazine",
+    "link": "http://www.spin.com"
+  },
+  {
+    "uuid": "20ef94fc-7f57-4e71-8870-d30a5f893c82",
+    "name": "Icelandic Airwaves",
+    "link": "http://icelandairwaves.is"
+  }
+]
