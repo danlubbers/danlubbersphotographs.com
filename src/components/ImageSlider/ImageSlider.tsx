@@ -49,11 +49,7 @@ function ImageTest({ sliderData }) {
               <h1 className={styles.imageName}>{data.name}</h1>
               <h1 className={styles.imageDescription}>{data.description}</h1>
             </div>
-            <GatsbyImage
-              className={styles.image}
-              image={image}
-              alt={data.name}
-            />
+            <GatsbyImage image={image} alt={data.name} />
           </div>
         )}
       </div>
