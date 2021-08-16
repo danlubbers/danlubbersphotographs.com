@@ -2,11 +2,11 @@ import React from 'react';
 import { PageProps, graphql } from 'gatsby';
 import './index.scss';
 
-import ImageCategory from '../components/ImageCategory/ImageCategory';
+import GalleryCategories from '../components/GalleryCategories/GalleryCategories';
 
 const Home: React.FC<PageProps> = ({ data }) => (
   <main>
-    <ImageCategory data={data} />
+    <GalleryCategories data={data} />
   </main>
 );
 

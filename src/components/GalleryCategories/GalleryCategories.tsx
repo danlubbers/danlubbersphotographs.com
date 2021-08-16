@@ -1,22 +1,22 @@
 import React from 'react';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
-import ImageSlider from '../ImageSlider/ImageSlider';
-import ImageMobile from '../ImageMobile/ImageMobile';
+import GallerySlider from '../GallerySlider/GallerySlider';
+import GalleryMobile from '../GalleryMobile/GalleryMobile';
 import BioMobile from '../BioMobile/BioMobile';
 import Connect from '../Connect/Connect';
 
-const ImageCategory = ({ data }) => {
+const GalleryCategories = ({ data }) => {
   const { innerWidth } = window;
 
   return (
     <>
       <Header bioImage={data.bioImage.nodes[0]} />
       {innerWidth > 769 ? (
-        <ImageSlider sliderData={data.imageContent.nodes} />
+        <GallerySlider sliderData={data.imageContent.nodes} />
       ) : (
         <>
-          <ImageMobile imageData={data.imageContent.nodes} />
+          <GalleryMobile imageData={data.imageContent.nodes} />
           <BioMobile />
           <Connect />
         </>
@@ -26,4 +26,4 @@ const ImageCategory = ({ data }) => {
   );
 };
 
-export default ImageCategory;
+export default GalleryCategories;

@@ -1,10 +1,9 @@
 import React, { useState, useCallback, useEffect } from 'react';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
-import * as styles from '../ImageSlider/ImageSlider.module.scss';
+import * as styles from './GallerySlider.module.scss';
 
-function ImageTest({ sliderData }) {
-  // console.log('SLIDER', sliderData);
+function GallerySlider({ sliderData }) {
   const [current, setCurrent] = useState(0);
   const { length } = sliderData;
 
@@ -64,4 +63,4 @@ function ImageTest({ sliderData }) {
     </section>
   );
 }
-export default ImageTest;
+export default GallerySlider;

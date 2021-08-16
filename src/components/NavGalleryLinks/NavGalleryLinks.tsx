@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import * as styles from './GalleryLinks.module.scss';
+import * as styles from './NavGalleryLinks.module.scss';
 
-const GalleryLinks = () => (
+const NavGalleryLinks = () => (
   <>
     {` `}
     <Link className={styles.link} to="/portraits">
@@ -35,4 +35,4 @@ const GalleryLinks = () => (
   </>
 );
 
-export default GalleryLinks;
+export default NavGalleryLinks;

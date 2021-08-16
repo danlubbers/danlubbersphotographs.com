@@ -6,7 +6,7 @@ import headerLogo from '../../assets/logos/danlubbers_logo_#A52A25_outlined.svg'
 import Navbar from '../Navbar/Navbar';
 import Bio from '../Bio/Bio';
 import Connect from '../Connect/Connect';
-import GalleryLinks from '../GalleryLinks/GalleryLinks';
+import NavGalleryLinks from '../NavGalleryLinks/NavGalleryLinks';
 
 const Header = ({ bioImage }) => {
   const [isPortfolio, setIsPortfolio] = useState(false);
@@ -83,7 +83,7 @@ const Header = ({ bioImage }) => {
           </nav>
           {isMobileDisplay && (
             <ul className={styles.mobileNav}>
-              <GalleryLinks />
+              <NavGalleryLinks />
             </ul>
           )}
         </div>

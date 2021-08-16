@@ -1,7 +1,7 @@
 import React from 'react';
 import * as styles from './Navbar.module.scss';
 
-import GalleryLinks from '../GalleryLinks/GalleryLinks';
+import NavGalleryLinks from '../NavGalleryLinks/NavGalleryLinks';
 
 interface NavbarProps {
   handleClickNavDisplays: (arg0: string) => void;
@@ -32,7 +32,7 @@ const Navbar: React.FC<NavbarProps> = ({
               : styles.portfolioDropdownInactive
           }
         >
-          <GalleryLinks />
+          <NavGalleryLinks />
         </ul>
       </div>
       <li
