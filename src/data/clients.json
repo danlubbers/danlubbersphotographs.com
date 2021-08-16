@@ -55,16 +55,6 @@
     "link": "http://www.menswearhouse.com"
   },
   {
-    "uuid": "371a924a-6c67-41ad-a09c-4934a059df23",
-    "name": "Misty Mountain Threadworks",
-    "link": "http://www.mistymountain.com"
-  },
-  {
-    "uuid": "8deb3900-bb9a-4acf-ae49-28b41bc45d7c",
-    "name": "Greener Grass Publishing",
-    "link": "http://www.greenergrasspublishing.com"
-  },
-  {
     "uuid": "f80df0b9-c5d7-49b4-96e6-533f778970b6",
     "name": "Drag City Record Label",
     "link": "http://www.dragcity.com"
@@ -83,6 +73,16 @@
     "uuid": "1e202a01-09a1-4727-85d8-7c1c98105b2a",
     "name": "Justin Vining",
     "link": "http://www.justinvining.com"
+  },
+  {
+    "uuid": "371a924a-6c67-41ad-a09c-4934a059df23",
+    "name": "Misty Mountain Threadworks",
+    "link": "http://www.mistymountain.com"
+  },
+  {
+    "uuid": "8deb3900-bb9a-4acf-ae49-28b41bc45d7c",
+    "name": "Greener Grass Publishing",
+    "link": "http://www.greenergrasspublishing.com"
   },
   {
     "uuid": "833d870f-c734-4cff-b6cb-b1f86bf89545",

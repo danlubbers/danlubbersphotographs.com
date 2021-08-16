@@ -22,6 +22,17 @@
   opacity: 0;
 }
 
+.connectMobileContainer {
+  padding: 0 2rem;
+
+  .contactTitle {
+    text-align: left;
+    margin-bottom: 2rem;
+    font-size: 1.6rem;
+    color: $hover-color;
+  }
+}
+
 .socialMediaWrapper {
   width: 100%;
   padding-top: rem;

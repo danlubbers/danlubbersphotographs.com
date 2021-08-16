@@ -4,7 +4,7 @@ import Footer from '../Footer/Footer';
 import ImageSlider from '../ImageSlider/ImageSlider';
 import ImageMobile from '../ImageMobile/ImageMobile';
 import BioMobile from '../BioMobile/BioMobile';
-import ConnectMobile from '../ConnectMobile/ConnectMobile';
+import Connect from '../Connect/Connect';
 
 const ImageCategory = ({ data }) => {
   const { innerWidth } = window;
@@ -18,7 +18,7 @@ const ImageCategory = ({ data }) => {
         <>
           <ImageMobile imageData={data.imageContent.nodes} />
           <BioMobile />
-          <ConnectMobile />
+          <Connect />
         </>
       )}
       <Footer />
