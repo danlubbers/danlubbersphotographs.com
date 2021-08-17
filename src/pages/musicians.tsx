@@ -12,17 +12,17 @@ const Musicians: React.FC<PageProps> = ({ data }) => (
 
 export default Musicians;
 
-export const query = graphql`
-  query {
-    imageContent: allImageContentJson(
-      filter: { category: { eq: "musicians" } }
-    ) {
-      ...getImageData
-    }
-    bioImage: allImageSharp(
-      filter: { id: { eq: "5f0c3728-d190-5ff4-8004-4a51125b4487" } }
-    ) {
-      ...bioImage
-    }
-  }
-`;
+// export const query = graphql`
+//   query {
+//     imageContent: allImageContentJson(
+//       filter: { category: { eq: "musicians" } }
+//     ) {
+//       ...getImageData
+//     }
+//     bioImage: allImageSharp(
+//       filter: { id: { eq: "5f0c3728-d190-5ff4-8004-4a51125b4487" } }
+//     ) {
+//       ...bioImage
+//     }
+//   }
+// `;
