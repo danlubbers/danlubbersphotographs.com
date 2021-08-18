@@ -8,7 +8,7 @@ import Bio from '../Bio/Bio';
 import Connect from '../Connect/Connect';
 import NavGalleryLinks from '../NavGalleryLinks/NavGalleryLinks';
 
-const Header = ({ bioImage }) => {
+const Header = ({ bioImage, bioDescription }) => {
   const [isPortfolio, setIsPortfolio] = useState(false);
   const [isBio, setIsBio] = useState(false);
   const [isConnect, setIsConnect] = useState(false);
@@ -59,7 +59,11 @@ const Header = ({ bioImage }) => {
               isConnect={isConnect}
             />
           </header>
-          <Bio isBio={isBio} bioImage={bioImage} />
+          <Bio
+            isBio={isBio}
+            bioImage={bioImage}
+            bioDescription={bioDescription}
+          />
           <Connect isConnect={isConnect} />
         </div>
       ) : (

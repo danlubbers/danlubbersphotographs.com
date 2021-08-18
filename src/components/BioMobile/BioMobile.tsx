@@ -11,7 +11,8 @@ interface CategoryProps {
   link: string;
 }
 
-const BioMobile = () => {
+const BioMobile = ({ bioDescription }) => {
+  const { bio, quote } = bioDescription;
   const getJsonCategory = (category) =>
     category.map((details: CategoryProps, idx) => (
       <span className={styles.detailsWrapper} key={details.uuid}>
@@ -36,26 +37,8 @@ const BioMobile = () => {
       {' '}
       <div className={styles.descriptionContainer}>
         <h3 className={styles.bioTitle}>BIO</h3>
-        <p className={styles.descriptionText}>
-          Dan Lubbers is a Photographer / Retoucher / Web Developer based in
-          Saratoga Springs, NY. A love of the outdoors has led Lubbers to places
-          around the world like performing service work in Guatemala and roaming
-          the pyramids of Ancient Egypt. Lubbers got his start with Extreme
-          Sports Photography when he was the sole photographer on the La
-          Sportiva Solutions Climbing Tour in 2007 and began shooting for
-          Extreme Sports Editorials and various outdoor companies. He is a
-          freelancer for Amazon&apos;s Largest Photo Studio. He recently
-          retouched an ad campaign for Tempurpedic. He is also a contributor to
-          Aurora Photos. Lubbers has really delved into a passion for
-          Environmental & Fine Art Portraiture. A love of good coffee usually
-          leads one to find him at local coffee shops working diligently on his
-          work either at home or when traveling. Lubbers recently received his
-          certification badge from DevMountain in Full-Stack Web Development.
-        </p>
-        <p className={styles.descriptionQuote}>
-          &quot;Life is too short not to create something with every breath we
-          draw.&quot; ~ Maynard James Keenan
-        </p>
+        <p className={styles.descriptionText}>{bio}</p>
+        <p className={styles.descriptionQuote}>{quote}</p>
       </div>
       <div className={styles.clientsEditorialPressContainer}>
         <div className={styles.clients}>

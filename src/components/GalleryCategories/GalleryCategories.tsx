@@ -7,17 +7,22 @@ import BioMobile from '../BioMobile/BioMobile';
 import Connect from '../Connect/Connect';
 
 const GalleryCategories = ({ data }) => {
+  console.log(data);
+
   const { innerWidth } = window;
 
   return (
     <>
-      <Header bioImage={data.bioImage.nodes[0]} />
+      <Header
+        bioImage={data.bioImage.nodes[0]}
+        bioDescription={data.bioDescription.edges[0].node}
+      />
       {innerWidth > 769 ? (
         <GallerySlider sliderData={data.imageContent.nodes} />
       ) : (
         <>
           <GalleryMobile imageData={data.imageContent.nodes} />
-          <BioMobile />
+          <BioMobile bioDescription={data.bioDescription.edges[0].node} />
           <Connect />
         </>
       )}
