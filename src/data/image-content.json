@@ -104,6 +104,12 @@
     "src": "../assets/images/scenic/danlubbers-scenic-portfolio-1.jpg"
   },
   {
+    "name": "Shooting stars streak across the Milky Way as Jupiter sets along the horizon of the Grafton Peace Pagoda",
+    "description": "Grafton, NY",
+    "category": "scenic",
+    "src": "../assets/images/scenic/grafton-peace-pagoda-0894-4.jpg"
+  },
+  {
     "name": "Creation Falls",
     "description": "Clifty Wilderness | Menifee, KY",
     "category": "scenic",
@@ -114,5 +120,35 @@
     "description": "Skyline Drive | Manti La Sal, UT",
     "category": "scenic",
     "src": "../assets/images/scenic/manti-la-sal-milky-way-6408-1.jpg"
+  },
+  {
+    "name": "A palm tree silhouetted on a starry night by the Milky Way",
+    "description": "Hapuna Beach, HI",
+    "category": "scenic",
+    "src": "../assets/images/scenic/Mauna_Kea_Summit_Day_5_0079.jpg"
+  },
+  {
+    "name": "Volcano Cones",
+    "description": "Mauna Kea, HI",
+    "category": "scenic",
+    "src": "../assets/images/scenic/Mauna_Kea_Summit_Day_5_0017_8_9_adjust.jpg"
+  },
+  {
+    "name": "Dragonfly",
+    "description": "Kentucky",
+    "category": "scenic",
+    "src": "../assets/images/scenic/dragonfly-20150905-_MG_6459.jpg"
+  },
+  {
+    "name": "Lower Triple Falls",
+    "description": "Dupont State Forest, NC",
+    "category": "scenic",
+    "src": "../assets/images/scenic/lower-triple-falls-20150512-_MG_6124_5_adjust.jpg"
+  },
+  {
+    "name": "A seagull flies over the dunes at sunset",
+    "description": "Saint Joeseph's Peninsula, FL",
+    "category": "scenic",
+    "src": "../assets/images/scenic/josephs-peninsula-sunset-20130826-_MG_3082.jpg"
   }
 ]
