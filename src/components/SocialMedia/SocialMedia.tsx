@@ -5,6 +5,7 @@ import {
   Fa500Px,
   FaTwitter,
   FaBehance,
+  FaMedium,
 } from 'react-icons/fa';
 
 import * as styles from './SocialMedia.module.scss';
@@ -60,6 +61,16 @@ const SocialMedia = () => (
         rel="noreferrer"
       >
         <FaBehance size="25" /> <p>Behance</p>
+      </a>
+    </li>
+    <li className={styles.socialMedia}>
+      <a
+        className={styles.socialMediaLink}
+        href="https://medium.com/@lubbers.dan"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <FaMedium size="25" /> <p>Medium</p>
       </a>
     </li>
   </>
