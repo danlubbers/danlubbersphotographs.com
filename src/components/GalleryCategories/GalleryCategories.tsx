@@ -1,4 +1,5 @@
 import React from 'react';
+import SEO from '../SEO/SEO';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import GallerySlider from '../GallerySlider/GallerySlider';
@@ -13,6 +14,7 @@ const GalleryCategories = ({ data }) => {
 
   return (
     <>
+      <SEO />
       <Header
         bioImage={data.bioImage.nodes[0]}
         bioDescription={data.bioDescription.edges[0].node}

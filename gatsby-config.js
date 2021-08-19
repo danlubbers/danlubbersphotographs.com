@@ -1,6 +1,15 @@
 module.exports = {
   // Since `gatsby-plugin-typescript` is automatically included in Gatsby you
   // don't need to define it here (just if you need to change the options)
+  siteMetadata: {
+    title: `Dan Lubbers Photographs`,
+    titleTemplate: ``,
+    description: `Dan Lubbers is a Photographer / Retoucher / Web Developer specializing in Studio and Environmental Portraits.`,
+    url: `https://www.danlubbersphotographs.com`, // No trailing slash allowed!
+    image: `/src/assets/images/dan-portrait-arcteryx-sv-web-icon.jpg`, // Path to your image you placed in the `static` folder
+    twitterUsername: `@danlubbers`,
+    keywords: `dan lubbers, photographer, retoucher, web developer, webdeveloper, software engineer, designer, photography, photographs, saratoga springs, ny, new york, louisville, kentucky, ky, ut, utah, hi, hawaii, fine art, fine art portraiture, editorial, portraits, portraiture, environmental portraits, studio, product, people, emotion, passion, adventure, action, astrophotography, astronomy, milky way, star, stars, lifestyle, scenic, landscape, iphoneography, music, musicians, will, oldham, jim, james, my morning jacket, mmj, bonnie, prince, billy, sport, sports, red river gorge, rock climbing, climbing, climber, rockclimbing, headshots, low key, commercial, cycling, trailrunning, running, athletes, professional, athlete, athletic, local, canon, wacom, manfrotto, apple, arcteryx, outdoors, gear, industry, la sportiva, prana, red bull, amazon, o hello media`,
+  },
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
@@ -27,6 +36,7 @@ module.exports = {
         ],
       },
     },
+    `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
     `gatsby-transformer-json`,
     `gatsby-plugin-image`,
