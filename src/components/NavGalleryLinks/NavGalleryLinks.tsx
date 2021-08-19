@@ -11,6 +11,9 @@ const NavGalleryLinks = () => (
     <Link className={styles.link} to="/scenic">
       <li className={styles.galleryTitle}>Scenic</li>
     </Link>
+    <Link className={styles.link} to="/nature">
+      <li className={styles.galleryTitle}>Nature</li>
+    </Link>
     <Link className={styles.link} to="/action">
       <li className={styles.galleryTitle}>Action</li>
     </Link>
@@ -22,9 +25,6 @@ const NavGalleryLinks = () => (
     </Link>
     <Link className={styles.link} to="/musicians">
       <li className={styles.galleryTitle}>Musicians</li>
-    </Link>
-    <Link className={styles.link} to="/iphoneography">
-      <li className={styles.galleryTitle}>Iphoneography</li>
     </Link>
     <Link className={styles.link} to="/published">
       <li className={styles.galleryTitle}>Published</li>

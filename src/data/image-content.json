@@ -110,6 +110,18 @@
     "src": "../assets/images/scenic/grafton-peace-pagoda-0894-4.jpg"
   },
   {
+    "name": "Mauna Kea Observatory",
+    "description": "Mauna Kea, HI",
+    "category": "scenic",
+    "src": "../assets/images/scenic/Mauna_Kea_Summit_Day_5_0065.jpg"
+  },
+  {
+    "name": "Geyser at Saratoga Spa State Park",
+    "description": "Saratoga Springs, NY",
+    "category": "scenic",
+    "src": "../assets/images/scenic/spac-geyser-20181116-_MG_3722.jpg"
+  },
+  {
     "name": "Creation Falls",
     "description": "Clifty Wilderness | Menifee, KY",
     "category": "scenic",
@@ -134,10 +146,10 @@
     "src": "../assets/images/scenic/Mauna_Kea_Summit_Day_5_0017_8_9_adjust.jpg"
   },
   {
-    "name": "Dragonfly",
-    "description": "Kentucky",
+    "name": "Pooch Turtle Falls",
+    "description": "Clifty Wilderness | Menifee, KY",
     "category": "scenic",
-    "src": "../assets/images/scenic/dragonfly-20150905-_MG_6459.jpg"
+    "src": "../assets/images/scenic/pooch-turtle-falls_MG_8078.jpg"
   },
   {
     "name": "Lower Triple Falls",
@@ -150,5 +162,56 @@
     "description": "Saint Joeseph's Peninsula, FL",
     "category": "scenic",
     "src": "../assets/images/scenic/josephs-peninsula-sunset-20130826-_MG_3082.jpg"
+  },
+  {
+    "name": "Steam Vent",
+    "description": "Volcano National Park, HI",
+    "category": "scenic",
+    "src": "../assets/images/scenic/South_Point_Day_2_0125_6_7_adjust.jpg"
+  },
+  {
+    "name": "A Perseid shooting star steaks down towards Jupiter over Lake George",
+    "description": "Ticondaroga, NY",
+    "category": "scenic",
+    "src": "../assets/images/scenic/ticondaroga-milky-way-9685.jpg"
+  },
+  {
+    "name": "Cumberland Falls",
+    "description": "Cumberland, KY",
+    "category": "scenic",
+    "src": "../assets/images/scenic/cumberland-falls-20150509-_MG_6064.jpg"
+  },
+  {
+    "name": "A palm tree silhouetted by the sunset",
+    "description": "Kailua-Kona, HI",
+    "category": "scenic",
+    "src": "../assets/images/scenic/Kileua_Kona_Day_4_0212.jpg"
+  },
+  {
+    "name": "Looking Glass Falls",
+    "description": "Brevard, NC",
+    "category": "scenic",
+    "src": "../assets/images/scenic/looking-glass-falls-20150510-_MG_6084_final.jpg"
+  },
+  {
+    "name": "Winter sunset in Appalachia",
+    "description": "Max Patch, NC",
+    "category": "scenic",
+    "src": "../assets/images/scenic/max_patch_316.jpg"
+  },
+  {
+    "name": "A vibrant Milky Way over some goblins",
+    "description": "Goblin Valley, UT",
+    "category": "scenic",
+    "src": "../assets/images/scenic/goblin-valley-5878-comp-cropped.jpg"
+  },
+  {
+    "---------------NATURE--------------": "----------------------------------"
+  },
+  {
+    "name": "Dragonfly",
+    "description": "Kentucky",
+    "category": "nature",
+    "src": "../assets/images/nature/dragonfly-20150905-_MG_6459.jpg"
   }
 ]
