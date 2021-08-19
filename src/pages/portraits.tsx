@@ -24,5 +24,14 @@ export const query = graphql`
     ) {
       ...bioImage
     }
+    bioDescription: allBioJson {
+      edges {
+        node {
+          id
+          bio
+          quote
+        }
+      }
+    }
   }
 `;
