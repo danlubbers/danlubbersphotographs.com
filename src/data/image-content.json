@@ -146,6 +146,12 @@
     "src": "../assets/images/scenic/Mauna_Kea_Summit_Day_5_0017_8_9_adjust.jpg"
   },
   {
+    "name": "Mollys Castle",
+    "description": "Goblin Valley, UT",
+    "category": "scenic",
+    "src": "../assets/images/scenic/goblin-valley-5816.jpg"
+  },
+  {
     "name": "Pooch Turtle Falls",
     "description": "Clifty Wilderness | Menifee, KY",
     "category": "scenic",
@@ -175,6 +181,19 @@
     "category": "scenic",
     "src": "../assets/images/scenic/ticondaroga-milky-way-9685.jpg"
   },
+  {
+    "name": "Abandoned Wind Turbine Farm",
+    "description": "South Point, HI",
+    "category": "scenic",
+    "src": "../assets/images/scenic/South_Point_Day_2_0113_4_5_tonemapped.jpg"
+  },
+  {
+    "name": "Pu'u 'O'o Crater",
+    "description": "Volcano National Park, HI",
+    "category": "scenic",
+    "src": "../assets/images/scenic/Volcano_National_Park_0090.jpg"
+  },
+
   {
     "name": "Cumberland Falls",
     "description": "Cumberland, KY",
@@ -213,5 +232,17 @@
     "description": "Kentucky",
     "category": "nature",
     "src": "../assets/images/nature/dragonfly-20150905-_MG_6459.jpg"
+  },
+  {
+    "name": "A honeybee collects pollen from a Moon Flower",
+    "description": "Kentucky",
+    "category": "nature",
+    "src": "../assets/images/nature/honeybee-moon-flower_MG_9627.jpg"
+  },
+  {
+    "name": "Chrysalis",
+    "description": "Parklands, Kentucky",
+    "category": "nature",
+    "src": "../assets/images/nature/chrysalis-20161016-_MG_0039-Edit.jpg"
   }
 ]
