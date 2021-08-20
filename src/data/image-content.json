@@ -140,6 +140,12 @@
     "src": "../assets/images/scenic/Mauna_Kea_Summit_Day_5_0079.jpg"
   },
   {
+    "name": "Fog rolls through the valley as the sun descends",
+    "description": "Red River Gorge, KY",
+    "category": "scenic",
+    "src": "../assets/images/scenic/rrg-chimney-top-neowise-5270.jpg"
+  },
+  {
     "name": "Volcano Cones",
     "description": "Mauna Kea, HI",
     "category": "scenic",
@@ -186,6 +192,12 @@
     "description": "South Point, HI",
     "category": "scenic",
     "src": "../assets/images/scenic/South_Point_Day_2_0113_4_5_tonemapped.jpg"
+  },
+  {
+    "name": "Sunset Icicles",
+    "description": "Oldham County, KY",
+    "category": "scenic",
+    "src": "../assets/images/scenic/icicles-20140207-_MG_3955.jpg"
   },
   {
     "name": "Pu'u 'O'o Crater",
