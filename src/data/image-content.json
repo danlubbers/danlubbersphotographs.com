@@ -256,5 +256,20 @@
     "description": "Parklands, Kentucky",
     "category": "nature",
     "src": "../assets/images/nature/chrysalis-20161016-_MG_0039-Edit.jpg"
+  },
+  {
+    "---------------ACTION--------------": "----------------------------------"
+  },
+  {
+    "name": "Andrew Gearing makes the FA of \"Zookeeper\"",
+    "description": "Red River Gorge, Kentucky",
+    "category": "action",
+    "src": "../assets/images/action/andrew-gearing_MG_7844-cropped.jpg"
+  },
+  {
+    "name": "A member of the Adirondack Motor Enthusiasts Club races their Subaru WRX across a frozen Lake George at the Lake George Winter Carnival",
+    "description": "Lake George, NY",
+    "category": "action",
+    "src": "../assets/images/action/lake-george-ice-race-20190223-_MG_1722.jpg"
   }
 ]
