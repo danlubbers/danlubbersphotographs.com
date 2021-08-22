@@ -51,9 +51,11 @@
       font-weight: 200;
       color: $font-color;
       text-decoration: none;
+      transition: all 0.5s ease;
     }
   }
   .emailLink:hover {
     color: $hover-color;
+    transition: all 0.5s ease;
   }
 }

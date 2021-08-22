@@ -17,9 +17,14 @@
 .galleryTitle {
   margin: 0.5rem 0;
   font-size: 1.4rem;
+  transition: all 0.5s ease;
   @media (max-width: 769px) {
     margin: 2rem 0;
     padding: 0 2rem;
     font-size: 2.4rem;
   }
+}
+.galleryTitle:hover {
+  color: $hover-color;
+  transition: all 0.5s ease;
 }
