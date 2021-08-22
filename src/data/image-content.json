@@ -200,6 +200,12 @@
     "src": "../assets/images/scenic/icicles-20140207-_MG_3955.jpg"
   },
   {
+    "name": "Green Sand Beach",
+    "description": "South Point, HI",
+    "category": "scenic",
+    "src": "../assets/images/scenic/South_Point_Day_2_0098_099_100_tonemapped_correctclean.jpg"
+  },
+  {
     "name": "Pu'u 'O'o Crater",
     "description": "Volcano National Park, HI",
     "category": "scenic",
