@@ -409,5 +409,50 @@
     "description": "Lake George, NY",
     "category": "action",
     "src": "../assets/images/action/lake-george-ice-racing-20190223-_MG_1645.jpg"
+  },
+  {
+    "---------------LIFESTYLE--------------": "----------------------------------"
+  },
+  {
+    "name": "TESTING IMAGE",
+    "description": "",
+    "category": "lifestyle",
+    "src": "../assets/images/action/lake-george-ice-racing-20190223-_MG_1645.jpg"
+  },
+  {
+    "---------------MUSICIANS--------------": "----------------------------------"
+  },
+  {
+    "name": "TESTING IMAGE",
+    "description": "",
+    "category": "musicians",
+    "src": "../assets/images/action/lake-george-ice-racing-20190223-_MG_1645.jpg"
+  },
+  {
+    "---------------STILL-LIFE--------------": "----------------------------------"
+  },
+  {
+    "name": "TESTING IMAGE",
+    "description": "",
+    "category": "still-life",
+    "src": "../assets/images/action/lake-george-ice-racing-20190223-_MG_1645.jpg"
+  },
+  {
+    "---------------PUBLISHED--------------": "----------------------------------"
+  },
+  {
+    "name": "TESTING IMAGE",
+    "description": "",
+    "category": "published",
+    "src": "../assets/images/action/lake-george-ice-racing-20190223-_MG_1645.jpg"
+  },
+  {
+    "---------------RETOUCHING--------------": "----------------------------------"
+  },
+  {
+    "name": "TESTING IMAGE",
+    "description": "",
+    "category": "retouching",
+    "src": "../assets/images/action/lake-george-ice-racing-20190223-_MG_1645.jpg"
   }
 ]
