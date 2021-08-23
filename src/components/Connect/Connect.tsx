@@ -7,7 +7,7 @@ interface ConnectProps {
 }
 
 const Connect: React.FC<ConnectProps> = ({ isConnect }) => {
-  const { innerWidth } = window;
+  const { innerWidth } = window && window;
   return (
     <article
       className={

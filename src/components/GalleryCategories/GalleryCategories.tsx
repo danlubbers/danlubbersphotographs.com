@@ -10,7 +10,7 @@ import Connect from '../Connect/Connect';
 const GalleryCategories = ({ data }) => {
   console.log(data);
 
-  const { innerWidth } = window;
+  const { innerWidth } = window && window;
 
   return (
     <>

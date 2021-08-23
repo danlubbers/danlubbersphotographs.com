@@ -14,7 +14,7 @@ const Header = ({ bioImage, bioDescription }) => {
   const [isConnect, setIsConnect] = useState(false);
   const [isMobileDisplay, setIsMobileDisplay] = useState(false);
 
-  const { innerWidth } = window;
+  const { innerWidth } = window && window;
 
   const handleClickNavDisplays = (navTitle: string) => {
     if (navTitle === `logo`) {
