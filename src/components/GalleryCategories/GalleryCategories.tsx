@@ -10,9 +10,9 @@ import Connect from '../Connect/Connect';
 const GalleryCategories = ({ data }) => {
   console.log(data);
 
-  const isBrowser = typeof window !== `undefined`;
+  // const isBrowser = typeof window !== `undefined`;
 
-  const { innerWidth } = isBrowser && window;
+  // const { innerWidth } = isBrowser && window;
 
   return (
     <>
@@ -21,15 +21,15 @@ const GalleryCategories = ({ data }) => {
         bioImage={data.bioImage.nodes[0]}
         bioDescription={data.bioDescription.edges[0].node}
       />
-      {innerWidth > 769 ? (
-        <GallerySlider sliderData={data.imageContent.nodes} />
-      ) : (
+      {/* {innerWidth > 769 ? ( */}
+      <GallerySlider sliderData={data.imageContent.nodes} />
+      {/* ) : (
         <>
           <GalleryMobile imageData={data.imageContent.nodes} />
           <BioMobile bioDescription={data.bioDescription.edges[0].node} />
           <Connect />
         </>
-      )}
+      )} */}
       <Footer />
     </>
   );

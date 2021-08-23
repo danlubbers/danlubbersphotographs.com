@@ -14,9 +14,9 @@ const Header = ({ bioImage, bioDescription }) => {
   const [isConnect, setIsConnect] = useState(false);
   const [isMobileDisplay, setIsMobileDisplay] = useState(false);
 
-  const isBrowser = typeof window !== `undefined`;
+  // const isBrowser = typeof window !== `undefined`;
 
-  const { innerWidth } = isBrowser && window;
+  // const { innerWidth } = isBrowser && window;
 
   const handleClickNavDisplays = (navTitle: string) => {
     if (navTitle === `logo`) {
@@ -44,31 +44,31 @@ const Header = ({ bioImage, bioDescription }) => {
 
   return (
     <>
-      {innerWidth > 769 ? (
-        <div className={styles.headerContainer}>
-          <header>
-            <Link
-              className={styles.logoLink}
-              to="/"
-              onClick={() => handleClickNavDisplays(`logo`)}
-            >
-              <img src={headerLogo} alt="logo" />
-            </Link>
-            <Navbar
-              handleClickNavDisplays={handleClickNavDisplays}
-              isPortfolio={isPortfolio}
-              isBio={isBio}
-              isConnect={isConnect}
-            />
-          </header>
-          <Bio
+      {/* {innerWidth > 769 ? ( */}
+      <div className={styles.headerContainer}>
+        <header>
+          <Link
+            className={styles.logoLink}
+            to="/"
+            onClick={() => handleClickNavDisplays(`logo`)}
+          >
+            <img src={headerLogo} alt="logo" />
+          </Link>
+          <Navbar
+            handleClickNavDisplays={handleClickNavDisplays}
+            isPortfolio={isPortfolio}
             isBio={isBio}
-            bioImage={bioImage}
-            bioDescription={bioDescription}
+            isConnect={isConnect}
           />
-          <Connect isConnect={isConnect} />
-        </div>
-      ) : (
+        </header>
+        <Bio
+          isBio={isBio}
+          bioImage={bioImage}
+          bioDescription={bioDescription}
+        />
+        <Connect isConnect={isConnect} />
+      </div>
+      {/* ) : (
         <div className={styles.headerMobileContainer}>
           <header>
             <Link
@@ -93,7 +93,7 @@ const Header = ({ bioImage, bioDescription }) => {
             </ul>
           )}
         </div>
-      )}
+      )} */}
     </>
   );
 };
