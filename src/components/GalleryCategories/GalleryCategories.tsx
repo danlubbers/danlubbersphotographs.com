@@ -10,7 +10,9 @@ import Connect from '../Connect/Connect';
 const GalleryCategories = ({ data }) => {
   console.log(data);
 
-  const { innerWidth } = window && window;
+  const isBrowser = typeof window !== `undefined`;
+
+  const { innerWidth } = isBrowser && window;
 
   return (
     <>

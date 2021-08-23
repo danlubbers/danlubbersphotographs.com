@@ -7,7 +7,9 @@ interface ConnectProps {
 }
 
 const Connect: React.FC<ConnectProps> = ({ isConnect }) => {
-  const { innerWidth } = window && window;
+  const isBrowser = typeof window !== `undefined`;
+
+  const { innerWidth } = isBrowser && window;
   return (
     <article
       className={
