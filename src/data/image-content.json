@@ -297,16 +297,28 @@
     "src": "../assets/images/action/james-litz-dayton_pocket_105.jpg"
   },
   {
-    "name": "James Kehl makes the second ascent of \"The Shield\"",
+    "name": "James Kehl makes the second ascent of \"The Shield\" V11",
     "description": "LRC aka: Stonefort, TN",
     "category": "action",
     "src": "../assets/images/action/jk_shield_0216.jpg"
+  },
+  {
+    "name": "Eric Gifford on \"Latin for Dagger\" V5",
+    "description": "LRC aka: Stonefort, TN",
+    "category": "action",
+    "src": "../assets/images/action/eric-gifford-lrc_sesh_024.jpg"
   },
   {
     "name": "Ruel Lomigo runs up Dog Hill at Cherokee Park",
     "description": "Louisville, KY",
     "category": "action",
     "src": "../assets/images/action/lomigo_ruel_MG_5034.jpg"
+  },
+  {
+    "name": "Daniel Brechner on \"Millipede\" V5",
+    "description": "Horse Pens 40, AL",
+    "category": "action",
+    "src": "../assets/images/action/daniel-brechner-horse_pens_40_0382.jpg"
   },
   {
     "name": "Timy Fairfield makes the FA of \"Cover Methods\" V11",
@@ -363,6 +375,12 @@
     "src": "../assets/images/action/masters_nationals_2401_squared.jpg"
   },
   {
+    "name": "Jason Kehl figuring out the sequence to what is now named \"Best in Show\"",
+    "description": "Holy Boulders, Southern IL",
+    "category": "action",
+    "src": "../assets/images/action/jason-kehl-20150204-_MG_5578_merged_kehl.jpg"
+  },
+  {
     "name": "Zach Sands takes a whipper from the chains \"Tuna Town\" 12d",
     "description": "Red River Gorge, KY",
     "category": "action",
@@ -379,6 +397,18 @@
     "description": "Muir Valley, Red River Gorge, KY",
     "category": "action",
     "src": "../assets/images/action/shadow_cell_block_004.jpg"
+  },
+  {
+    "name": "Zach Kiyak on \"Stingray\" V9",
+    "description": "Horse Pens 40, AL",
+    "category": "action",
+    "src": "../assets/images/action/zach-kiyak-horse_pens_40_0311.jpg"
+  },
+  {
+    "name": "Ivan Garcia on \"Screaming Eagle\"",
+    "description": "The Roost, IL",
+    "category": "action",
+    "src": "../assets/images/action/ivan-garcia-20150207-_MG_5862.jpg"
   },
   {
     "name": "A member of the Adirondack Motor Enthusiasts Club races their BMW 3-series across a frozen Lake George at the Lake George Winter Carnival",
