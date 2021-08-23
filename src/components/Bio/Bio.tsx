@@ -23,6 +23,8 @@ interface CategoryProps {
 
 const Bio: React.FC<BioProps> = ({ isBio, bioImage, bioDescription }) => {
   const image = getImage(bioImage);
+  console.log('BioImage', image);
+
   const { bio, quote } = bioDescription;
 
   const getJsonCategory = (category) =>
