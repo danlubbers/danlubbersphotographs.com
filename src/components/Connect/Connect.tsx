@@ -7,9 +7,8 @@ interface ConnectProps {
 }
 
 const Connect: React.FC<ConnectProps> = ({ isConnect }) => {
-  const isBrowser = typeof window !== `undefined`;
+  console.log(isConnect);
 
-  const { innerWidth } = isBrowser && window;
   return (
     <article
       className={
@@ -18,7 +17,7 @@ const Connect: React.FC<ConnectProps> = ({ isConnect }) => {
           : styles.connectContainerInactive
       }
     >
-      {innerWidth < 769 && <h3 className={styles.contactTitle}>CONTACT</h3>}
+      <h3 className={styles.contactTitle}>CONTACT</h3>
       <ul className={styles.socialMediaWrapper}>
         <p className={styles.email}>
           Email:{` `}

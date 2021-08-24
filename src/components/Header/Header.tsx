@@ -14,10 +14,6 @@ const Header = ({ bioImage, bioDescription }) => {
   const [isConnect, setIsConnect] = useState(false);
   const [isMobileDisplay, setIsMobileDisplay] = useState(false);
 
-  // const isBrowser = typeof window !== `undefined`;
-
-  // const { innerWidth } = isBrowser && window;
-
   const handleClickNavDisplays = (navTitle: string) => {
     if (navTitle === `logo`) {
       setIsBio(false);
@@ -44,7 +40,6 @@ const Header = ({ bioImage, bioDescription }) => {
 
   return (
     <>
-      {/* {innerWidth > 769 ? ( */}
       <div className={styles.headerContainer}>
         <header>
           <Link
@@ -68,32 +63,31 @@ const Header = ({ bioImage, bioDescription }) => {
         />
         <Connect isConnect={isConnect} />
       </div>
-      {/* ) : (
-        <div className={styles.headerMobileContainer}>
-          <header>
-            <Link
-              className={styles.logoLink}
-              to="/"
-              onClick={() => handleClickNavDisplays(`logo`)}
-            >
-              <img src={headerLogo} alt="logo" />
-            </Link>
-          </header>
-          <nav
-            className={styles.menubarWrapper}
-            onClick={handleClickMobileDisplay}
+
+      <div className={styles.headerMobileContainer}>
+        <header>
+          <Link
+            className={styles.logoLink}
+            to="/"
+            onClick={() => handleClickNavDisplays(`logo`)}
           >
-            <div className={styles.menubar} />
-            <div className={styles.menubar} />
-            <div className={styles.menubar} />
-          </nav>
-          {isMobileDisplay && (
-            <ul className={styles.mobileNav}>
-              <NavGalleryLinks />
-            </ul>
-          )}
-        </div>
-      )} */}
+            <img src={headerLogo} alt="logo" />
+          </Link>
+        </header>
+        <nav
+          className={styles.menubarWrapper}
+          onClick={handleClickMobileDisplay}
+        >
+          <div className={styles.menubar} />
+          <div className={styles.menubar} />
+          <div className={styles.menubar} />
+        </nav>
+        {isMobileDisplay && (
+          <ul className={styles.mobileNav}>
+            <NavGalleryLinks />
+          </ul>
+        )}
+      </div>
     </>
   );
 };
