@@ -34,10 +34,14 @@
   @media (min-width: 769px) {
     display: none;
   }
+
   header {
     width: 100%;
-    max-width: 40rem; // accounts for ipad spacing of menubar
+    max-width: 40rem; // accounts for ipad spacing of logo
     padding: 2rem;
+    @media (max-width: 415px) {
+      max-width: 30rem; // accounts for mobile phone spacing of logo
+    }
   }
 
   .menubarWrapper {
