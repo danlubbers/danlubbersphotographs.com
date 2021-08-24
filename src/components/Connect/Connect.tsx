@@ -13,9 +13,7 @@ const Connect: React.FC<ConnectProps> = ({ isConnect }) => {
   return (
     <article
       className={
-        innerWidth < 769
-          ? styles.connectMobileContainer
-          : isConnect
+        isConnect
           ? styles.connectContainerActive
           : styles.connectContainerInactive
       }

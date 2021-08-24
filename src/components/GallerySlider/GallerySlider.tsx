@@ -43,7 +43,7 @@ function GallerySlider({ sliderData }) {
         key={data.id}
       >
         {idx === current && (
-          <div className={styles.imageContainer}>
+          <div className={styles.imageDesktopWrapper}>
             <div className={styles.imageDescriptionContainer}>
               <h1 className={styles.imageName}>{data.name}</h1>
               <h1 className={styles.imageDescription}>{data.description}</h1>
@@ -51,12 +51,19 @@ function GallerySlider({ sliderData }) {
             <GatsbyImage image={image} alt={data.name} />
           </div>
         )}
+        <div className={styles.imageMobileWrapper}>
+          <GatsbyImage
+            className={styles.mobileImage}
+            image={image}
+            alt={data.name}
+          />
+        </div>
       </div>
     );
   });
 
   return (
-    <section className={styles.slider}>
+    <section className={styles.imageContainer}>
       <FiChevronLeft className={styles.leftArrow} onClick={prevSlide} />
       <FiChevronRight className={styles.rightArrow} onClick={nextSlide} />
       {imageSliderData}
