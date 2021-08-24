@@ -24,7 +24,12 @@ export const getImageDataFragment = graphql`
 export const bioImageFragment = graphql`
   fragment bioImage on ImageSharpConnection {
     nodes {
-      gatsbyImageData
+      gatsbyImageData(
+        height: 300
+        quality: 100
+        webpOptions: { quality: 85 }
+        jpgOptions: { quality: 85 }
+      )
     }
   }
 `;
