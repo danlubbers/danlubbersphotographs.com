@@ -1,0 +1,37 @@
+@import '../../styles/variables.scss';
+
+.connectContainer {
+  width: 100%;
+  padding: 5rem 2rem 0;
+  font-weight: 200;
+  background-color: $transparency-background-color;
+
+  .contactTitle {
+    text-align: left;
+    margin-bottom: 2rem;
+    font-size: 1.6rem;
+    color: $hover-color;
+  }
+
+  .connectWrapper {
+    width: 100%;
+    padding-top: rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    .email {
+      margin-bottom: 1rem;
+      font-size: 1.6rem;
+      font-weight: 400;
+
+      .emailLink {
+        font-size: 1.6rem;
+        font-weight: 200;
+        color: $font-color;
+        text-decoration: none;
+        transition: all 0.5s ease;
+      }
+    }
+  }
+}

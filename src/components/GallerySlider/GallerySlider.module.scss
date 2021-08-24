@@ -1,6 +1,6 @@
 @import '../../styles/variables.scss';
 
-.slider {
+.imageContainer {
   position: relative;
   height: 100%;
   padding: 0 2rem;
@@ -9,6 +9,14 @@
   align-items: center;
   min-height: 0;
   outline: none;
+
+  @media (max-width: 769px) {
+    display: block;
+    max-width: 100%;
+    padding: 2rem;
+    flex-direction: column;
+    // background-color: aquamarine;
+  }
 
   .right-arrow {
     position: absolute;
@@ -20,11 +28,17 @@
     cursor: pointer;
     user-select: none;
     transition: all 0.5s ease;
+    @media (max-width: 769px) {
+      display: none;
+    }
   }
 
   .left-arrow {
     @extend .right-arrow;
     left: 5rem;
+    @media (max-width: 769px) {
+      display: none;
+    }
   }
 
   .right-arrow:hover,
@@ -36,15 +50,22 @@
   .slide {
     opacity: 0;
     transition-duration: 0.5s ease;
+    @media (max-width: 769px) {
+      opacity: 1;
+    }
   }
   .slide-active {
     opacity: 1;
     transition-duration: 0.5s;
   }
 
-  .image-container {
+  .imageDesktopWrapper {
     position: relative;
     margin: 0 auto;
+
+    @media (max-width: 769px) {
+      display: none;
+    }
 
     // Low res displays and smaller laptops
     @media (max-height: 890px) {
@@ -78,9 +99,20 @@
       }
     }
   }
-  .image-container:hover .imageDescriptionContainer {
+  .imageDesktopWrapper:hover .imageDescriptionContainer {
     transition: all 0.5s ease-in-out;
     opacity: 1;
     z-index: 10;
+  }
+
+  .imageMobileWrapper {
+    width: 100%;
+    @media (min-width: 769px) {
+      display: none;
+    }
+    .mobileImage {
+      max-width: 100%;
+      margin: 2rem 0;
+    }
   }
 }

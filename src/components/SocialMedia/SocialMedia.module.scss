@@ -1,24 +1,26 @@
 @import '../../styles/variables.scss';
 
-.socialMedia {
-  margin: 0.5rem 0;
-  display: flex;
-  align-items: center;
-
-  .socialMediaLink {
+.socialMediaWrapper {
+  .socialMedia {
+    margin: 0.5rem 0;
     display: flex;
     align-items: center;
-    color: $font-color;
-    text-decoration: none;
+
+    .socialMediaLink {
+      display: flex;
+      align-items: center;
+      color: $font-color;
+      text-decoration: none;
+      transition: all 0.5s ease;
+      cursor: pointer;
+    }
+    p {
+      margin-left: 1rem;
+      font-size: 1.6rem;
+    }
+  }
+  .socialMediaLink:hover {
+    color: $hover-color;
     transition: all 0.5s ease;
-    cursor: pointer;
   }
-  p {
-    margin-left: 1rem;
-    font-size: 1.6rem;
-  }
-}
-.socialMediaLink:hover {
-  color: $hover-color;
-  transition: all 0.5s ease;
 }
