@@ -12,6 +12,10 @@
   opacity: 1;
   transition: all 0.1s ease;
   overflow: scroll;
+
+  @media (max-width: 769px) {
+    display: none;
+  }
 }
 
 .bioContainerInactive {
@@ -29,12 +33,20 @@
   justify-content: center;
 
   .imageContainer {
-    justify-self: flex-start;
+    justify-self: center;
     grid-column: 1 / span 2;
 
     .bioImage {
       max-width: 30rem;
+      width: 30rem;
+      height: 30rem;
       border-radius: 1rem;
+
+      @media (max-width: 996px) {
+        max-width: 25rem;
+        width: 25rem;
+        height: 25rem;
+      }
     }
   }
   .descriptionContainer {
