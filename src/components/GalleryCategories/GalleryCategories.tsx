@@ -13,10 +13,7 @@ const GalleryCategories = ({ data }) => {
   return (
     <>
       <SEO />
-      <Header
-        bioImage={data.bioImage.nodes[0]}
-        bioDescription={data.bioDescription.edges[0].node}
-      />
+      <Header bioDescription={data.bioDescription.edges[0].node} />
 
       <div>
         <GallerySlider sliderData={data.imageContent.nodes} />

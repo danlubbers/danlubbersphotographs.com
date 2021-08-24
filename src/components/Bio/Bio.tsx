@@ -1,5 +1,6 @@
 import React from 'react';
-import { GatsbyImage, getImage } from 'gatsby-plugin-image';
+// import { GatsbyImage, getImage } from 'gatsby-plugin-image';
+import bioImage from '../../assets/images/dan-portrait-arcteryx-sv-web-icon.jpg';
 import * as styles from './Bio.module.scss';
 
 import clients from '../../data/clients.json';
@@ -8,7 +9,6 @@ import press from '../../data/press.json';
 
 interface BioProps {
   isBio: boolean;
-  bioImage: any;
   bioDescription: {
     bio: string;
     quote: string;
@@ -21,10 +21,7 @@ interface CategoryProps {
   link: string;
 }
 
-const Bio: React.FC<BioProps> = ({ isBio, bioImage, bioDescription }) => {
-  const image = getImage(bioImage);
-  console.log(`BioImage`, image);
-
+const Bio: React.FC<BioProps> = ({ isBio, bioDescription }) => {
   const { bio, quote } = bioDescription;
 
   const getJsonCategory = (category) =>
@@ -49,7 +46,7 @@ const Bio: React.FC<BioProps> = ({ isBio, bioImage, bioDescription }) => {
     >
       <div className={styles.bioWrapper}>
         <div className={styles.imageContainer}>
-          <GatsbyImage className={styles.bioImage} image={image} alt="test" />
+          <img className={styles.bioImage} src={bioImage} alt="test" />
         </div>
         <div className={styles.descriptionContainer}>
           <p className={styles.descriptionText}>{bio}</p>
