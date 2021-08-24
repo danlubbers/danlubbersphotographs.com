@@ -11,7 +11,7 @@ import {
 import * as styles from './SocialMedia.module.scss';
 
 const SocialMedia = () => (
-  <>
+  <ul className={styles.socialMediaWrapper}>
     {` `}
     <li className={styles.socialMedia}>
       <a
@@ -73,7 +73,7 @@ const SocialMedia = () => (
         <FaMedium size="25" /> <p>Medium</p>
       </a>
     </li>
-  </>
+  </ul>
 );
 
 export default SocialMedia;

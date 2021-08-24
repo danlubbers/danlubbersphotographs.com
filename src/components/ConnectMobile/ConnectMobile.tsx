@@ -1,22 +1,11 @@
 import React from 'react';
-import * as styles from './Connect.module.scss';
+import * as styles from './ConnectMobile.module.scss';
 import SocialMedia from '../../components/SocialMedia/SocialMedia';
 
-interface ConnectProps {
-  isConnect?: boolean;
-}
-
-const Connect: React.FC<ConnectProps> = ({ isConnect }) => {
-  console.log(isConnect);
-
+const ConnectMobile = () => {
   return (
-    <article
-      className={
-        isConnect
-          ? styles.connectContainerActive
-          : styles.connectContainerInactive
-      }
-    >
+    <article className={styles.connectContainer}>
+      <h3 className={styles.contactTitle}>CONTACT</h3>
       <div className={styles.connectWrapper}>
         <p className={styles.email}>
           Email:{` `}
@@ -33,4 +22,4 @@ const Connect: React.FC<ConnectProps> = ({ isConnect }) => {
   );
 };
 
-export default Connect;
+export default ConnectMobile;
