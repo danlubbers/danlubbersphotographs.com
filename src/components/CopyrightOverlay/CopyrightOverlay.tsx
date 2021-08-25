@@ -2,7 +2,7 @@ import React from 'react';
 import * as styles from './CopyrightOverlay.module.scss';
 
 const CopyrightOverlay = () => (
-  <main className={styles.copyrightOverlayContainer}>
+  <div className={styles.copyrightOverlayContainer}>
     <p className={styles.copyrightText}>
       All images are copyrighted. Please {` `}
       <a
@@ -17,7 +17,7 @@ const CopyrightOverlay = () => (
       to obtain a copy
       {` `}
     </p>
-  </main>
+  </div>
 );
 
 export default CopyrightOverlay;
