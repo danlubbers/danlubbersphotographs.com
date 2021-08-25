@@ -2,8 +2,9 @@ import React, { useState, useCallback, useEffect } from 'react';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
 import * as styles from './GallerySlider.module.scss';
+import CopyrightOverlay from '../CopyrightOverlay/CopyrightOverlay';
 
-function GallerySlider({ sliderData }) {
+function GallerySlider({ sliderData, show }) {
   const [current, setCurrent] = useState(0);
   const { length } = sliderData;
 
@@ -64,6 +65,7 @@ function GallerySlider({ sliderData }) {
 
   return (
     <section className={styles.imageContainer}>
+      {show && <CopyrightOverlay />}
       <FiChevronLeft className={styles.leftArrow} onClick={prevSlide} />
       <FiChevronRight className={styles.rightArrow} onClick={nextSlide} />
       {imageSliderData}

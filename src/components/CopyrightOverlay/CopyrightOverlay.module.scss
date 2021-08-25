@@ -1,0 +1,33 @@
+@import '../../styles/variables.scss';
+
+.copyrightOverlayContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $transparency-background-color;
+  z-index: 5000;
+
+  .copyrightText {
+    padding: 0 2rem;
+    font-size: 1.4rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+
+  .emailLink {
+    font-size: 1.2rem;
+    font-weight: 200;
+    color: $font-color;
+    text-decoration: none;
+    transition: all 0.5s ease;
+  }
+  .emailLink:hover {
+    color: $hover-color;
+    transition: all 0.5s ease;
+  }
+}
