@@ -13,9 +13,9 @@
     line-height: 2.4rem;
     letter-spacing: 0.2rem;
 
-    @media (max-width: 415px) {
-      font-size: 1.2rem;
-    }
+    // @media (max-width: 415px) {
+    //   font-size: 1.6rem;
+    // }
 
     .descriptionText {
       margin-bottom: 2rem;
@@ -39,9 +39,9 @@
         font-size: 1.5rem;
         color: $hover-color;
 
-        @media (max-width: 415px) {
-          font-size: 1.3rem;
-        }
+        // @media (max-width: 415px) {
+        //   font-size: 1.5rem;
+        // }
       }
       .detailsWrapper {
         display: inline-block;
@@ -54,9 +54,9 @@
         list-style: none;
         text-decoration: none;
 
-        @media (max-width: 415px) {
-          font-size: 1.2rem;
-        }
+        // @media (max-width: 415px) {
+        //   font-size: 1.2rem;
+        // }
       }
       .detailsTitle {
         padding-left: 0.8rem;
