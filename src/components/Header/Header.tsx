@@ -74,9 +74,17 @@ const Header = ({ bioDescription }) => {
           className={styles.menubarWrapper}
           onClick={handleClickMobileDisplay}
         >
-          <div className={styles.menubar} />
-          <div className={styles.menubar} />
-          <div className={styles.menubar} />
+          <div
+            className={
+              !isMobileDisplay
+                ? `${styles.menuIcon}`
+                : `${styles.menuIcon} ${styles.active}`
+            }
+          >
+            <span className={styles.menubar1} />
+            <span className={styles.menubar2} />
+            <span className={styles.menubar3} />
+          </div>
         </nav>
         {isMobileDisplay && (
           <ul className={styles.mobileNav}>
