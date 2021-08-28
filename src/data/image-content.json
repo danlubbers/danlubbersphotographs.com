@@ -20,7 +20,6 @@
     "category": "index",
     "src": "../assets/images/index/will-oldham-20170626-_MG_2228.jpg"
   },
-
   {
     "name": "Kirby Coleman",
     "description": "Model | Hat Maker | Fashionista",
@@ -33,7 +32,6 @@
     "category": "index",
     "src": "../assets/images/index/manti-la-sal-milky-way-6885-comp.jpg"
   },
-
   {
     "name": "Samantha Roman",
     "description": "Model",
@@ -75,17 +73,90 @@
     "---------------PORTRAITS--------------": "----------------------------------"
   },
   {
+    "name": "Will Oldham aka: Bonnie Prince Billy",
+    "description": "Musician | Actor | Author | Poet",
+    "category": "portraits",
+    "src": "../assets/images/portraits/will-oldham-20170626-_MG_2183.jpg"
+  },
+  {
+    "name": "Cristina Floro",
+    "description": "Model",
+    "category": "portraits",
+    "src": "../assets/images/portraits/floro-cristina-5117.jpg"
+  },
+  {
+    "name": "Lily Le in a phone booth on the streets in Kansas City",
+    "description": "Model",
+    "category": "portraits",
+    "src": "../assets/images/portraits/lily-le-_MG_8555.jpg"
+  },
+  {
     "name": "Jeff Louden",
     "description": "Chief Technology Officer | Time Magazine",
     "category": "portraits",
     "src": "../assets/images/portraits/jeff-louden-20170906-_MG_2752-cropped.jpg"
   },
+  {
+    "name": "Sarah Ventura Sutherland gathers vegetables from her garden",
+    "description": "Sea and Stone Clothing",
+    "category": "portraits",
+    "src": "../assets/images/portraits/sarah-ventura-_MG_9404-final.jpg"
+  },
+  {
+    "name": "Samantha Roman",
+    "description": "Model",
+    "category": "portraits",
+    "src": "../assets/images/portraits/samantha-roman-20180102-_MG_3163-cropped-8x10.jpg"
+  },
 
+  {
+    "name": "Kirby Coleman",
+    "description": "Model | Hat Maker | Fashionista",
+    "category": "portraits",
+    "src": "../assets/images/portraits/kirby-coleman-20170702-_MG_2350-8x10-extended.jpg"
+  },
+  {
+    "name": "Sunny Ra in a sun flower field on the backroads of Kentucky",
+    "description": "Arts Educator | Master Painter",
+    "category": "portraits",
+    "src": "../assets/images/portraits/sunny-ra-20150714-_MG_6379_version_2.jpg"
+  },
+  {
+    "name": "Samantha Roman",
+    "description": "Model",
+    "category": "portraits",
+    "src": "../assets/images/portraits/samantha-roman-20180102-_MG_3030-v1.jpg"
+  },
   {
     "name": "Kat Rist",
     "description": "Model | MUA",
     "category": "portraits",
     "src": "../assets/images/portraits/kat-rist-20160315-_MG_7353_v1-cropped.jpg"
+  },
+  {
+    "name": "Sunny Ra",
+    "description": "Arts Educator | Master Painter",
+    "category": "portraits",
+    "src": "../assets/images/portraits/sunny-ra-20170505-_MG_1736.jpg"
+  },
+  {
+    "name": "Lily Le sits on a swing on her front porch",
+    "description": "",
+    "category": "portraits",
+    "src": "../assets/images/portraits/lily-le-lilys_house_0007.jpg"
+  },
+
+  {
+    "name": "Sarah Ventura Sutherland",
+    "description": "Sea and Stone Clothing",
+    "category": "portraits",
+    "src": "../assets/images/portraits/sarah-ventura-20160114-_MG_6897_V3.jpg"
+  },
+  {
+    "name": "Sunny Ra",
+    "description": "Arts Educator | Master Painter",
+    "category": "portraits",
+    "src": "../assets/images/portraits/sunny-ra-20151227-_MG_6796_version_4-cropped.jpg"
   },
   {
     "---------------SCENIC--------------": "----------------------------------"
