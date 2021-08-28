@@ -108,7 +108,6 @@
     "category": "portraits",
     "src": "../assets/images/portraits/samantha-roman-20180102-_MG_3163-cropped-8x10.jpg"
   },
-
   {
     "name": "Kirby Coleman",
     "description": "Model | Hat Maker | Fashionista",
@@ -116,7 +115,13 @@
     "src": "../assets/images/portraits/kirby-coleman-20170702-_MG_2350-8x10-extended.jpg"
   },
   {
-    "name": "Sunny Ra in a sun flower field on the backroads of Kentucky",
+    "name": "Justin Vining in his studio in Indianapolis, IN",
+    "description": "Painter",
+    "category": "portraits",
+    "src": "../assets/images/portraits/justin-vining-studio_654_0166.jpg"
+  },
+  {
+    "name": "Sunny Ra in a sunflower field on the backroads of Kentucky",
     "description": "Arts Educator | Master Painter",
     "category": "portraits",
     "src": "../assets/images/portraits/sunny-ra-20150714-_MG_6379_version_2.jpg"
@@ -128,10 +133,34 @@
     "src": "../assets/images/portraits/samantha-roman-20180102-_MG_3030-v1.jpg"
   },
   {
+    "name": "Erin Stephens",
+    "description": "",
+    "category": "portraits",
+    "src": "../assets/images/portraits/erin-stephens-20171123-_MG_2919-V1.jpg"
+  },
+  {
+    "name": "Cheyenne Marie Mize",
+    "description": "Musician",
+    "category": "portraits",
+    "src": "../assets/images/portraits/mize_cheyenne_21_version_1.jpg"
+  },
+  {
     "name": "Kat Rist",
     "description": "Model | MUA",
     "category": "portraits",
     "src": "../assets/images/portraits/kat-rist-20160315-_MG_7353_v1-cropped.jpg"
+  },
+  {
+    "name": "Ashley Holt",
+    "description": "Sugar Monster Sweets",
+    "category": "portraits",
+    "src": "../assets/images/portraits/holt_ashley_047.jpg"
+  },
+  {
+    "name": "Jaime Corum",
+    "description": "Teacher | Painter",
+    "category": "portraits",
+    "src": "../assets/images/portraits/corum_jaime_0119.jpg"
   },
   {
     "name": "Sunny Ra",
@@ -140,10 +169,28 @@
     "src": "../assets/images/portraits/sunny-ra-20170505-_MG_1736.jpg"
   },
   {
+    "name": "Young girl",
+    "description": "Zombiewalk | Louisville, KY",
+    "category": "portraits",
+    "src": "../assets/images/portraits/zombiewalk_032.jpg"
+  },
+  {
+    "name": "Tim Furnish",
+    "description": "Musician",
+    "category": "portraits",
+    "src": "../assets/images/portraits/tim-furnish-20160316-_MG_7393-1.jpg"
+  },
+  {
     "name": "Lily Le sits on a swing on her front porch",
     "description": "",
     "category": "portraits",
     "src": "../assets/images/portraits/lily-le-lilys_house_0007.jpg"
+  },
+  {
+    "name": "Adam Henry",
+    "description": "Rock Climbing Developer",
+    "category": "portraits",
+    "src": "../assets/images/portraits/adam-henry-horse_pens_40_4003_desat.jpg"
   },
 
   {
@@ -153,10 +200,28 @@
     "src": "../assets/images/portraits/sarah-ventura-20160114-_MG_6897_V3.jpg"
   },
   {
+    "name": "Aaron Mette",
+    "description": "Amazon: Program Manager",
+    "category": "portraits",
+    "src": "../assets/images/portraits/aaron-mette-20160620-O49A6214-1_V2.jpg"
+  },
+  {
     "name": "Sunny Ra",
     "description": "Arts Educator | Master Painter",
     "category": "portraits",
     "src": "../assets/images/portraits/sunny-ra-20151227-_MG_6796_version_4-cropped.jpg"
+  },
+  {
+    "name": "Matt Ballard",
+    "description": "Skate Videographer",
+    "category": "portraits",
+    "src": "../assets/images/portraits/matt-ballard-theballard_1469.jpg"
+  },
+  {
+    "name": "Jeff Louden",
+    "description": "Chief Technology Officer | Time Magazine",
+    "category": "portraits",
+    "src": "../assets/images/portraits/jeff-louden-20170906-_MG_2758.jpg"
   },
   {
     "---------------SCENIC--------------": "----------------------------------"

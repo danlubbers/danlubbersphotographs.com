@@ -83,7 +83,7 @@ const Header = ({ bioDescription }) => {
           >
             <span className={styles.menubar1} />
             <span className={styles.menubar2} />
-            <span className={styles.menubar3} />
+            <span />
           </div>
         </nav>
         {isMobileDisplay && (
