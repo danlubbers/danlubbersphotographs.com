@@ -92,7 +92,7 @@
   },
   {
     "name": "Jeff Louden",
-    "description": "Chief Technology Officer | Time Magazine",
+    "description": "Time Magazine | Chief Technology Officer",
     "category": "portraits",
     "src": "../assets/images/portraits/jeff-louden-20170906-_MG_2752-cropped.jpg"
   },
@@ -151,16 +151,34 @@
     "src": "../assets/images/portraits/kat-rist-20160315-_MG_7353_v1-cropped.jpg"
   },
   {
+    "name": "A shirtless man poses against a concrete wall wearing a gas mask",
+    "description": "",
+    "category": "portraits",
+    "src": "../assets/images/portraits/trevor-sutherland-20130109-_MG_1585_version_2.jpg"
+  },
+  {
     "name": "Ashley Holt",
     "description": "Sugar Monster Sweets",
     "category": "portraits",
     "src": "../assets/images/portraits/holt_ashley_047.jpg"
   },
   {
+    "name": "Trista Hughes",
+    "description": "Model",
+    "category": "portraits",
+    "src": "../assets/images/portraits/trista-hughes-20160622-_MG_8538-cropped.jpg"
+  },
+  {
     "name": "Jaime Corum",
     "description": "Teacher | Painter",
     "category": "portraits",
     "src": "../assets/images/portraits/corum_jaime_0119.jpg"
+  },
+  {
+    "name": "Tyler Deeb",
+    "description": "Misc. Goods Co",
+    "category": "portraits",
+    "src": "../assets/images/portraits/tyler-deeb-tyler_1425.jpg"
   },
   {
     "name": "Sunny Ra",
@@ -175,8 +193,14 @@
     "src": "../assets/images/portraits/zombiewalk_032.jpg"
   },
   {
+    "name": "Alexis Mosvold",
+    "description": "LMT",
+    "category": "portraits",
+    "src": "../assets/images/portraits/alexis-mosvold-20160224-_MG_7072_V3.jpg"
+  },
+  {
     "name": "Tim Furnish",
-    "description": "Musician",
+    "description": "Musician | Photographer | Designer",
     "category": "portraits",
     "src": "../assets/images/portraits/tim-furnish-20160316-_MG_7393-1.jpg"
   },
@@ -187,10 +211,22 @@
     "src": "../assets/images/portraits/lily-le-lilys_house_0007.jpg"
   },
   {
+    "name": "Bailey Hampton",
+    "description": "Psychologist | Therapist",
+    "category": "portraits",
+    "src": "../assets/images/portraits/bailey-hampton-20160918-_MG_8952-cropped-8x10.jpg"
+  },
+  {
     "name": "Adam Henry",
     "description": "Rock Climbing Developer",
     "category": "portraits",
     "src": "../assets/images/portraits/adam-henry-horse_pens_40_4003_desat.jpg"
+  },
+  {
+    "name": "Todd Brashear",
+    "description": "Slint | Wild and Wooly",
+    "category": "portraits",
+    "src": "../assets/images/portraits/todd-brashear-20121101-_MG_0891.jpg"
   },
 
   {
@@ -218,10 +254,34 @@
     "src": "../assets/images/portraits/matt-ballard-theballard_1469.jpg"
   },
   {
+    "name": "Shadow Ayala & his dog Sumo",
+    "description": "Rock Climber",
+    "category": "portraits",
+    "src": "../assets/images/portraits/shadow_sumo_vertical_final.jpg"
+  },
+  {
+    "name": "Nataly Nguyen",
+    "description": "",
+    "category": "portraits",
+    "src": "../assets/images/portraits/nataly-nguyen-20161218-_MG_1066-version-1.jpg"
+  },
+  {
     "name": "Jeff Louden",
-    "description": "Chief Technology Officer | Time Magazine",
+    "description": "Time Magazine | Chief Technology Officer",
     "category": "portraits",
     "src": "../assets/images/portraits/jeff-louden-20170906-_MG_2758.jpg"
+  },
+  {
+    "name": "Jimmy Ford",
+    "description": "Tae Kwon Do Teacher",
+    "category": "portraits",
+    "src": "../assets/images/portraits/jimmy-ford-20130930-_MG_3308.jpg"
+  },
+  {
+    "name": "Chris Sierzant",
+    "description": "Rock Climber",
+    "category": "portraits",
+    "src": "../assets/images/portraits/chris-sierzant_1532_final.jpg"
   },
   {
     "---------------SCENIC--------------": "----------------------------------"
