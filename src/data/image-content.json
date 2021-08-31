@@ -20,7 +20,6 @@
     "category": "index",
     "src": "../assets/images/index/will-oldham-20170626-_MG_2228.jpg"
   },
-
   {
     "name": "Kirby Coleman",
     "description": "Model | Hat Maker | Fashionista",
@@ -33,7 +32,6 @@
     "category": "index",
     "src": "../assets/images/index/manti-la-sal-milky-way-6885-comp.jpg"
   },
-
   {
     "name": "Samantha Roman",
     "description": "Model",
@@ -75,17 +73,221 @@
     "---------------PORTRAITS--------------": "----------------------------------"
   },
   {
+    "name": "Will Oldham aka: Bonnie Prince Billy",
+    "description": "Musician | Actor | Author | Poet",
+    "category": "portraits",
+    "src": "../assets/images/portraits/will-oldham-20170626-_MG_2183.jpg"
+  },
+  {
+    "name": "Cristina Floro",
+    "description": "Model",
+    "category": "portraits",
+    "src": "../assets/images/portraits/floro-cristina-5117.jpg"
+  },
+  {
+    "name": "Lily Le in a phone booth on the streets in Kansas City",
+    "description": "Model",
+    "category": "portraits",
+    "src": "../assets/images/portraits/lily-le-_MG_8555.jpg"
+  },
+  {
     "name": "Jeff Louden",
-    "description": "Chief Technology Officer | Time Magazine",
+    "description": "Time Magazine | Chief Technology Officer",
     "category": "portraits",
     "src": "../assets/images/portraits/jeff-louden-20170906-_MG_2752-cropped.jpg"
   },
-
+  {
+    "name": "Sarah Ventura Sutherland gathers vegetables from her garden",
+    "description": "Sea and Stone Clothing",
+    "category": "portraits",
+    "src": "../assets/images/portraits/sarah-ventura-_MG_9404-final.jpg"
+  },
+  {
+    "name": "Samantha Roman",
+    "description": "Model",
+    "category": "portraits",
+    "src": "../assets/images/portraits/samantha-roman-20180102-_MG_3163-cropped-8x10.jpg"
+  },
+  {
+    "name": "Kirby Coleman",
+    "description": "Model | Hat Maker | Fashionista",
+    "category": "portraits",
+    "src": "../assets/images/portraits/kirby-coleman-20170702-_MG_2350-8x10-extended.jpg"
+  },
+  {
+    "name": "Justin Vining in his studio in Indianapolis, IN",
+    "description": "Painter",
+    "category": "portraits",
+    "src": "../assets/images/portraits/justin-vining-studio_654_0166.jpg"
+  },
+  {
+    "name": "Sunny Ra in a sunflower field on the backroads of Kentucky",
+    "description": "Arts Educator | Master Painter",
+    "category": "portraits",
+    "src": "../assets/images/portraits/sunny-ra-20150714-_MG_6379_version_2.jpg"
+  },
+  {
+    "name": "Samantha Roman",
+    "description": "Model",
+    "category": "portraits",
+    "src": "../assets/images/portraits/samantha-roman-20180102-_MG_3030-v1.jpg"
+  },
+  {
+    "name": "Erin Stephens",
+    "description": "",
+    "category": "portraits",
+    "src": "../assets/images/portraits/erin-stephens-20171123-_MG_2919-V1.jpg"
+  },
+  {
+    "name": "Cheyenne Marie Mize",
+    "description": "Musician",
+    "category": "portraits",
+    "src": "../assets/images/portraits/mize_cheyenne_21_version_1.jpg"
+  },
   {
     "name": "Kat Rist",
     "description": "Model | MUA",
     "category": "portraits",
     "src": "../assets/images/portraits/kat-rist-20160315-_MG_7353_v1-cropped.jpg"
+  },
+  {
+    "name": "A shirtless man poses against a concrete wall wearing a gas mask",
+    "description": "",
+    "category": "portraits",
+    "src": "../assets/images/portraits/trevor-sutherland-20130109-_MG_1585_version_2.jpg"
+  },
+  {
+    "name": "Ashley Holt",
+    "description": "Sugar Monster Sweets",
+    "category": "portraits",
+    "src": "../assets/images/portraits/holt_ashley_047.jpg"
+  },
+  {
+    "name": "Trista Hughes",
+    "description": "Model",
+    "category": "portraits",
+    "src": "../assets/images/portraits/trista-hughes-20160622-_MG_8538-cropped.jpg"
+  },
+  {
+    "name": "Jaime Corum",
+    "description": "Teacher | Painter",
+    "category": "portraits",
+    "src": "../assets/images/portraits/corum_jaime_0119.jpg"
+  },
+  {
+    "name": "Tyler Deeb",
+    "description": "Misc. Goods Co",
+    "category": "portraits",
+    "src": "../assets/images/portraits/tyler-deeb-tyler_1425.jpg"
+  },
+  {
+    "name": "Sunny Ra",
+    "description": "Arts Educator | Master Painter",
+    "category": "portraits",
+    "src": "../assets/images/portraits/sunny-ra-20170505-_MG_1736.jpg"
+  },
+  {
+    "name": "Young girl",
+    "description": "Zombiewalk | Louisville, KY",
+    "category": "portraits",
+    "src": "../assets/images/portraits/zombiewalk_032.jpg"
+  },
+  {
+    "name": "Alexis Mosvold",
+    "description": "LMT",
+    "category": "portraits",
+    "src": "../assets/images/portraits/alexis-mosvold-20160224-_MG_7072_V3.jpg"
+  },
+  {
+    "name": "Tim Furnish",
+    "description": "Musician | Photographer | Designer",
+    "category": "portraits",
+    "src": "../assets/images/portraits/tim-furnish-20160316-_MG_7393-1.jpg"
+  },
+  {
+    "name": "Lily Le sits on a swing on her front porch",
+    "description": "",
+    "category": "portraits",
+    "src": "../assets/images/portraits/lily-le-lilys_house_0007.jpg"
+  },
+  {
+    "name": "Bailey Hampton",
+    "description": "Psychologist | Therapist",
+    "category": "portraits",
+    "src": "../assets/images/portraits/bailey-hampton-20160918-_MG_8952-cropped-8x10.jpg"
+  },
+  {
+    "name": "Eric Gifford",
+    "description": "Rock Climber | MMA Fighter",
+    "category": "portraits",
+    "src": "../assets/images/portraits/eric-gifford-belterra_mma_009.jpg"
+  },
+  {
+    "name": "Adam Henry",
+    "description": "Rock Climbing Developer",
+    "category": "portraits",
+    "src": "../assets/images/portraits/adam-henry-horse_pens_40_4003_desat.jpg"
+  },
+  {
+    "name": "Todd Brashear",
+    "description": "Slint | Wild and Wooly",
+    "category": "portraits",
+    "src": "../assets/images/portraits/todd-brashear-20121101-_MG_0891.jpg"
+  },
+
+  {
+    "name": "Sarah Ventura Sutherland",
+    "description": "Sea and Stone Clothing",
+    "category": "portraits",
+    "src": "../assets/images/portraits/sarah-ventura-20160114-_MG_6897_V3.jpg"
+  },
+  {
+    "name": "Aaron Mette",
+    "description": "Amazon: Program Manager",
+    "category": "portraits",
+    "src": "../assets/images/portraits/aaron-mette-20160620-O49A6214-1_V2.jpg"
+  },
+  {
+    "name": "Sunny Ra",
+    "description": "Arts Educator | Master Painter",
+    "category": "portraits",
+    "src": "../assets/images/portraits/sunny-ra-20151227-_MG_6796_version_4-cropped.jpg"
+  },
+  {
+    "name": "Matt Ballard",
+    "description": "Skate Videographer",
+    "category": "portraits",
+    "src": "../assets/images/portraits/matt-ballard-theballard_1469.jpg"
+  },
+  {
+    "name": "Shadow Ayala & his dog Sumo",
+    "description": "Rock Climber",
+    "category": "portraits",
+    "src": "../assets/images/portraits/shadow_sumo_vertical_final.jpg"
+  },
+  {
+    "name": "Nataly Nguyen",
+    "description": "",
+    "category": "portraits",
+    "src": "../assets/images/portraits/nataly-nguyen-20161218-_MG_1066-version-1.jpg"
+  },
+  {
+    "name": "Jeff Louden",
+    "description": "Time Magazine | Chief Technology Officer",
+    "category": "portraits",
+    "src": "../assets/images/portraits/jeff-louden-20170906-_MG_2758.jpg"
+  },
+  {
+    "name": "Jimmy Ford",
+    "description": "Tae Kwon Do Teacher",
+    "category": "portraits",
+    "src": "../assets/images/portraits/jimmy-ford-20130930-_MG_3308.jpg"
+  },
+  {
+    "name": "Chris Sierzant",
+    "description": "Rock Climber",
+    "category": "portraits",
+    "src": "../assets/images/portraits/chris-sierzant_1532_final.jpg"
   },
   {
     "---------------SCENIC--------------": "----------------------------------"
@@ -441,16 +643,184 @@
     "---------------PUBLISHED--------------": "----------------------------------"
   },
   {
-    "name": "TESTING IMAGE",
-    "description": "",
+    "name": "Portrait of Will Oldham for his Book: \"Songs of Love & Horror\"",
+    "description": "Carmichael's Bookstore signing event | Louisville, KY",
     "category": "published",
-    "src": "../assets/images/action/lake-george-ice-racing-20190223-_MG_1645.jpg"
+    "src": "../assets/images/published/New_SINGLE_instore-poster-oldham-web.jpg"
+  },
+  {
+    "name": "Jimmy Ford on the cover of UAW-FORD Community Magazine",
+    "description": "Winter 2013/2014",
+    "category": "published",
+    "src": "../assets/images/published/danlubbers-published-portfolio-1-1.jpg"
+  },
+  {
+    "name": "A honeybee on a Moonflower on the cover of Kelley Beekeeping Catalogue",
+    "description": "Spring 2015",
+    "category": "published",
+    "src": "../assets/images/published/danlubbers-published-portfolio-1-2.jpg"
+  },
+  {
+    "name": "Jim Fisher For the Love of Rick Thomas in UAW-FORD Community Magazine",
+    "description": "March 2014",
+    "category": "published",
+    "src": "../assets/images/published/danlubbers-published-portfolio-1-3.jpg"
+  },
+  {
+    "name": "Joey Kinder makes the first ascent of 'Southern Comfort Right' 5.14b Little River Canyon, AL",
+    "description": "La Sportiva Testarossa AD",
+    "category": "published",
+    "src": "../assets/images/published/danlubbers-published-portfolio-1.jpg"
+  },
+  {
+    "name": "A perspective article on Timy Fairfield",
+    "description": "Climbing Magazine, September 2009",
+    "category": "published",
+    "src": "../assets/images/published/danlubbers-published-portfolio-2.jpg"
+  },
+  {
+    "name": "Article in Urban Climber Magazine",
+    "description": "June/July 2011 Photo Annual Issue",
+    "category": "published",
+    "src": "../assets/images/published/danlubbers-published-portfolio-3.jpg"
+  },
+  {
+    "name": "A Perspective article on Adam Henry",
+    "description": "Climbing Magazine",
+    "category": "published",
+    "src": "../assets/images/published/danlubbers-published-portfolio-4.jpg"
+  },
+  {
+    "name": "Stephen Woodward - Hiking the Natural Bridge Trail",
+    "description": "National Geographic Adventure - Next Weekend Adventure",
+    "category": "published",
+    "src": "../assets/images/published/danlubbers-published-portfolio-5.jpg"
+  },
+  {
+    "name": "Jason Kehl makes the second ascent of The Shield. V12 Little Rock City, TN",
+    "description": "La Sportiva Solutions AD",
+    "category": "published",
+    "src": "../assets/images/published/danlubbers-published-portfolio-6.jpg"
+  },
+  {
+    "name": "Jason Kehl makes the second ascent of The Shield. V12",
+    "description": "Little Rock City, TN featured in Urban Climber Magazine",
+    "category": "published",
+    "src": "../assets/images/published/danlubbers-published-portfolio-7.jpg"
+  },
+  {
+    "name": "Bonnie Prince Billy and The Picket Line",
+    "description": "Funtown Comedown",
+    "category": "published",
+    "src": "../assets/images/published/danlubbers-published-portfolio-8.jpg"
+  },
+  {
+    "name": "Mark Osbourne and Jason Kehl",
+    "description": "Horse Pens 40 guidebook by Greener Grass Publications",
+    "category": "published",
+    "src": "../assets/images/published/danlubbers-published-portfolio-9.jpg"
+  },
+  {
+    "name": "Chris Sierzant takes a dump while reading Urban Climber Magazine",
+    "description": "Outhouse at Miguel's Pizza",
+    "category": "published",
+    "src": "../assets/images/published/danlubbers-published-portfolio-10.jpg"
+  },
+  {
+    "name": "Mark Osbourne on 'The Fin and Dave Fulton on 'Bridge Arete'",
+    "description": "Dead Point Magazine | Issue 3",
+    "category": "published",
+    "src": "../assets/images/published/danlubbers-published-portfolio-11.jpg"
+  },
+  {
+    "name": "Joe Kinder takes a bite out of some Southern Fried Chicken",
+    "description": "'Southern Fried Joe' in Dead Point Magazine",
+    "category": "published",
+    "src": "../assets/images/published/danlubbers-published-portfolio-12.jpg"
+  },
+  {
+    "name": "Chris Sierzant free solos Chainsaw Massacre 5.12a Motherlode, Red River Gorge, KY",
+    "description": "Prana AD",
+    "category": "published",
+    "src": "../assets/images/published/danlubbers-published-portfolio-13.jpg"
+  },
+  {
+    "name": "Drive Article - Eric Gifford",
+    "description": "Urban Climber Magazine | August 2011",
+    "category": "published",
+    "src": "../assets/images/published/danlubbers-published-portfolio-14.jpg"
+  },
+  {
+    "name": "Chris Sierzant",
+    "description": "Urban Climber Magazine | Feb/Mar 08",
+    "category": "published",
+    "src": "../assets/images/published/danlubbers-published-portfolio-15.jpg"
+  },
+  {
+    "name": "Drive Article - Shadow Ayala",
+    "description": "Urban Climber Magazine",
+    "category": "published",
+    "src": "../assets/images/published/danlubbers-published-portfolio-16.jpg"
+  },
+  {
+    "name": "Chris Sierzant climbs Psychosomatic V9 at Little Rock City, TN",
+    "description": "Stonefort guidebook by Greener Grass Publications",
+    "category": "published",
+    "src": "../assets/images/published/danlubbers-published-portfolio-17.jpg"
+  },
+  {
+    "name": "Article on Little Rock City, Chattanooga, TN",
+    "description": "Urban Climber Magazine",
+    "category": "published",
+    "src": "../assets/images/published/danlubbers-published-portfolio-18.jpg"
+  },
+  {
+    "name": "For Your Mountain",
+    "description": "La Sportiva AD",
+    "category": "published",
+    "src": "../assets/images/published/danlubbers-published-portfolio-19.jpg"
+  },
+  {
+    "name": "Chris Sierzant climbs Cadillac Thrills V9 at Horse Pens 40, AL",
+    "description": "Horse Pens 40 guidebook by Greener Grass Publications",
+    "category": "published",
+    "src": "../assets/images/published/danlubbers-published-portfolio-20.jpg"
+  },
+  {
+    "name": "Zach Sands and Jay Mitchell in The Dark Side",
+    "description": "Urban Climber Magazine",
+    "category": "published",
+    "src": "../assets/images/published/danlubbers-published-portfolio-21.jpg"
+  },
+  {
+    "name": "Senya Iaryguine climbs The Pinch V7 at Little Rock City, TN",
+    "description": "Stonefort guidebook by Greener Grass Publications",
+    "category": "published",
+    "src": "../assets/images/published/danlubbers-published-portfolio-22.jpg"
+  },
+  {
+    "name": "The dirty south article",
+    "description": "Urban Climber Magazine",
+    "category": "published",
+    "src": "../assets/images/published/danlubbers-published-portfolio-23.jpg"
+  },
+  {
+    "name": "Heath Bailey",
+    "description": "Misty Mountain Threadworks | Catalogue 06",
+    "category": "published",
+    "src": "../assets/images/published/danlubbers-published-portfolio-24.jpg"
+  },
+  {
+    "name": "Jason Kehl on Slider V9 Horse Pens 40, AL",
+    "description": "La Sportiva Online | Solutions Tour",
+    "category": "published",
+    "src": "../assets/images/published/danlubbers-published-portfolio-25.jpg"
   },
   {
     "---------------RETOUCHING--------------": "----------------------------------"
   },
   {
-    "name": "TESTING IMAGE",
+    "name": "",
     "description": "",
     "category": "retouching",
     "src": "../assets/images/action/lake-george-ice-racing-20190223-_MG_1645.jpg"
