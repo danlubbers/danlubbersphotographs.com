@@ -36,19 +36,19 @@ const Navbar: React.FC<NavbarProps> = ({
         </div>
       </li>
       <li
-        className={isBio ? styles.bioActive : styles.navTitle}
+        className={styles.navTitle}
         onClick={() => handleClickNavDisplays(`bio`)}
         aria-hidden="true"
       >
-        <p className={styles.navTitle}>BIO</p>
+        <p className={isBio && styles.bioActive}>BIO</p>
       </li>
 
       <li
-        className={isConnect ? styles.connectActive : styles.navTitle}
+        className={styles.navTitle}
         onClick={() => handleClickNavDisplays(`connect`)}
         aria-hidden="true"
       >
-        <p className={styles.navTitle}>CONNECT</p>
+        <p className={isConnect && styles.connectActive}>CONNECT</p>
       </li>
     </ul>
   </nav>
