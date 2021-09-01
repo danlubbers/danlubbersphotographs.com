@@ -625,11 +625,102 @@
     "---------------MUSICIANS--------------": "----------------------------------"
   },
   {
-    "name": "TESTING IMAGE",
+    "name": "Matisyahu (Matthew Paul Miller) sings at an in store concert",
+    "description": "Ear-x-tacy in Louisville, KY",
+    "category": "musicians",
+    "src": "../assets/images/musicians/matisyahu_0027.jpg"
+  },
+  {
+    "name": "Explosions in the Sky bassist Michael James jams live during a concert",
+    "description": "Headliners Music Hall in Louisville, KY",
+    "category": "musicians",
+    "src": "../assets/images/musicians/explosions_in_the_sky_75.jpg"
+  },
+  {
+    "name": "My Morning Jacket performs a sold-out show",
+    "description": "Ear-X-Tacy in Louisville, KY",
+    "category": "musicians",
+    "src": "../assets/images/musicians/my_morning_jacket_2089_final_edit.jpg"
+  },
+  {
+    "name": "Jalin Roze performs at a festival",
+    "description": "New Albany, IN",
+    "category": "musicians",
+    "src": "../assets/images/musicians/jalin-roze-20150524-_MG_6191.jpg"
+  },
+  {
+    "name": "Will Oldham",
     "description": "",
     "category": "musicians",
-    "src": "../assets/images/action/lake-george-ice-racing-20190223-_MG_1645.jpg"
+    "src": "../assets/images/musicians/will-oldham-20130310-_MG_2468-copy.jpg"
   },
+  {
+    "name": "Wax Fang's bassist Jake Heustis performs a solo on stage",
+    "description": "Headliners Music Hall in Louisville, KY",
+    "category": "musicians",
+    "src": "../assets/images/musicians/jake_heustis.jpg"
+  },
+  {
+    "name": "Bonnie Prince Billy and the Picket Line perform a private concert to 300 people",
+    "description": "Funtown, KY",
+    "category": "musicians",
+    "src": "../assets/images/musicians/summer_of_evil_2888.jpg"
+  },
+  {
+    "name": "Black Mountains drummer Joshua Wells sings into the microphone while playing the drums",
+    "description": "Southgate House in Newport, KY",
+    "category": "musicians",
+    "src": "../assets/images/musicians/joshua.jpg"
+  },
+  {
+    "name": "My Morning Jacket performs a sold-out show",
+    "description": "Ear-X-Tacy in Louisville, KY",
+    "category": "musicians",
+    "src": "../assets/images/musicians/my_morning_jacket_2122.jpg"
+  },
+  {
+    "name": "Cheyennne Mize and Bonnie Price Billy (Will Oldham) singing in the studio for the album \"Funtown Comedown\"",
+    "description": "",
+    "category": "musicians",
+    "src": "../assets/images/musicians/bpb_picket_line_studio_103.jpg"
+  },
+  {
+    "name": "The Commonwealth's guitarist Stuart Phelps plays guitar in the studio while smoking a cigarette",
+    "description": "",
+    "category": "musicians",
+    "src": "../assets/images/musicians/the_commonwealth_004.jpg"
+  },
+  {
+    "name": "The Commonwealth",
+    "description": "Headliners Music Hall in Louisville, KY",
+    "category": "musicians",
+    "src": "../assets/images/musicians/commonwealth_headliners_46.jpg"
+  },
+  {
+    "name": "Joe Manning sings with \"Kings, Daughters & Sons\"",
+    "description": "Headliners Music Hall in Louisville, KY",
+    "category": "musicians",
+    "src": "../assets/images/musicians/kings_daughters_sons_4049.jpg"
+  },
+  {
+    "name": "My Morning Jacket's singer/songwriter Jim James performs a sold-out show",
+    "description": "Ear-X-Tacy in Louisville, KY",
+    "category": "musicians",
+    "src": "../assets/images/musicians/my_morning_jacket_2108.jpg"
+  },
+  {
+    "name": "Jonathon Wood performs at local record store",
+    "description": "Ear-X-Tacy in Louisville, KY",
+    "category": "musicians",
+    "src": "../assets/images/musicians/jonathan_wood_46.jpg"
+  },
+  {
+    "name": "Will Oldham performs for a group of children at a performance for \"Liberation Living Room\"",
+    "description": "GreenHaus | Louisville, KY",
+    "category": "musicians",
+    "src": "../assets/images/musicians/will-oldham-20130310-_MG_2430.jpg"
+  },
+
   {
     "---------------STILL-LIFE--------------": "----------------------------------"
   },
