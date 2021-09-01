@@ -17,7 +17,7 @@ const Navbar: React.FC<NavbarProps> = ({
   isConnect,
 }) => (
   <nav>
-    <ul className={styles.navWrapper}>
+    <div className={styles.navWrapper}>
       <li onMouseLeave={() => handleClickNavDisplays(`leavePortfolio`)}>
         <p
           className={styles.navTitle}
@@ -50,7 +50,7 @@ const Navbar: React.FC<NavbarProps> = ({
       >
         CONNECT
       </li>
-    </ul>
+    </div>
   </nav>
 );
 
