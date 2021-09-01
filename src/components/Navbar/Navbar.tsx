@@ -18,14 +18,14 @@ const Navbar: React.FC<NavbarProps> = ({
 }) => (
   <nav>
     <ul className={styles.navWrapper}>
-      <div onMouseLeave={() => handleClickNavDisplays(`leavePortfolio`)}>
-        <li
+      <li onMouseLeave={() => handleClickNavDisplays(`leavePortfolio`)}>
+        <p
           className={styles.navTitle}
           onMouseEnter={() => handleClickNavDisplays(`enterPortfolio`)}
         >
           PORTFOLIO
-        </li>
-        <ul
+        </p>
+        <div
           className={
             isPortfolio
               ? styles.portfolioDropdownActive
@@ -33,8 +33,8 @@ const Navbar: React.FC<NavbarProps> = ({
           }
         >
           <NavGalleryLinks />
-        </ul>
-      </div>
+        </div>
+      </li>
       <li
         className={isBio ? styles.bioActive : styles.navTitle}
         onClick={() => handleClickNavDisplays(`bio`)}
