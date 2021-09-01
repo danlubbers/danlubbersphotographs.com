@@ -3,6 +3,7 @@ module.exports = {
   // don't need to define it here (just if you need to change the options)
   siteMetadata: {
     title: `Dan Lubbers Photographs`,
+    lang: `en`,
     titleTemplate: ``,
     description: `Dan Lubbers is a Photographer / Retoucher / Web Developer specializing in Studio and Environmental Portraits.`,
     url: `https://www.danlubbersphotographs.com`, // No trailing slash allowed!

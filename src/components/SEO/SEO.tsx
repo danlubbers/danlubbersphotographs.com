@@ -3,12 +3,14 @@ import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
 import { useLocation } from '@reach/router';
 import { useStaticQuery, graphql } from 'gatsby';
+import { sep } from 'path';
 
 const query = graphql`
   query SEO {
     site {
       siteMetadata {
         defaultTitle: title
+        defaultLang: lang
         titleTemplate
         defaultDescription: description
         defaultKeywords: keywords
@@ -20,11 +22,12 @@ const query = graphql`
   }
 `;
 
-const SEO = ({ title, description, image, article, keywords }) => {
+const SEO = ({ title, lang, description, image, article, keywords }) => {
   const { pathname } = useLocation();
   const { site } = useStaticQuery(query);
   const {
     defaultTitle,
+    defaultLang,
     titleTemplate,
     defaultDescription,
     defaultKeywords,
@@ -34,6 +37,7 @@ const SEO = ({ title, description, image, article, keywords }) => {
   } = site.siteMetadata;
   const seo = {
     title: title || defaultTitle,
+    lang: lang || defaultLang,
     description: description || defaultDescription,
     keywords: keywords || defaultKeywords,
     image: `${siteUrl}${image || defaultImage}`,
@@ -41,6 +45,7 @@ const SEO = ({ title, description, image, article, keywords }) => {
   };
   return (
     <Helmet title={seo.title} titleTemplate={titleTemplate}>
+      <html lang={seo.lang} />
       <meta name="description" content={seo.description} />
       <meta name="image" content={seo.image} />
       {seo.url && <meta property="og:url" content={seo.url} />}
@@ -67,6 +72,7 @@ export default SEO;
 
 SEO.propTypes = {
   title: PropTypes.string,
+  lang: PropTypes.string,
   description: PropTypes.string,
   keywords: PropTypes.string,
   image: PropTypes.string,
@@ -75,6 +81,7 @@ SEO.propTypes = {
 
 SEO.defaultProps = {
   title: null,
+  lang: null,
   description: null,
   keywords: null,
   image: null,
