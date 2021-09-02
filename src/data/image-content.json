@@ -621,11 +621,115 @@
   {
     "---------------LIFESTYLE--------------": "----------------------------------"
   },
+
   {
-    "name": "TESTING IMAGE",
+    "name": "A skateboarder scopes out a spot in Butchertown",
+    "description": "Louisville, KY",
+    "category": "lifestyle",
+    "src": "../assets/images/lifestyle/msd_brechner_07.jpg"
+  },
+  {
+    "name": "A girl sits at the edge of a swimming quarry on a hot summer day",
+    "description": "Kentucky",
+    "category": "lifestyle",
+    "src": "../assets/images/lifestyle/rock-quarry-20140616-_MG_4785.jpg"
+  },
+  {
+    "name": "Climbers sleep in their tents during a foggy night at Miguel's Pizza",
+    "description": "Red River Gorge, KY",
+    "category": "lifestyle",
+    "src": "../assets/images/lifestyle/foggy-tents-_MG_0077_78_79_80_tonemapped_perspective_control.jpg"
+  },
+  {
+    "name": "Mixed Martial Arts fighter, Eric Gifford faces off his opponent",
+    "description": "Belterra Casino, IN",
+    "category": "lifestyle",
+    "src": "../assets/images/lifestyle/belterra_mma_106.jpg"
+  },
+  {
+    "name": "The silhouette of a woman gazes over the Pacific Ocean beneath a tree",
+    "description": "The Big Island of Hawaii",
+    "category": "lifestyle",
+    "src": "../assets/images/lifestyle/Kileua_Kona_Day_4_0183.jpg"
+  },
+  {
+    "name": "A cyclist warms up on a stationary cycling stand before a race",
     "description": "",
     "category": "lifestyle",
-    "src": "../assets/images/action/lake-george-ice-racing-20190223-_MG_1645.jpg"
+    "src": "../assets/images/lifestyle/masters_nationals_2346.jpg"
+  },
+  {
+    "name": "Pro-climber, Jason Kehl warms up the digits in 25 degree weather before hoping back on the rock",
+    "description": "",
+    "category": "lifestyle",
+    "src": "../assets/images/lifestyle/kehl_propane.jpg"
+  },
+  {
+    "name": "A man rests with his snowboard atop the mountain",
+    "description": "",
+    "category": "lifestyle",
+    "src": "../assets/images/lifestyle/max_patch_147-2.jpg"
+  },
+  {
+    "name": "Burgers cooking on a grill during sunset over a Labor Day Weekend",
+    "description": "",
+    "category": "lifestyle",
+    "src": "../assets/images/lifestyle/grilling_smoke.jpg"
+  },
+  {
+    "name": "Jamie Lang | Lang Art Glass | Working on a smoking pipe",
+    "description": "",
+    "category": "lifestyle",
+    "src": "../assets/images/lifestyle/lang_art_glass_0443.jpg"
+  },
+  {
+    "name": "Stephen Woodward takes a day off from rock climbing to enjoy the gorgeous area of Natural Bridge State Park",
+    "description": "",
+    "category": "lifestyle",
+    "src": "../assets/images/lifestyle/ntrl_brdg_3074.jpg"
+  },
+  {
+    "name": "A cyclist plans his route for an Alley Cat Race",
+    "description": "The Highlands of Louisville, KY",
+    "category": "lifestyle",
+    "src": "../assets/images/lifestyle/mondo_2.0_1st_set_3732_bnw.jpg"
+  },
+  {
+    "name": "A climber gets their figure eight knot stuck and another person helps to undo the knot",
+    "description": "",
+    "category": "lifestyle",
+    "src": "../assets/images/lifestyle/choc_factory_0009.jpg"
+  },
+  {
+    "name": "Concert goers legs and shadows",
+    "description": "",
+    "category": "lifestyle",
+    "src": "../assets/images/lifestyle/kings_daughters_sons.jpg"
+  },
+  {
+    "name": "A fan smokes a cigarette near a porta-potty at a music festival",
+    "description": "",
+    "category": "lifestyle",
+    "src": "../assets/images/lifestyle/summer_of_evil.jpg"
+  },
+  {
+    "name": "Artist Justin Vining paints in his studio",
+    "description": "Indianapolis, IN",
+    "category": "lifestyle",
+    "src": "../assets/images/lifestyle/studio_654_0141.jpg"
+  },
+  {
+    "name": "A fighter gets his hands wrapped before his match",
+    "description": "",
+    "category": "lifestyle",
+    "src": "../assets/images/lifestyle/belterra_mma_045.jpg"
+  },
+
+  {
+    "name": "Dario Ventura bolts a new route on a rock wall at the Chocolate Factory",
+    "description": "Red River Gorge, KY",
+    "category": "lifestyle",
+    "src": "../assets/images/lifestyle/dario-ventura-bolting_038.jpg"
   },
   {
     "---------------MUSICIANS--------------": "----------------------------------"
