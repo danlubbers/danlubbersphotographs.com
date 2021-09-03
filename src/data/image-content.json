@@ -460,6 +460,12 @@
     "src": "../assets/images/nature/dragonfly-20150905-_MG_6459.jpg"
   },
   {
+    "name": "Barred Owl",
+    "description": "Kentucky",
+    "category": "nature",
+    "src": "../assets/images/nature/cherokee-owl-5171.jpg"
+  },
+  {
     "name": "A honeybee collects pollen from a Moon Flower",
     "description": "Kentucky",
     "category": "nature",
@@ -470,6 +476,78 @@
     "description": "Parklands, Kentucky",
     "category": "nature",
     "src": "../assets/images/nature/chrysalis-20161016-_MG_0039-Edit.jpg"
+  },
+  {
+    "name": "Great Horned Owlet",
+    "description": "Kentucky",
+    "category": "nature",
+    "src": "../assets/images/nature/owlets-5753-Enhanced-1.jpg"
+  },
+  {
+    "name": "Red-Shouldered Hawk",
+    "description": "Kentucky",
+    "category": "nature",
+    "src": "../assets/images/nature/random-raptors-5632-Enhanced-1.jpg"
+  },
+  {
+    "name": "Morchella Americana",
+    "description": "Kentucky",
+    "category": "nature",
+    "src": "../assets/images/nature/morels-kentucky-5768-1.jpg"
+  },
+  {
+    "name": "Morpho Butterfly",
+    "description": "",
+    "category": "nature",
+    "src": "../assets/images/nature/blue_butterfly_6613.jpg"
+  },
+  {
+    "name": "Barred Owl",
+    "description": "Kentucky",
+    "category": "nature",
+    "src": "../assets/images/nature/cherokee-owl-5221-Enhanced.jpg"
+  },
+  {
+    "name": "Sea Turtle",
+    "description": "The Big Island, HI",
+    "category": "nature",
+    "src": "../assets/images/nature/South_Point_Day_2_0046_7_8_adjust.jpg"
+  },
+  {
+    "name": "Grasshopper",
+    "description": "Kentucky",
+    "category": "nature",
+    "src": "../assets/images/nature/grasshopper.jpg"
+  },
+  {
+    "name": "Morchella Americana",
+    "description": "Kentucky",
+    "category": "nature",
+    "src": "../assets/images/nature/morels-kentucky-5772-1.jpg"
+  },
+  {
+    "name": "Great Horned Owlets",
+    "description": "Kentucky",
+    "category": "nature",
+    "src": "../assets/images/nature/owlets-5685-Enhanced-1.jpg"
+  },
+  {
+    "name": "Moss",
+    "description": "Red River Gorge, KY",
+    "category": "nature",
+    "src": "../assets/images/nature/moss-gorge_04_06-08_1241.jpg"
+  },
+  {
+    "name": "A pair of adult Great Horned Owls watch over their nest",
+    "description": "Kentucky",
+    "category": "nature",
+    "src": "../assets/images/nature/random-raptors-5649-Enhanced-1.jpg"
+  },
+  {
+    "name": "Barred Owl",
+    "description": "Kentucky",
+    "category": "nature",
+    "src": "../assets/images/nature/barred-owl-lnc-5805-Enhanced.jpg"
   },
   {
     "---------------ACTION--------------": "----------------------------------"
@@ -886,16 +964,16 @@
     "---------------PUBLISHED--------------": "----------------------------------"
   },
   {
-    "name": "Portrait of Will Oldham for his Book: \"Songs of Love & Horror\"",
-    "description": "Carmichael's Bookstore signing event | Louisville, KY",
-    "category": "published",
-    "src": "../assets/images/published/New_SINGLE_instore-poster-oldham-web.jpg"
-  },
-  {
     "name": "Jimmy Ford on the cover of UAW-FORD Community Magazine",
     "description": "Winter 2013/2014",
     "category": "published",
     "src": "../assets/images/published/danlubbers-published-portfolio-1-1.jpg"
+  },
+  {
+    "name": "Portrait of Will Oldham for his Book: \"Songs of Love & Horror\"",
+    "description": "Carmichael's Bookstore signing event | Louisville, KY",
+    "category": "published",
+    "src": "../assets/images/published/New_SINGLE_instore-poster-oldham-web.jpg"
   },
   {
     "name": "A honeybee on a Moonflower on the cover of Kelley Beekeeping Catalogue",
