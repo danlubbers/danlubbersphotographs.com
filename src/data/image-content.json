@@ -835,10 +835,52 @@
     "---------------STILL-LIFE--------------": "----------------------------------"
   },
   {
-    "name": "TESTING IMAGE",
+    "name": "Glock 43 with Trijicon Iridium Sights",
     "description": "",
     "category": "still-life",
-    "src": "../assets/images/action/lake-george-ice-racing-20190223-_MG_1645.jpg"
+    "src": "../assets/images/still-life/glock-43-composite-v1.jpg"
+  },
+  {
+    "name": "Turtle Shell",
+    "description": "",
+    "category": "still-life",
+    "src": "../assets/images/still-life/turtle-shell-20161010-_MG_9195-Stacked-texture.jpg"
+  },
+  {
+    "name": "Everyday Carry Items",
+    "description": "Arcteryx Beta AR, Suunto Ambit 3 Peak, S&W MP9c, Benchmade Rift, CBK Dagger",
+    "category": "still-life",
+    "src": "../assets/images/still-life/20161214-_MG_0914-arcteryx-weapons-v1.jpg"
+  },
+  {
+    "name": "Hario Skerton",
+    "description": "Coffee Grinder",
+    "category": "still-life",
+    "src": "../assets/images/still-life/hario-grinder-20161214-_MG_1042-stacked.jpg"
+  },
+  {
+    "name": "Benchmade CBK Dagger",
+    "description": "",
+    "category": "still-life",
+    "src": "../assets/images/still-life/benchmade-cbk-20161213-_MG_0769-stacked.jpg"
+  },
+  {
+    "name": "Glock 43 with Trijicon Iridium Sights",
+    "description": "Taran Tactical +2 extender",
+    "category": "still-life",
+    "src": "../assets/images/still-life/20170316-_MG_1271-stacked.jpg"
+  },
+  {
+    "name": "Benchmade Rift",
+    "description": "",
+    "category": "still-life",
+    "src": "../assets/images/still-life/benchmade-rift-20161213-_MG_0793-stacked-1.jpg"
+  },
+  {
+    "name": "Smith & Wesson MP9c",
+    "description": "",
+    "category": "still-life",
+    "src": "../assets/images/still-life/snw-mp9c-20161213-_MG_0741-stacked-clean-white.jpg"
   },
   {
     "---------------PUBLISHED--------------": "----------------------------------"
