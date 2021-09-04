@@ -14,6 +14,18 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Dan Lubbers Photographs`,
+        short_name: `Dan Lubbers Photos`,
+        start_url: `/`,
+        background_color: `#f7f0eb#0e0e0e`,
+        theme_color: `#a52a25`,
+        display: `standalone`,
+        icon: `src/assets/images/manifest/danlubbers-favicon.png`,
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `data`,
