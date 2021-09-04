@@ -17,7 +17,10 @@ const Navbar: React.FC<NavbarProps> = ({
   isConnect,
 }) => (
   <nav>
-    <ul className={styles.navWrapper}>
+    <ul
+      className={styles.navWrapper}
+      onMouseLeave={() => handleClickNavDisplays(`leavePortfolio`)}
+    >
       <li
         className={styles.navTitle}
         onMouseEnter={() => handleClickNavDisplays(`enterPortfolio`)}
@@ -30,7 +33,6 @@ const Navbar: React.FC<NavbarProps> = ({
             ? styles.portfolioDropdownActive
             : styles.portfolioDropdownInactive
         }
-        onMouseLeave={() => handleClickNavDisplays(`leavePortfolio`)}
       >
         <NavGalleryLinks />
       </ul>
