@@ -234,6 +234,12 @@
     "category": "portraits",
     "src": "../assets/images/portraits/todd-brashear-20121101-_MG_0891.jpg"
   },
+  {
+    "name": "Maleka Planchat",
+    "description": "",
+    "category": "portraits",
+    "src": "../assets/images/portraits/maleka-planchat-20170711-_MG_2623.jpg"
+  },
 
   {
     "name": "Sarah Ventura Sutherland",
@@ -454,6 +460,12 @@
     "src": "../assets/images/nature/dragonfly-20150905-_MG_6459.jpg"
   },
   {
+    "name": "Barred Owl",
+    "description": "Kentucky",
+    "category": "nature",
+    "src": "../assets/images/nature/cherokee-owl-5171.jpg"
+  },
+  {
     "name": "A honeybee collects pollen from a Moon Flower",
     "description": "Kentucky",
     "category": "nature",
@@ -464,6 +476,78 @@
     "description": "Parklands, Kentucky",
     "category": "nature",
     "src": "../assets/images/nature/chrysalis-20161016-_MG_0039-Edit.jpg"
+  },
+  {
+    "name": "Great Horned Owlet",
+    "description": "Kentucky",
+    "category": "nature",
+    "src": "../assets/images/nature/owlets-5753-Enhanced-1.jpg"
+  },
+  {
+    "name": "Red-Shouldered Hawk",
+    "description": "Kentucky",
+    "category": "nature",
+    "src": "../assets/images/nature/random-raptors-5632-Enhanced-1.jpg"
+  },
+  {
+    "name": "Morchella Americana",
+    "description": "Kentucky",
+    "category": "nature",
+    "src": "../assets/images/nature/morels-kentucky-5768-1.jpg"
+  },
+  {
+    "name": "Morpho Butterfly",
+    "description": "",
+    "category": "nature",
+    "src": "../assets/images/nature/blue_butterfly_6613.jpg"
+  },
+  {
+    "name": "Barred Owl",
+    "description": "Kentucky",
+    "category": "nature",
+    "src": "../assets/images/nature/cherokee-owl-5221-Enhanced.jpg"
+  },
+  {
+    "name": "Sea Turtle",
+    "description": "The Big Island, HI",
+    "category": "nature",
+    "src": "../assets/images/nature/South_Point_Day_2_0046_7_8_adjust.jpg"
+  },
+  {
+    "name": "Grasshopper",
+    "description": "Kentucky",
+    "category": "nature",
+    "src": "../assets/images/nature/grasshopper.jpg"
+  },
+  {
+    "name": "Morchella Americana",
+    "description": "Kentucky",
+    "category": "nature",
+    "src": "../assets/images/nature/morels-kentucky-5772-1.jpg"
+  },
+  {
+    "name": "Great Horned Owlets",
+    "description": "Kentucky",
+    "category": "nature",
+    "src": "../assets/images/nature/owlets-5685-Enhanced-1.jpg"
+  },
+  {
+    "name": "Moss",
+    "description": "Red River Gorge, KY",
+    "category": "nature",
+    "src": "../assets/images/nature/moss-gorge_04_06-08_1241.jpg"
+  },
+  {
+    "name": "A pair of adult Great Horned Owls watch over their nest",
+    "description": "Kentucky",
+    "category": "nature",
+    "src": "../assets/images/nature/random-raptors-5649-Enhanced-1.jpg"
+  },
+  {
+    "name": "Barred Owl",
+    "description": "Kentucky",
+    "category": "nature",
+    "src": "../assets/images/nature/barred-owl-lnc-5805-Enhanced.jpg"
   },
   {
     "---------------ACTION--------------": "----------------------------------"
@@ -523,7 +607,7 @@
     "src": "../assets/images/action/daniel-brechner-horse_pens_40_0382.jpg"
   },
   {
-    "name": "Timy Fairfield makes the FA of \"Cover Methods\" V11",
+    "name": "Timy Fairfield makes the FA of \"Covert Methods\" V11",
     "description": "The Cove, Red River Gorge, KY",
     "category": "action",
     "src": "../assets/images/action/timy-fairfield_covert.jpg"
@@ -547,7 +631,7 @@
     "src": "../assets/images/action/joey_kinder_123_darker.jpg"
   },
   {
-    "name": "Carl Bakanowski trail runs at Seneca Park after a fresh snow fall",
+    "name": "Carl Bakanowski trail runs at Seneca Park on a snowy trail",
     "description": "Louisville, KY",
     "category": "action",
     "src": "../assets/images/action/bakanowski_carl_22.jpg"
@@ -615,44 +699,287 @@
   {
     "---------------LIFESTYLE--------------": "----------------------------------"
   },
+
   {
-    "name": "TESTING IMAGE",
+    "name": "A skateboarder scopes out a spot in Butchertown",
+    "description": "Louisville, KY",
+    "category": "lifestyle",
+    "src": "../assets/images/lifestyle/msd_brechner_07.jpg"
+  },
+  {
+    "name": "A girl sits at the edge of a swimming quarry on a hot summer day",
+    "description": "Kentucky",
+    "category": "lifestyle",
+    "src": "../assets/images/lifestyle/rock-quarry-20140616-_MG_4785.jpg"
+  },
+  {
+    "name": "Climbers sleep in their tents during a foggy night at Miguel's Pizza",
+    "description": "Red River Gorge, KY",
+    "category": "lifestyle",
+    "src": "../assets/images/lifestyle/foggy-tents-_MG_0077_78_79_80_tonemapped_perspective_control.jpg"
+  },
+  {
+    "name": "Mixed Martial Arts fighter, Eric Gifford faces off his opponent",
+    "description": "Belterra Casino, IN",
+    "category": "lifestyle",
+    "src": "../assets/images/lifestyle/belterra_mma_106.jpg"
+  },
+  {
+    "name": "The silhouette of a woman gazes over the Pacific Ocean beneath a tree",
+    "description": "The Big Island of Hawaii",
+    "category": "lifestyle",
+    "src": "../assets/images/lifestyle/Kileua_Kona_Day_4_0183.jpg"
+  },
+  {
+    "name": "A cyclist warms up on a stationary cycling stand before a race",
     "description": "",
     "category": "lifestyle",
-    "src": "../assets/images/action/lake-george-ice-racing-20190223-_MG_1645.jpg"
+    "src": "../assets/images/lifestyle/masters_nationals_2346.jpg"
+  },
+  {
+    "name": "Pro-climber, Jason Kehl warms up the digits in 25 degree weather before hoping back on the rock",
+    "description": "",
+    "category": "lifestyle",
+    "src": "../assets/images/lifestyle/kehl_propane.jpg"
+  },
+  {
+    "name": "A man rests with his snowboard atop the mountain",
+    "description": "",
+    "category": "lifestyle",
+    "src": "../assets/images/lifestyle/max_patch_147-2.jpg"
+  },
+  {
+    "name": "Burgers cooking on a grill during sunset over a Labor Day Weekend",
+    "description": "",
+    "category": "lifestyle",
+    "src": "../assets/images/lifestyle/grilling_smoke.jpg"
+  },
+  {
+    "name": "Jamie Lang | Lang Art Glass | Working on a smoking pipe",
+    "description": "",
+    "category": "lifestyle",
+    "src": "../assets/images/lifestyle/lang_art_glass_0443.jpg"
+  },
+  {
+    "name": "Stephen Woodward takes a day off from rock climbing to enjoy the gorgeous area of Natural Bridge State Park",
+    "description": "",
+    "category": "lifestyle",
+    "src": "../assets/images/lifestyle/ntrl_brdg_3074.jpg"
+  },
+  {
+    "name": "A cyclist plans his route for an Alley Cat Race",
+    "description": "The Highlands of Louisville, KY",
+    "category": "lifestyle",
+    "src": "../assets/images/lifestyle/mondo_2.0_1st_set_3732_bnw.jpg"
+  },
+  {
+    "name": "A climber gets their figure eight knot stuck and another person helps to undo the knot",
+    "description": "",
+    "category": "lifestyle",
+    "src": "../assets/images/lifestyle/choc_factory_0009.jpg"
+  },
+  {
+    "name": "Concert goers legs and shadows",
+    "description": "",
+    "category": "lifestyle",
+    "src": "../assets/images/lifestyle/kings_daughters_sons.jpg"
+  },
+  {
+    "name": "A fan smokes a cigarette near a porta-potty at a music festival",
+    "description": "",
+    "category": "lifestyle",
+    "src": "../assets/images/lifestyle/summer_of_evil.jpg"
+  },
+  {
+    "name": "Artist Justin Vining paints in his studio",
+    "description": "Indianapolis, IN",
+    "category": "lifestyle",
+    "src": "../assets/images/lifestyle/studio_654_0141.jpg"
+  },
+  {
+    "name": "A fighter gets his hands wrapped before his match",
+    "description": "",
+    "category": "lifestyle",
+    "src": "../assets/images/lifestyle/belterra_mma_045.jpg"
+  },
+
+  {
+    "name": "Dario Ventura bolts a new route on a rock wall at the Chocolate Factory",
+    "description": "Red River Gorge, KY",
+    "category": "lifestyle",
+    "src": "../assets/images/lifestyle/dario-ventura-bolting_038.jpg"
   },
   {
     "---------------MUSICIANS--------------": "----------------------------------"
   },
   {
-    "name": "TESTING IMAGE",
+    "name": "Matisyahu (Matthew Paul Miller) sings at an in store concert",
+    "description": "Ear-x-tacy in Louisville, KY",
+    "category": "musicians",
+    "src": "../assets/images/musicians/matisyahu_0027.jpg"
+  },
+  {
+    "name": "Explosions in the Sky bassist Michael James jams live during a concert",
+    "description": "Headliners Music Hall in Louisville, KY",
+    "category": "musicians",
+    "src": "../assets/images/musicians/explosions_in_the_sky_75.jpg"
+  },
+  {
+    "name": "My Morning Jacket performs a sold-out show",
+    "description": "Ear-X-Tacy in Louisville, KY",
+    "category": "musicians",
+    "src": "../assets/images/musicians/my_morning_jacket_2089_final_edit.jpg"
+  },
+  {
+    "name": "Jalin Roze performs at a festival",
+    "description": "New Albany, IN",
+    "category": "musicians",
+    "src": "../assets/images/musicians/jalin-roze-20150524-_MG_6191.jpg"
+  },
+  {
+    "name": "Will Oldham",
     "description": "",
     "category": "musicians",
-    "src": "../assets/images/action/lake-george-ice-racing-20190223-_MG_1645.jpg"
+    "src": "../assets/images/musicians/will-oldham-20130310-_MG_2468-copy.jpg"
   },
+  {
+    "name": "Wax Fang's bassist Jake Heustis performs a solo on stage",
+    "description": "Headliners Music Hall in Louisville, KY",
+    "category": "musicians",
+    "src": "../assets/images/musicians/jake_heustis.jpg"
+  },
+  {
+    "name": "Bonnie Prince Billy and the Picket Line perform a private concert to 300 people",
+    "description": "Funtown, KY",
+    "category": "musicians",
+    "src": "../assets/images/musicians/summer_of_evil_2888.jpg"
+  },
+  {
+    "name": "Black Mountains drummer Joshua Wells sings into the microphone while playing the drums",
+    "description": "Southgate House in Newport, KY",
+    "category": "musicians",
+    "src": "../assets/images/musicians/joshua.jpg"
+  },
+  {
+    "name": "My Morning Jacket performs a sold-out show",
+    "description": "Ear-X-Tacy in Louisville, KY",
+    "category": "musicians",
+    "src": "../assets/images/musicians/my_morning_jacket_2122.jpg"
+  },
+  {
+    "name": "Cheyennne Mize and Bonnie Price Billy (Will Oldham) singing in the studio for the album \"Funtown Comedown\"",
+    "description": "",
+    "category": "musicians",
+    "src": "../assets/images/musicians/bpb_picket_line_studio_103.jpg"
+  },
+  {
+    "name": "The Commonwealth's guitarist Stuart Phelps plays guitar in the studio while smoking a cigarette",
+    "description": "",
+    "category": "musicians",
+    "src": "../assets/images/musicians/the_commonwealth_004.jpg"
+  },
+  {
+    "name": "The Commonwealth",
+    "description": "Headliners Music Hall in Louisville, KY",
+    "category": "musicians",
+    "src": "../assets/images/musicians/commonwealth_headliners_46.jpg"
+  },
+  {
+    "name": "Joe Manning sings with \"Kings, Daughters & Sons\"",
+    "description": "Headliners Music Hall in Louisville, KY",
+    "category": "musicians",
+    "src": "../assets/images/musicians/kings_daughters_sons_4049.jpg"
+  },
+  {
+    "name": "My Morning Jacket's singer/songwriter Jim James performs a sold-out show",
+    "description": "Ear-X-Tacy in Louisville, KY",
+    "category": "musicians",
+    "src": "../assets/images/musicians/my_morning_jacket_2108.jpg"
+  },
+  {
+    "name": "Jonathon Wood performs at local record store",
+    "description": "Ear-X-Tacy in Louisville, KY",
+    "category": "musicians",
+    "src": "../assets/images/musicians/jonathan_wood_46.jpg"
+  },
+  {
+    "name": "Will Oldham performs for a group of children at a performance for \"Liberation Living Room\"",
+    "description": "GreenHaus | Louisville, KY",
+    "category": "musicians",
+    "src": "../assets/images/musicians/will-oldham-20130310-_MG_2430.jpg"
+  },
+
   {
     "---------------STILL-LIFE--------------": "----------------------------------"
   },
   {
-    "name": "TESTING IMAGE",
+    "name": "Glock 43 with Trijicon Iridium Sights",
     "description": "",
     "category": "still-life",
-    "src": "../assets/images/action/lake-george-ice-racing-20190223-_MG_1645.jpg"
+    "src": "../assets/images/still-life/glock-43-composite-v1.jpg"
+  },
+  {
+    "name": "Turtle Shell",
+    "description": "",
+    "category": "still-life",
+    "src": "../assets/images/still-life/turtle-shell-20161010-_MG_9195-Stacked-texture.jpg"
+  },
+  {
+    "name": "Everyday Carry Items",
+    "description": "Arcteryx Beta AR, Suunto Ambit 3 Peak, S&W MP9c, Benchmade Rift, CBK Dagger",
+    "category": "still-life",
+    "src": "../assets/images/still-life/20161214-_MG_0914-arcteryx-weapons-v1.jpg"
+  },
+  {
+    "name": "Raymond Weil Watch",
+    "description": "Skeleton Back",
+    "category": "still-life",
+    "src": "../assets/images/still-life/danlubbers-still-life-portfolio-2.jpg"
+  },
+  {
+    "name": "Hario Skerton",
+    "description": "Coffee Grinder",
+    "category": "still-life",
+    "src": "../assets/images/still-life/hario-grinder-20161214-_MG_1042-stacked.jpg"
+  },
+  {
+    "name": "Benchmade CBK Dagger",
+    "description": "",
+    "category": "still-life",
+    "src": "../assets/images/still-life/benchmade-cbk-20161213-_MG_0769-stacked.jpg"
+  },
+  {
+    "name": "Glock 43 with Trijicon Iridium Sights",
+    "description": "Taran Tactical +2 extender",
+    "category": "still-life",
+    "src": "../assets/images/still-life/20170316-_MG_1271-stacked.jpg"
+  },
+  {
+    "name": "Benchmade Rift",
+    "description": "",
+    "category": "still-life",
+    "src": "../assets/images/still-life/benchmade-rift-20161213-_MG_0793-stacked-1.jpg"
+  },
+  {
+    "name": "Smith & Wesson MP9c",
+    "description": "",
+    "category": "still-life",
+    "src": "../assets/images/still-life/snw-mp9c-20161213-_MG_0741-stacked-clean-white.jpg"
   },
   {
     "---------------PUBLISHED--------------": "----------------------------------"
-  },
-  {
-    "name": "Portrait of Will Oldham for his Book: \"Songs of Love & Horror\"",
-    "description": "Carmichael's Bookstore signing event | Louisville, KY",
-    "category": "published",
-    "src": "../assets/images/published/New_SINGLE_instore-poster-oldham-web.jpg"
   },
   {
     "name": "Jimmy Ford on the cover of UAW-FORD Community Magazine",
     "description": "Winter 2013/2014",
     "category": "published",
     "src": "../assets/images/published/danlubbers-published-portfolio-1-1.jpg"
+  },
+  {
+    "name": "Portrait of Will Oldham for his Book: \"Songs of Love & Horror\"",
+    "description": "Carmichael's Bookstore signing event | Louisville, KY",
+    "category": "published",
+    "src": "../assets/images/published/New_SINGLE_instore-poster-oldham-web.jpg"
   },
   {
     "name": "A honeybee on a Moonflower on the cover of Kelley Beekeeping Catalogue",
