@@ -2,6 +2,7 @@ module.exports = {
   // Since `gatsby-plugin-typescript` is automatically included in Gatsby you
   // don't need to define it here (just if you need to change the options)
   siteMetadata: {
+    siteUrl: `https://www.danlubbersphotographs.com`,
     title: `Dan Lubbers Photographs`,
     lang: `en`,
     titleTemplate: ``,
@@ -37,6 +38,16 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        host: `https://www.danlubbersphotographs.com`,
+        sitemap: `https://www.danlubbersphotographs.com/sitemap.xml`,
+        policy: [{ userAgent: '*', allow: '/' }],
+      },
+    },
+
+    `gatsby-plugin-robots-txt`,
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
     `gatsby-transformer-json`,
