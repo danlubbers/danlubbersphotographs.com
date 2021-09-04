@@ -38,15 +38,7 @@ module.exports = {
         ],
       },
     },
-    {
-      resolve: `gatsby-plugin-sitemap`,
-      options: {
-        host: `https://www.danlubbersphotographs.com`,
-        sitemap: `https://www.danlubbersphotographs.com/sitemap.xml`,
-        policy: [{ userAgent: '*', allow: '/' }],
-      },
-    },
-
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-robots-txt`,
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
