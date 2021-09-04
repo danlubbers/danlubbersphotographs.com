@@ -40,28 +40,27 @@ const Header = ({ bioDescription }) => {
 
   return (
     <>
-      <div className={styles.headerContainer}>
-        <header>
-          <Link
-            className={styles.logoLink}
-            to="/"
-            onClick={() => handleClickNavDisplays(`logo`)}
-          >
-            <img src={headerLogo} alt="logo" />
-          </Link>
-          <Navbar
-            handleClickNavDisplays={handleClickNavDisplays}
-            isPortfolio={isPortfolio}
-            isBio={isBio}
-            isConnect={isConnect}
-          />
-        </header>
+      <header className={styles.headerContainer}>
+        <Link
+          className={styles.logoLink}
+          to="/"
+          onClick={() => handleClickNavDisplays(`logo`)}
+        >
+          <img src={headerLogo} alt="logo" />
+        </Link>
+
+        <Navbar
+          handleClickNavDisplays={handleClickNavDisplays}
+          isPortfolio={isPortfolio}
+          isBio={isBio}
+          isConnect={isConnect}
+        />
         <Bio isBio={isBio} bioDescription={bioDescription} />
         <Connect isConnect={isConnect} />
-      </div>
+      </header>
 
-      <div className={styles.headerMobileContainer}>
-        <header>
+      <header className={styles.headerMobileContainer}>
+        <div className={styles.logoWrapper}>
           <Link
             className={styles.logoLink}
             to="/"
@@ -69,7 +68,7 @@ const Header = ({ bioDescription }) => {
           >
             <img src={headerLogo} alt="logo" />
           </Link>
-        </header>
+        </div>
         <nav
           className={styles.menubarWrapper}
           onClick={handleClickMobileDisplay}
@@ -91,7 +90,7 @@ const Header = ({ bioDescription }) => {
             <NavGalleryLinks />
           </ul>
         )}
-      </div>
+      </header>
     </>
   );
 };

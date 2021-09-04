@@ -18,23 +18,23 @@ const Navbar: React.FC<NavbarProps> = ({
 }) => (
   <nav>
     <ul className={styles.navWrapper}>
-      <div onMouseLeave={() => handleClickNavDisplays(`leavePortfolio`)}>
-        <li
-          className={styles.navTitle}
-          onMouseEnter={() => handleClickNavDisplays(`enterPortfolio`)}
-        >
-          PORTFOLIO
-        </li>
-        <ul
-          className={
-            isPortfolio
-              ? styles.portfolioDropdownActive
-              : styles.portfolioDropdownInactive
-          }
-        >
-          <NavGalleryLinks />
-        </ul>
-      </div>
+      <li
+        className={styles.navTitle}
+        onMouseEnter={() => handleClickNavDisplays(`enterPortfolio`)}
+      >
+        PORTFOLIO
+      </li>
+      <ul
+        className={
+          isPortfolio
+            ? styles.portfolioDropdownActive
+            : styles.portfolioDropdownInactive
+        }
+        onMouseLeave={() => handleClickNavDisplays(`leavePortfolio`)}
+      >
+        <NavGalleryLinks />
+      </ul>
+
       <li
         className={isBio ? styles.bioActive : styles.navTitle}
         onClick={() => handleClickNavDisplays(`bio`)}
