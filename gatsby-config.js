@@ -19,7 +19,7 @@ module.exports = {
         name: `Dan Lubbers Photographs`,
         short_name: `Dan Lubbers Photos`,
         start_url: `/`,
-        background_color: `#f7f0eb#0e0e0e`,
+        background_color: `#0e0e0e`,
         theme_color: `#a52a25`,
         display: `standalone`,
         icon: `src/assets/images/manifest/danlubbers-favicon.png`,
