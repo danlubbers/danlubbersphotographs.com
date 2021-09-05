@@ -29,9 +29,9 @@ const NavGalleryLinks = () => (
     <Link className={styles.link} to="/published">
       <li className={styles.galleryTitle}>Published</li>
     </Link>
-    <Link className={styles.link} to="/retouching">
+    {/* <Link className={styles.link} to="/retouching">
       <li className={styles.galleryTitle}>Retouching Before & After</li>
-    </Link>
+    </Link> */}
   </>
 );
 
