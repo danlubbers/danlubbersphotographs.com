@@ -1,6 +1,6 @@
 import React from 'react';
 import * as styles from './Connect.module.scss';
-import SocialMedia from '../../components/SocialMedia/SocialMedia';
+import SocialMedia from '../SocialMedia/SocialMedia';
 
 interface ConnectProps {
   isConnect?: boolean;

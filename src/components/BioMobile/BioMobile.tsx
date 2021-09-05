@@ -34,7 +34,7 @@ const BioMobile = ({ bioDescription }) => {
 
   return (
     <article className={styles.bioMobileContainer}>
-      {' '}
+      {` `}
       <div className={styles.descriptionContainer}>
         <h3 className={styles.bioTitle}>BIO</h3>
         <p className={styles.descriptionText}>{bio}</p>
