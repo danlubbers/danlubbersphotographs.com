@@ -1,25 +1,16 @@
 import React from 'react';
 import { PageProps, graphql } from 'gatsby';
 import './index.scss';
-import ReactGA from 'react-ga';
-import config from '../../gatsby-config';
+import recordEvent from 'utilities/recordEvents';
 
 import GalleryCategories from '../components/GalleryCategories/GalleryCategories';
 
-ReactGA.initialize(config.plugins[3].options.trackingIds[0]);
-
-const Home: React.FC<PageProps> = ({ data }) => {
-  console.log(config.plugins[3].options.trackingIds[0]);
-  return (
-    <main>
-      {ReactGA.event({
-        category: `Photo: Homescreen`,
-        action: `Photo: User landed on Website`,
-      })}
-      <GalleryCategories data={data} />
-    </main>
-  );
-};
+const Home: React.FC<PageProps> = ({ data }) => (
+  <main>
+    {recordEvent(`Photo: Homescreen`, `Photo: User landed on Website`)}
+    <GalleryCategories data={data} />
+  </main>
+);
 
 export default Home;
 

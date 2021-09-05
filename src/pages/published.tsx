@@ -1,11 +1,13 @@
 import React from 'react';
 import { PageProps, graphql } from 'gatsby';
 import './index.scss';
+import recordEvent from 'utilities/recordEvents';
 
 import GalleryCategories from '../components/GalleryCategories/GalleryCategories';
 
 const Published: React.FC<PageProps> = ({ data }) => (
   <main>
+    {recordEvent(`Photo: Published`, `Photo: User landed on Published Gallery`)}
     <GalleryCategories data={data} />
   </main>
 );
