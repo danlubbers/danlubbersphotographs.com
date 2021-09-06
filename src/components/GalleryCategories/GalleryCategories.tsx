@@ -1,6 +1,5 @@
 import React, { useState, useCallback, useEffect } from 'react';
 import * as styles from './GalleryCategories.module.scss';
-// import CopyrightOverlay from '../CopyrightOverlay/CopyrightOverlay';
 import SEO from '../SEO/SEO';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
