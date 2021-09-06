@@ -3,6 +3,8 @@ import { Link } from 'gatsby';
 import * as styles from './Header.module.scss';
 import headerLogo from '../../assets/logos/danlubbers_logo_#A52A25_outlined.svg';
 
+import recordEvents from '../../utilities/recordEvents';
+
 import Navbar from '../Navbar/Navbar';
 import Bio from '../Bio/Bio';
 import Connect from '../Connect/Connect';
@@ -18,6 +20,7 @@ const Header = ({ bioDescription }) => {
     if (navTitle === `logo`) {
       setIsBio(false);
       setIsConnect(false);
+      recordEvents(`Photo: Logo`, `Clicked on Logo`);
     }
     if (navTitle === `enterPortfolio`) setIsPortfolio(true);
     if (navTitle === `leavePortfolio`) setIsPortfolio(false);
@@ -26,11 +29,14 @@ const Header = ({ bioDescription }) => {
       setIsBio(!isBio);
       setIsPortfolio(false);
       setIsConnect(false);
+
+      recordEvents(`Photo: Bio`, `Bio Component is Active`);
     }
     if (navTitle === `connect`) {
       setIsConnect(!isConnect);
       setIsBio(false);
       setIsPortfolio(false);
+      recordEvents(`Photo: Connect`, `Connect Component is Active`);
     }
   };
 

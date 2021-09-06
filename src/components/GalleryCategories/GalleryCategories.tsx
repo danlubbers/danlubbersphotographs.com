@@ -1,12 +1,13 @@
 import React, { useState, useCallback, useEffect } from 'react';
 import * as styles from './GalleryCategories.module.scss';
-// import CopyrightOverlay from '../CopyrightOverlay/CopyrightOverlay';
 import SEO from '../SEO/SEO';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import GallerySlider from '../GallerySlider/GallerySlider';
 import BioMobile from '../BioMobile/BioMobile';
 import ConnectMobile from '../ConnectMobile/ConnectMobile';
+
+import recordEvent from '../../utilities/recordEvents';
 
 const GalleryCategories = ({ data }) => {
   const [show, setShow] = useState(false); // hide CopyrightOverlay ContextMenu
@@ -16,6 +17,10 @@ const GalleryCategories = ({ data }) => {
       event.preventDefault();
 
       setShow(true);
+      recordEvent(
+        `Photo: Context Menu`,
+        `User tried to right click and save image!`,
+      );
     },
     [setShow],
   );
