@@ -2,7 +2,6 @@ import React from 'react';
 // import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import bioImage from '../../assets/images/dan-portrait-arcteryx-sv-web-icon.jpg';
 import * as styles from './Bio.module.scss';
-
 import clients from '../../data/clients.json';
 import editorials from '../../data/editorials.json';
 import press from '../../data/press.json';
