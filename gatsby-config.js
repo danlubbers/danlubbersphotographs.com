@@ -17,12 +17,24 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Dan Lubbers Photographs`,
-        short_name: `Dan Lubbers Photos`,
+        short_name: `Dan Lubbers`,
+        icon: `src/assets/images/manifest/danlubbers-favicon.png`,
+        icons: [
+          {
+            src: 'logo192.png',
+            type: 'image/png',
+            sizes: '192x192',
+          },
+          {
+            src: 'logo512.png',
+            type: 'image/png',
+            sizes: '512x512',
+          },
+        ],
         start_url: `/`,
         background_color: `#0e0e0e`,
         theme_color: `#a52a25`,
         display: `standalone`,
-        icon: `src/assets/images/manifest/danlubbers-favicon.png`,
       },
     },
     {
@@ -48,6 +60,14 @@ module.exports = {
           'AW-CONVERSION_ID', // Google Ads / Adwords / AW
           'DC-FLOODIGHT_ID', // Marketing Platform advertising products (Display & Video 360, Search Ads 360, and Campaign Manager)
         ],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-offline`,
+      options: {
+        workboxConfig: {
+          importWorkboxFrom: `cdn`,
+        },
       },
     },
     `gatsby-plugin-sitemap`,
