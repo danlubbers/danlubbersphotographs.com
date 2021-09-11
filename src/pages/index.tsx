@@ -1,16 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { PageProps, graphql } from 'gatsby';
 import './index.scss';
 import recordEvent from 'utilities/recordEvents';
 
+import PWAModal from '../components/PWAModal/PWAModal';
 import GalleryCategories from '../components/GalleryCategories/GalleryCategories';
 
-const Home: React.FC<PageProps> = ({ data }) => (
-  <main>
-    {recordEvent(`Photo: Homescreen`, `Photo: User landed on Website`)}
-    <GalleryCategories data={data} />
-  </main>
-);
+const Home: React.FC<PageProps> = ({ data }) => {
+  const [openModal, setOpenModal] = useState<boolean>(true);
+
+  const handleModalClick = () => {
+    setOpenModal(!openModal);
+  };
+  return (
+    <main>
+      {recordEvent(`Photo: Homescreen`, `Photo: User landed on Website`)}
+      {openModal && <PWAModal handleModalClick={handleModalClick} />}
+      <GalleryCategories data={data} />
+    </main>
+  );
+};
 
 export default Home;
 
