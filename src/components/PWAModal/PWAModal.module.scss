@@ -5,6 +5,10 @@
   display: flex;
   justify-content: center;
 
+  @media (min-width: 769px) {
+    display: none;
+  }
+
   .pwaModalWrapper {
     width: 90%;
     height: 50rem;
