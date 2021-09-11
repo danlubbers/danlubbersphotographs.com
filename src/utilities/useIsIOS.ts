@@ -5,6 +5,8 @@ const checkForIOS = () => {
   if (navigator.standalone) return false;
 
   const now = dayjs().toString();
+  console.log(`now`, now);
+
   const lastPrompt = localStorage.getItem(`installPrompt`);
   const days = dayjs().diff(lastPrompt, `day`);
 
@@ -14,7 +16,7 @@ const checkForIOS = () => {
   const isIPhone = !!ua.match(/iPhone/i);
   const isIOS = isIPad || isIPhone;
   const isSafari = isIOS && webkit && !ua.match(/CriOS/i);
-  const prompt = isIOS && isSafari && (Number.isNaN(days) || days < 1);
+  const prompt = isIOS && isSafari && (Number.isNaN(days) || days > 1);
 
   if (prompt && `localStorage` in window) {
     localStorage.setItem(`installPrompt`, now);
