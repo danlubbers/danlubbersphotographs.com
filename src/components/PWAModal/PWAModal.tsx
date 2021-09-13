@@ -8,7 +8,7 @@ interface PWAModalProps {
 }
 
 const PWAModal: React.FC<PWAModalProps> = ({ handleModalClick }) => (
-  <div className={styles.pwaModalContainer}>
+  <div className={styles.pwaModalContainer} role="dialog" aria-modal="true">
     <div className={styles.pwaModalWrapper}>
       <img className={styles.logo} src={logo} alt="Dan Lubbers Logo" />
       <h4>Dan Lubbers Photographs App</h4>
