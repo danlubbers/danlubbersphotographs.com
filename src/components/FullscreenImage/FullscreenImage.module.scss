@@ -39,6 +39,37 @@
     }
   }
 
+  .imageDesktopWrapper {
+    position: relative;
+    margin: 0 auto;
+    max-height: 100vh;
+
+    .imageDescriptionContainer {
+      position: absolute;
+      width: 100%;
+      margin: 0 auto;
+      padding: 1rem;
+      background-color: $image-banner-background-color;
+      opacity: 0;
+
+      .imageName {
+        margin-bottom: 0.5rem;
+        font-size: 1.6em;
+        font-weight: 300;
+        color: $font-color;
+      }
+      .imageDescription {
+        font-size: 1.4em;
+        font-weight: 200;
+        color: $font-color;
+      }
+    }
+  }
+  .imageDesktopWrapper:hover .imageDescriptionContainer {
+    transition: all 0.5s ease-in-out;
+    opacity: 1;
+    z-index: 10;
+  }
   .imageWrapper {
     height: 100%;
     padding: 2rem;
@@ -49,8 +80,19 @@
     img {
       max-height: 100rem;
 
+      // Extra Large display
       @media (min-width: 2400px) {
         max-height: 120rem;
+      }
+      // Low res displays and smaller laptops
+      @media (max-height: 1000px) {
+        max-height: 80rem;
+      }
+      @media (max-height: 850px) {
+        max-height: 70rem;
+      }
+      @media (max-height: 750px) {
+        max-height: 65rem;
       }
     }
   }

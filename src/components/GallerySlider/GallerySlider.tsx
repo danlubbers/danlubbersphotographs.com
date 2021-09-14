@@ -76,7 +76,8 @@ function GallerySlider({ sliderData, show }) {
           <FullscreenImage
             setShowFullscreen={setShowFullscreenImage}
             image={image}
-            title={data.name}
+            name={data.name}
+            description={data.description}
           />
         )}
       </>
