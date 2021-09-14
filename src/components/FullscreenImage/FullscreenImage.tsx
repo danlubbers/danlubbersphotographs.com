@@ -19,7 +19,8 @@ const FullscreenImage: React.FC<FullscreenImageProps> = ({
       <div className={styles.fullscreenImageContainer}>
         <div className={styles.iconWrapper}>
           <div className={styles.icon} onClick={() => setShowFullscreen(false)}>
-            X
+            <span className={styles.forwardSlash} />
+            <span className={styles.backSlash} />
           </div>
         </div>
         <div className={styles.imageWrapper}>

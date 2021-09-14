@@ -16,16 +16,32 @@
     justify-content: flex-end;
 
     .icon {
+      margin-top: 2rem;
       padding: 10px;
       font-size: 30px;
       color: #333;
       cursor: pointer;
+      z-index: 2500;
+
+      & > span {
+        display: block;
+        width: 4rem;
+        height: 0.1rem;
+        background: $font-color;
+        transition: all 0.2s ease-in-out;
+      }
+      .forwardSlash {
+        transform: rotate(-45deg);
+      }
+      .backSlash {
+        transform: rotate(45deg);
+      }
     }
   }
 
   .imageWrapper {
     height: 100%;
-    padding: 0 2rem;
+    padding: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
