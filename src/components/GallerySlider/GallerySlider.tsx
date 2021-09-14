@@ -52,16 +52,16 @@ function GallerySlider({ sliderData, show }) {
           key={data.id}
         >
           {idx === current && (
-            <div className={styles.imageDesktopWrapper}>
+            <div
+              className={styles.imageDesktopWrapper}
+              aria-hidden="true"
+              onMouseDown={() => setShowFullscreenImage(!showFullscreenImage)}
+            >
               <div className={styles.imageDescriptionContainer}>
                 <h1 className={styles.imageName}>{data.name}</h1>
                 <h1 className={styles.imageDescription}>{data.description}</h1>
               </div>
-              <GatsbyImage
-                image={image}
-                alt={data.name}
-                onClick={() => setShowFullscreenImage(!showFullscreenImage)}
-              />
+              <GatsbyImage image={image} alt={data.name} />
             </div>
           )}
           <div className={styles.imageMobileWrapper}>

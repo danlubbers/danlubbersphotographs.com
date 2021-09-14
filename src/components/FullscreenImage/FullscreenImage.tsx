@@ -19,7 +19,11 @@ const FullscreenImage: React.FC<FullscreenImageProps> = ({
   <Portal>
     <div className={styles.fullscreenImageContainer}>
       <div className={styles.iconWrapper}>
-        <div className={styles.icon} onClick={() => setShowFullscreen(false)}>
+        <div
+          className={styles.icon}
+          aria-hidden="true"
+          onClick={() => setShowFullscreen(false)}
+        >
           <span className={styles.forwardSlash} />
           <span className={styles.backSlash} />
         </div>
