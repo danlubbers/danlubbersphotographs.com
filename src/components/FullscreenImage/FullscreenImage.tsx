@@ -41,7 +41,7 @@ const FullscreenImage: React.FC<FullscreenImageProps> = ({
             <h1 className={styles.imageName}>{name}</h1>
             <h1 className={styles.imageDescription}>{description}</h1>
           </div>
-          <GatsbyImage className={styles.image} image={image} alt={name} />
+          <GatsbyImage image={image} alt={name} />
         </div>
       </div>
     </div>

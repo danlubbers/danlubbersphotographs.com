@@ -41,6 +41,11 @@ function GallerySlider({ sliderData, show }) {
     recordEvent(`Photo: GallerySlider`, `Left Arrow Mouse Click`);
   };
 
+  const toggleFullScreen = () => {
+    setShowFullscreenImage(!showFullscreenImage);
+    recordEvent(`Photo: Fullscreen`, `User clicked image for Fullscreen Mode`);
+  };
+
   const imageSliderData = sliderData.map((data, idx) => {
     const image = getImage(data.src);
     return (
@@ -55,7 +60,7 @@ function GallerySlider({ sliderData, show }) {
             <div
               className={styles.imageDesktopWrapper}
               aria-hidden="true"
-              onMouseDown={() => setShowFullscreenImage(!showFullscreenImage)}
+              onMouseDown={toggleFullScreen}
             >
               <div className={styles.imageDescriptionContainer}>
                 <h1 className={styles.imageName}>{data.name}</h1>
