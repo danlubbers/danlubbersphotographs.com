@@ -10,6 +10,7 @@
   z-index: 3000;
 
   .iconWrapper {
+    position: absolute;
     width: 100%;
     display: flex;
     justify-content: flex-end;
@@ -23,14 +24,18 @@
   }
 
   .imageWrapper {
-    height: calc(100% - 50px);
-    padding: 0 5px;
+    height: 100%;
+    padding: 0 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
 
-    .image {
-      max-width: 100%;
+    img {
+      max-height: 100rem;
+
+      @media (min-width: 2400px) {
+        max-height: 120rem;
+      }
     }
   }
 }

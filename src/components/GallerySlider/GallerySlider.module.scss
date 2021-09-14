@@ -61,6 +61,7 @@
   .imageDesktopWrapper {
     position: relative;
     margin: 0 auto;
+    max-height: 80rem;
 
     @media (max-width: 769px) {
       display: none;
@@ -96,6 +97,10 @@
         font-weight: 200;
         color: $font-color;
       }
+    }
+
+    img {
+      max-height: 80rem;
     }
   }
   .imageDesktopWrapper:hover .imageDescriptionContainer {
