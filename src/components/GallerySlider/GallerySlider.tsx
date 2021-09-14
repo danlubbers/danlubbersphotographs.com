@@ -78,6 +78,8 @@ function GallerySlider({ sliderData, show }) {
             image={image}
             name={data.name}
             description={data.description}
+            prevSlide={prevSlide}
+            nextSlide={nextSlide}
           />
         )}
       </>
