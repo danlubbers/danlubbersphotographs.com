@@ -48,7 +48,7 @@ module.exports = {
             src: `src/assets/images/manifest/src/assets/images/manifest/maskable_icon_x192.png`,
             type: `image/png`,
             sizes: `192x192`,
-            purpose: `maskable`,
+            purpose: `any`,
           },
           {
             src: `src/assets/images/manifest/src/assets/images/manifest/maskable_icon_x384.png`,
