@@ -5,8 +5,6 @@ const checkForIOS = () => {
   if (navigator.standalone) return false;
 
   const now = dayjs().toString();
-  console.log(`now`, now);
-
   const lastPrompt = localStorage.getItem(`installPrompt`);
   const days = dayjs().diff(lastPrompt, `day`);
 
