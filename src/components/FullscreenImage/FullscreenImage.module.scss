@@ -1,21 +1,13 @@
 @import '../../styles/variables.scss';
 
-.imageContainer {
-  position: relative;
+.fullscreenImageContainer {
+  position: absolute;
+  width: 100%;
   height: 100%;
-  padding: 0 2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 0;
-  outline: none;
-
-  @media (max-width: 769px) {
-    display: block;
-    max-width: 100%;
-    padding: 2rem;
-    flex-direction: column;
-  }
+  top: 0;
+  left: 0;
+  background-color: $site-background-color;
+  z-index: 3000;
 
   .right-arrow {
     position: absolute;
@@ -46,37 +38,40 @@
     transition: 0.5s ease-in-out;
   }
 
-  .slide {
-    opacity: 0;
-    transition-duration: 0.5s ease;
-    @media (max-width: 769px) {
-      opacity: 1;
+  .iconWrapper {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+    .icon {
+      margin-top: 2rem;
+      padding: 10px;
+      font-size: 30px;
+      color: #333;
+      cursor: pointer;
+      z-index: 2500;
+
+      & > span {
+        display: block;
+        width: 4rem;
+        height: 0.1rem;
+        background: $font-color;
+        transition: all 0.2s ease-in-out;
+      }
+      .forwardSlash {
+        transform: rotate(-45deg);
+      }
+      .backSlash {
+        transform: rotate(45deg);
+      }
     }
-  }
-  .slide-active {
-    opacity: 1;
-    transition-duration: 0.5s;
   }
 
   .imageDesktopWrapper {
     position: relative;
     margin: 0 auto;
-    max-height: 80rem;
-
-    @media (max-width: 769px) {
-      display: none;
-    }
-
-    // Low res displays and smaller laptops
-    @media (max-height: 890px) {
-      width: 80%;
-    }
-    @media (max-height: 765px) {
-      width: 70%;
-    }
-    @media (max-height: 650px) {
-      width: 52.5%;
-    }
+    max-height: 100vh;
 
     .imageDescriptionContainer {
       position: absolute;
@@ -98,25 +93,36 @@
         color: $font-color;
       }
     }
-
-    img {
-      max-height: 80rem;
-    }
   }
   .imageDesktopWrapper:hover .imageDescriptionContainer {
     transition: all 0.5s ease-in-out;
     opacity: 1;
     z-index: 10;
   }
+  .imageWrapper {
+    height: 100%;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-  .imageMobileWrapper {
-    width: 100%;
-    @media (min-width: 769px) {
-      display: none;
-    }
-    .mobileImage {
-      max-width: 100%;
-      margin: 2rem 0;
+    img {
+      max-height: 100rem;
+
+      // Extra Large display
+      @media (min-width: 2400px) {
+        max-height: 120rem;
+      }
+      // Low res displays and smaller laptops
+      @media (max-height: 1000px) {
+        max-height: 80rem;
+      }
+      @media (max-height: 850px) {
+        max-height: 70rem;
+      }
+      @media (max-height: 750px) {
+        max-height: 65rem;
+      }
     }
   }
 }
