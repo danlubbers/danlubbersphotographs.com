@@ -1,6 +1,6 @@
 import React from 'react';
 import * as styles from './PWAModal.module.scss';
-import logo from '../../assets/images/manifest/logo192.png';
+import logo from '../../assets/images/manifest/maskable_icon_x192.png';
 import AppleShareIcon from '../../assets/logos/apple-share-icon.png';
 
 interface PWAModalProps {
