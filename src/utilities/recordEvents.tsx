@@ -1,13 +1,10 @@
-import ReactGA from 'react-ga';
-import config from '../../gatsby-config';
-
-ReactGA.initialize(config.plugins[3].options.trackingIds[0]);
-
 const recordEvent = (category: string, action: string) => {
-  ReactGA.event({
-    category,
-    action,
-  });
+  if (typeof window !== `undefined`) {
+    window.gtag(`event`, action, {
+      event_category: category,
+      event_action: action,
+    });
+  }
 };
 
 export default recordEvent;
