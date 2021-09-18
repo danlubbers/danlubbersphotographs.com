@@ -5,8 +5,6 @@ module.exports = {
     siteUrl: `https://www.danlubbersphotographs.com`,
     title: `Dan Lubbers Photographs`,
     lang: `en`,
-    csp: `Content-Security-Policy-Report-Only`,
-    content: `base-uri 'self'; default-src 'self'; script-src 'self'; default-src strict-dynamic 'sha256-ecIkKw1UaQjeT+fiAh0Q6OKT97qwaQ/RStEQaewwWyI=' 'sha256-ZJDi+oSjxcyUERWmzVdNBlEgr15E8vfvwc/1KYECyhA=' 'sha256-egpbluqkD8NT0bY3bWy7raM9tRIMkfUWboq0Y8KqsFk=' 'sha256-TDdwEMuSwjQNGmm0PafrH5oci5pzSX0eS8B/a4H3pa8='; style-src 'self' data: https://danlubbersphotographs.com 'sha256-AnfeNZHPam5f5RvxnO/Et/VJDEAOuZInJWup7XxmCOY=' 'sha256-LEbWFSWxt+oVnC4xzh4AJ3cGaYv3SkbW0vbyUq1a5Vw='; object-src 'none'; form-action 'self'; font-src 'self' data:; connect-src 'self'; img-src 'self' data: https://danlubbersphotographs.com; report-uri https://danlubbersphotographs.com; report-to default;`,
     titleTemplate: ``,
     description: `Dan Lubbers is a Photographer / Retoucher / Web Developer specializing in Studio and Environmental Portraits.`,
     url: `https://www.danlubbersphotographs.com`, // No trailing slash allowed!
@@ -112,23 +110,6 @@ module.exports = {
         id: 'portal',
       },
     },
-    // {
-    //   resolve: `gatsby-plugin-csp`,
-    //   options: {
-    //     disableOnDev: true,
-    //     reportOnly: true, // Changes header to Content-Security-Policy-Report-Only for csp testing purposes
-    //     mergeScriptHashes: true, // you can disable scripts sha256 hashes
-    //     mergeStyleHashes: true, // you can disable styles sha256 hashes
-    //     mergeDefaultDirectives: true,
-    //     directives: {
-    //       'style-src': "'self' data: https://danlubbersphotographs.com",
-    //       'img-src': "'self' data: https://danlubbersphotographs.com",
-    //       'script-src': "'self'; default-src strict-dynamic",
-    //       'report-uri': 'https://danlubbersphotographs.com',
-    //       'report-to': 'default',
-    //     },
-    //   },
-    // },
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-robots-txt`,
     `gatsby-plugin-react-helmet`,
