@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
 import { useLocation } from '@reach/router';
 import { useStaticQuery, graphql } from 'gatsby';
-import { sep } from 'path';
 
 const query = graphql`
   query SEO {
@@ -11,6 +10,8 @@ const query = graphql`
       siteMetadata {
         defaultTitle: title
         defaultLang: lang
+        defaultCsp: csp
+        defaultContent: content
         titleTemplate
         defaultDescription: description
         defaultKeywords: keywords
@@ -22,12 +23,23 @@ const query = graphql`
   }
 `;
 
-const SEO = ({ title, lang, description, image, article, keywords }) => {
+const SEO = ({
+  title,
+  lang,
+  csp,
+  content,
+  description,
+  image,
+  article,
+  keywords,
+}) => {
   const { pathname } = useLocation();
   const { site } = useStaticQuery(query);
   const {
     defaultTitle,
     defaultLang,
+    defaultCsp,
+    defaultContent,
     titleTemplate,
     defaultDescription,
     defaultKeywords,
@@ -38,6 +50,8 @@ const SEO = ({ title, lang, description, image, article, keywords }) => {
   const seo = {
     title: title || defaultTitle,
     lang: lang || defaultLang,
+    csp: csp || defaultCsp,
+    content: content || defaultContent,
     description: description || defaultDescription,
     keywords: keywords || defaultKeywords,
     image: `${siteUrl}${image || defaultImage}`,
@@ -46,6 +60,7 @@ const SEO = ({ title, lang, description, image, article, keywords }) => {
   return (
     <Helmet title={seo.title} titleTemplate={titleTemplate}>
       <html lang={seo.lang} />
+      <meta httpEquiv={seo.csp} content={seo.content} />
       <meta name="description" content={seo.description} />
       <meta name="image" content={seo.image} />
       {seo.url && <meta property="og:url" content={seo.url} />}
@@ -73,6 +88,8 @@ export default SEO;
 SEO.propTypes = {
   title: PropTypes.string,
   lang: PropTypes.string,
+  csp: PropTypes.string,
+  content: PropTypes.string,
   description: PropTypes.string,
   keywords: PropTypes.string,
   image: PropTypes.string,
@@ -82,6 +99,8 @@ SEO.propTypes = {
 SEO.defaultProps = {
   title: null,
   lang: null,
+  csp: null,
+  content: null,
   description: null,
   keywords: null,
   image: null,
