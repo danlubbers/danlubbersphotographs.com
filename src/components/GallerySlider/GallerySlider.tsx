@@ -17,11 +17,11 @@ function GallerySlider({ sliderData, show }) {
     (e) => {
       if (e.key === `ArrowRight`) {
         setCurrent(current === length - 1 ? 0 : current + 1);
-        recordEvent(`click`, `Photo: GallerySlider`, `Right Arrow keypress`);
+        recordEvent(`Photo: GallerySlider`, `Right Arrow keypress`);
       }
       if (e.key === `ArrowLeft`) {
         setCurrent(current === 0 ? length - 1 : current - 1);
-        recordEvent(`click`, `Photo: GallerySlider`, `Left Arrow keypress`);
+        recordEvent(`Photo: GallerySlider`, `Left Arrow keypress`);
       }
     },
     [current, length],

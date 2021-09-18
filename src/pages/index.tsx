@@ -17,11 +17,7 @@ const Home: React.FC<PageProps> = ({ data }) => {
   };
   return (
     <main>
-      {recordEvent(
-        `Landed on Website`,
-        `Photo: Homescreen`,
-        `Photo: User landed on Website`,
-      )}
+      {recordEvent(`Photo: Homescreen`, `Photo: User landed on Website`)}
       {prompt && openModal && (
         <Portal>
           <PWAModal handleModalClick={handleModalClick} />

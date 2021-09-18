@@ -1,6 +1,9 @@
-const recordEvent = (event: string, category: string, action: string) => {
+const recordEvent = (category: string, action: string) => {
   if (typeof window !== `undefined`) {
-    window.gtag(event, action, { category });
+    window.gtag(`event`, {
+      event_category: category,
+      event_action: action,
+    });
   }
 };
 
