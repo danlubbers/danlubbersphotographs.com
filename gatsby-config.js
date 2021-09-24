@@ -13,18 +13,18 @@ module.exports = {
     keywords: `dan lubbers, photographer, retoucher, web developer, webdeveloper, software engineer, designer, photography, photographs, saratoga springs, ny, new york, louisville, kentucky, ky, ut, utah, louisville photographer, louisville photography, louisville photographs, louisville photographer dan, louisville photography studio, louisville photography studios,  fine art, fine art portraiture, editorial, portraits, portraiture, environmental portraits, studio, product, people, emotion, passion, adventure, action, astrophotography, astronomy, milky way, star, stars, lifestyle, scenic, landscape, iphoneography, music, musicians, will, oldham, jim, james, my morning jacket, mmj, bonnie, prince, billy, sport, sports, red river gorge, rock climbing, climbing, climber, rockclimbing, headshots, low key, commercial, cycling, trailrunning, running, athletes, professional, athlete, athletic, local, canon, wacom, manfrotto, apple, arcteryx, outdoors, gear, industry, la sportiva, prana, red bull, amazon, o hello media`,
   },
   plugins: [
-    {
-      resolve: `gatsby-plugin-google-gtag`,
-      options: {
-        // You can add multiple tracking ids and a pageview event will be fired for all of them.
-        trackingIds: [
-          `UA-1733817-2`, // Google Analytics / GA
-          `AW-CONVERSION_ID`, // Google Ads / Adwords / AW
-          `DC-FLOODIGHT_ID`, // Marketing Platform advertising products (Display & Video 360, Search Ads 360, and Campaign Manager)
-        ],
-        cookieFlags: `SameSite=None; Secure`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-google-gtag`,
+    //   options: {
+    //     // You can add multiple tracking ids and a pageview event will be fired for all of them.
+    //     trackingIds: [
+    //       `UA-1733817-2`, // Google Analytics / GA
+    //       `AW-CONVERSION_ID`, // Google Ads / Adwords / AW
+    //       `DC-FLOODIGHT_ID`, // Marketing Platform advertising products (Display & Video 360, Search Ads 360, and Campaign Manager)
+    //     ],
+    //     cookieFlags: `SameSite=None; Secure`,
+    //   },
+    // },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
