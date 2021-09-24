@@ -309,7 +309,7 @@
     "name": "Spirit of Jefferson Steamboat",
     "description": "Ohio River | Louisville, KY",
     "category": "scenic",
-    "src": "../assets/images/scenic/danlubbers-scenic-portfolio-1.jpg"
+    "src": "../assets/images/scenic/spirit-of-jefferson_MG_8683_tonemapped.jpg"
   },
   {
     "name": "Shooting stars streak across the Milky Way as Jupiter sets along the horizon of the Grafton Peace Pagoda",
@@ -333,7 +333,7 @@
     "name": "Creation Falls",
     "description": "Clifty Wilderness | Menifee, KY",
     "category": "scenic",
-    "src": "../assets/images/scenic/danlubbers-scenic-portfolio-2.jpg"
+    "src": "../assets/images/scenic/creation-falls_MG_8088_89_90_tonemapped_final.jpg"
   },
   {
     "name": "Fiery sunset",
@@ -472,6 +472,12 @@
     "src": "../assets/images/nature/honeybee-moon-flower_MG_9627.jpg"
   },
   {
+    "name": "Tiny Mushrooms sprout from a mossy tree",
+    "description": "Red River Gorge, Kentucky",
+    "category": "nature",
+    "src": "../assets/images/nature/ghost-pipes-rrg-7168.jpg"
+  },
+  {
     "name": "Chrysalis",
     "description": "Parklands, Kentucky",
     "category": "nature",
@@ -482,6 +488,12 @@
     "description": "Kentucky",
     "category": "nature",
     "src": "../assets/images/nature/owlets-5753-Enhanced-1.jpg"
+  },
+  {
+    "name": "Ghost Pipes | Indian Pipes",
+    "description": "Kentucky",
+    "category": "nature",
+    "src": "../assets/images/nature/ghost-pipes-rrg-7132.jpg"
   },
   {
     "name": "Red-Shouldered Hawk",
@@ -514,6 +526,12 @@
     "src": "../assets/images/nature/cherokee-owl-5221-Enhanced.jpg"
   },
   {
+    "name": "Eastern Tiger Swallowtail",
+    "description": "Kentucky",
+    "category": "nature",
+    "src": "../assets/images/nature/swallowtail_caterpillar_MG_8069.jpg"
+  },
+  {
     "name": "Sea Turtle",
     "description": "The Big Island, HI",
     "category": "nature",
@@ -536,6 +554,12 @@
     "description": "Kentucky",
     "category": "nature",
     "src": "../assets/images/nature/owlets-5685-Enhanced-1.jpg"
+  },
+  {
+    "name": "Two white mushrooms",
+    "description": "Red River Gorge, KY",
+    "category": "nature",
+    "src": "../assets/images/nature/ghost-pipes-rrg-7171.jpg"
   },
   {
     "name": "Moss",
@@ -589,7 +613,7 @@
     "src": "../assets/images/action/james-litz-dayton_pocket_105.jpg"
   },
   {
-    "name": "James Kehl makes the second ascent of \"The Shield\" V11",
+    "name": "Jason Kehl makes the second ascent of \"The Shield\" V11",
     "description": "LRC aka: Stonefort, TN",
     "category": "action",
     "src": "../assets/images/action/jk_shield_0216.jpg"
