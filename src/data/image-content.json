@@ -466,6 +466,12 @@
     "src": "../assets/images/nature/cherokee-owl-5171.jpg"
   },
   {
+    "name": "Dutchman's Pipe | Pinesap | Monotropa hypopitys",
+    "description": "Hoosier National Forest, Indiana",
+    "category": "nature",
+    "src": "../assets/images/nature/pinesap-hemlock-cliffs-7246.jpg"
+  },
+  {
     "name": "A honeybee collects pollen from a Moon Flower",
     "description": "Kentucky",
     "category": "nature",
@@ -490,7 +496,7 @@
     "src": "../assets/images/nature/owlets-5753-Enhanced-1.jpg"
   },
   {
-    "name": "Ghost Pipes | Indian Pipes",
+    "name": "Ghost Pipe | Indian Pipe | monotropa uniflora",
     "description": "Kentucky",
     "category": "nature",
     "src": "../assets/images/nature/ghost-pipes-rrg-7132.jpg"
@@ -512,6 +518,12 @@
     "description": "Kentucky",
     "category": "nature",
     "src": "../assets/images/nature/morels-kentucky-5768-1.jpg"
+  },
+  {
+    "name": "Ghost Pipe | Indian Pipe | monotropa uniflora",
+    "description": "Hoosier National Forest, Indiana",
+    "category": "nature",
+    "src": "../assets/images/nature/ghost-pipe-hemlock-cliffs-7426.jpg"
   },
   {
     "name": "Morpho Butterfly",
