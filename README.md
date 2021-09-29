@@ -7,7 +7,12 @@
 <br>
 
 A GatsbyJS application written in Typescript using GraphQL and hosted on Netlify
+<br>
+<br>
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2a78bf78-5e5b-4d5e-910c-3c533aad229a/deploy-status)](https://app.netlify.com/sites/xenodochial-nightingale-5305be/deploys)
+
+<br>
 [danlubbersphotographs.com](https://danlubbersphotographs.com) is a fully functioning PWA (Progressive Web Application) ready to download to your mobile device. User is prompted through a Modal created by a React Portal checking the devices specs and through the use of localStorage the PWA modal will only show after 30 days of inactivity.
 
 ---
