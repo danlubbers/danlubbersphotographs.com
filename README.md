@@ -2,7 +2,7 @@
   <img src="https://s3.amazonaws.com/content.danlubbers.com/img/macbook-pro-2021-danlubbersphotographs.png" alt="dan lubbers photographs website">
 </p>
 <div align="center">
-  <a style="color:#0e0e0e" href="https://danlubbersphotographs.com" > <h1>danlubbersphotographs.com</h1></a>
+  <a style="color:#0e0e0e" href="https://danlubbersphotographs.com" > danlubbersphotographs.com</a>
 </div>
 <br>
 
@@ -34,6 +34,6 @@ Additionally a 100% performance rating on GTMetrix
 
 <br>
 
-All Images Copyright © Dan Lubbers
+All Images Copyright © [Dan Lubbers](https://danlubbers.com)
 <br>
-Site built by Dan Lubbers
+Site built by [Dan Lubbers](https://danlubbers.com)
