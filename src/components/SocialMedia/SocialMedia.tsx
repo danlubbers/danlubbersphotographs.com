@@ -1,5 +1,6 @@
 import React from 'react';
 import {
+  FaCode,
   FaLinkedin,
   FaInstagram,
   Fa500Px,
@@ -13,6 +14,16 @@ import * as styles from './SocialMedia.module.scss';
 const SocialMedia = () => (
   <ul className={styles.socialMediaWrapper}>
     {` `}
+    <li className={styles.socialMedia}>
+      <a
+        className={styles.socialMediaLink}
+        href="https://webdev.danlubbers.com"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <FaCode size="25" /> <p>Web Development Portfolio</p>
+      </a>
+    </li>
     <li className={styles.socialMedia}>
       <a
         className={styles.socialMediaLink}
