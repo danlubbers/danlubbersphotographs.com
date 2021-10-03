@@ -78,31 +78,32 @@
       width: 52.5%;
     }
 
-    .imageDescriptionContainer {
-      position: absolute;
-      width: 100%;
-      margin: 0 auto;
-      padding: 1rem;
-      background-color: $image-banner-background-color;
-      opacity: 0;
-
-      .imageName {
-        margin-bottom: 0.5rem;
-        font-size: 1.6em;
-        font-weight: 300;
-        color: $font-color;
-      }
-      .imageDescription {
-        font-size: 1.4em;
-        font-weight: 200;
-        color: $font-color;
-      }
-    }
-
     img {
       max-height: 80rem;
     }
   }
+
+  .imageDescriptionContainer {
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: $image-banner-background-color;
+    opacity: 0;
+
+    .imageName {
+      margin-bottom: 0.5rem;
+      font-size: 1.6em;
+      font-weight: 300;
+      color: $font-color;
+    }
+    .imageDescription {
+      font-size: 1.4em;
+      font-weight: 200;
+      color: $font-color;
+    }
+  }
+
   .imageDesktopWrapper:hover .imageDescriptionContainer {
     transition: all 0.5s ease-in-out;
     opacity: 1;
@@ -110,13 +111,30 @@
   }
 
   .imageMobileWrapper {
+    position: relative;
     width: 100%;
     @media (min-width: 769px) {
       display: none;
+    }
+
+    .imageDescriptionContainer {
+      margin: 2rem auto;
+
+      .imageName {
+        font-size: 1.8em;
+      }
+      .imageDescription {
+        font-size: 1.6em;
+      }
     }
     .mobileImage {
       max-width: 100%;
       margin: 2rem 0;
     }
+  }
+  .imageMobileWrapper:hover .imageDescriptionContainer {
+    transition: all 0.5s ease-in-out;
+    opacity: 1;
+    z-index: 10;
   }
 }

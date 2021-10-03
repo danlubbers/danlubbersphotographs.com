@@ -70,6 +70,10 @@ function GallerySlider({ sliderData, show }) {
             </div>
           )}
           <div className={styles.imageMobileWrapper}>
+            <div className={styles.imageDescriptionContainer}>
+              <h1 className={styles.imageName}>{data.name}</h1>
+              <h1 className={styles.imageDescription}>{data.description}</h1>
+            </div>
             <GatsbyImage
               className={styles.mobileImage}
               image={image}
