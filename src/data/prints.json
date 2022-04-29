@@ -1,9 +1,16 @@
 [
   {
     "name": "Superwolves: Will Oldham & Matt Sweeney",
-    "description": "Print size: 9x6 | Canvas size: 10x7",
+    "description": "Limited Run of 25 | Signed and numbered | Photo size: 9x6 | Print size: 10x7",
     "category": "prints",
     "src": "../assets/images/musicians/superwolves-7752.jpg",
     "price": 125.0
+  },
+  {
+    "name": "Shooting stars streak across the Milky Way as Jupiter sets along the horizon of the Grafton Peace Pagoda",
+    "description": "Photo size: 12x8 | Print size: 13x9",
+    "category": "prints",
+    "src": "../assets/images/scenic/grafton-peace-pagoda-0894-4.jpg",
+    "price": 200.0
   }
 ]

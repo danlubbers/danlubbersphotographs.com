@@ -1,0 +1,17 @@
+.printsContainer {
+  position: relative;
+  height: 100%;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 0;
+  outline: none;
+
+  @media (max-width: 769px) {
+    display: block;
+    max-width: 100%;
+    padding: 2rem;
+    flex-direction: column;
+  }
+}

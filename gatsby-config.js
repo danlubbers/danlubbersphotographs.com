@@ -99,11 +99,14 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-snipcart',
+      resolve: `gatsby-plugin-snipcart-advanced`,
       options: {
-        apiKey:
+        version: '3.0.29',
+        publicApiKey:
           'ZjRlNWQwY2YtM2Y5Yy00YTc5LThiOWYtZDlkYTk3ZWQ3OTIwNjM3ODY1MDMxNjYxNzc5NDI3', // test key
-        autopop: true,
+        defaultLang: 'en',
+        openCartOnAdd: true,
+        useSideCart: false,
       },
     },
     `gatsby-plugin-sitemap`,

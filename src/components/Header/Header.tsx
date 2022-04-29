@@ -14,12 +14,14 @@ const Header = ({ bioDescription }) => {
   const [isPortfolio, setIsPortfolio] = useState(false);
   const [isBio, setIsBio] = useState(false);
   const [isConnect, setIsConnect] = useState(false);
+  const [isPrints, setIsPrints] = useState(false);
   const [isMobileDisplay, setIsMobileDisplay] = useState(false);
 
   const handleClickNavDisplays = (navTitle: string) => {
     if (navTitle === `logo`) {
       setIsBio(false);
       setIsConnect(false);
+      setIsPrints(false);
       recordEvents(`Photo: Logo`, `Clicked on Logo`);
     }
     if (navTitle === `enterPortfolio`) setIsPortfolio(true);
@@ -29,6 +31,7 @@ const Header = ({ bioDescription }) => {
       setIsBio(!isBio);
       setIsPortfolio(false);
       setIsConnect(false);
+      setIsPrints(false);
 
       recordEvents(`Photo: Bio`, `Bio Component is Active`);
     }
@@ -36,7 +39,15 @@ const Header = ({ bioDescription }) => {
       setIsConnect(!isConnect);
       setIsBio(false);
       setIsPortfolio(false);
+      setIsPrints(false);
       recordEvents(`Photo: Connect`, `Connect Component is Active`);
+    }
+    if (navTitle === `prints`) {
+      setIsPrints(!isPrints);
+      setIsConnect(false);
+      setIsBio(false);
+      setIsPortfolio(false);
+      recordEvents(`Photo: Prints`, `Prints Component is Active`);
     }
   };
 
@@ -60,6 +71,7 @@ const Header = ({ bioDescription }) => {
           isPortfolio={isPortfolio}
           isBio={isBio}
           isConnect={isConnect}
+          isPrints={isPrints}
         />
         <Bio isBio={isBio} bioDescription={bioDescription} />
         <Connect isConnect={isConnect} />

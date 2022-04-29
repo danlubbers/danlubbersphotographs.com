@@ -1,11 +1,13 @@
 import React from 'react';
 import { IGatsbyImageData } from 'gatsby-plugin-image';
 import { PageProps, graphql } from 'gatsby';
-import './index.scss';
+import SEO from '../components/SEO/SEO';
+import Header from '../components/Header/Header';
+import Footer from '../components/Footer/Footer';
 import PrintsComponent from '../components/Prints/Prints';
 import recordEvent from '../utilities/recordEvents';
 
-interface ImageContentProps {
+interface PrintsProps {
   data: {
     allPrintsJson: {
       nodes: {
@@ -17,16 +19,31 @@ interface ImageContentProps {
         price: number;
       }[];
     };
+    bioDescription: {
+      edges: {
+        node: {
+          id: string;
+          bio: string;
+          quote: string;
+        };
+      };
+    };
   };
 }
 
-const Prints: React.FC<PageProps & ImageContentProps> = ({ data }) => (
+const Prints: React.FC<PageProps & PrintsProps> = ({ data }) => (
   <main>
     {recordEvent(
       `Photo: Prints`,
       `Photo: User landed on Prints for sale Gallery`,
     )}
+
+    <SEO />
+    <Header bioDescription={data.bioDescription.edges[0].node} />
+
     <PrintsComponent data={data} />
+
+    {/* <Footer /> */}
   </main>
 );
 
