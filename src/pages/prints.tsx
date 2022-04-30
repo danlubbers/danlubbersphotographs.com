@@ -14,6 +14,8 @@ interface PrintsProps {
         id: string;
         name: string;
         description: string;
+        limited: boolean;
+        limitedDescription?: string;
         category: string;
         src: { childrenImageSharp: IGatsbyImageData };
         price: number;
@@ -43,7 +45,7 @@ const Prints: React.FC<PageProps & PrintsProps> = ({ data }) => (
 
     <PrintsComponent data={data} />
 
-    {/* <Footer /> */}
+    <Footer />
   </main>
 );
 
@@ -55,6 +57,8 @@ export const query = graphql`
       nodes {
         category
         description
+        limited
+        limitedDescription
         id
         name
         price
