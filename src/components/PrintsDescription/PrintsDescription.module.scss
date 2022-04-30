@@ -1,0 +1,14 @@
+.printsDescriptionContainer {
+  width: 100%;
+  margin-top: 2rem;
+  padding: 0 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .paperDescription {
+    margin: 0.5rem 0;
+    font-size: 2rem;
+  }
+}

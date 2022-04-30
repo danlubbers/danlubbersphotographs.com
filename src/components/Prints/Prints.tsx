@@ -48,7 +48,11 @@ const Prints: React.FC<ImageContentProps> = ({ data }) => {
               <div className={styles.productDetailsWrapper}>
                 <p className={styles.productName}>{name}</p>
                 <p className={styles.productDescription}>{description}</p>
-                {limited && <p>{limitedDescription}</p>}
+                {limited && (
+                  <p className={styles.limitedDescription}>
+                    {limitedDescription}
+                  </p>
+                )}
               </div>
               <div className={styles.priceBtnWrapper}>
                 <div className={styles.productPrice}>${price}</div>
