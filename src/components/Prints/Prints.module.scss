@@ -13,8 +13,9 @@
 
   @media (max-width: 769px) {
     display: block;
+
     max-width: 100%;
-    padding: 2rem;
+    margin: 0;
     flex-direction: column;
   }
 
@@ -25,8 +26,13 @@
     justify-content: space-between;
     align-items: center;
 
+    @media (max-width: 769px) {
+      margin-top: 4rem;
+      flex-direction: column;
+    }
+
     .gatsbyImage {
-      width: 20rem;
+      width: 30rem;
       // height: 20rem;
       // object-fit: contain;
     }
@@ -34,6 +40,11 @@
     .productDetailsWrapper {
       margin: 0 2rem;
       line-height: 2.5rem;
+
+      @media (max-width: 769px) {
+        margin-top: 2rem;
+      }
+
       .productName {
         font-size: 2rem;
       }

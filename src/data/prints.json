@@ -9,6 +9,15 @@
     "price": 125.0
   },
   {
+    "name": "My Morning Jacket performs a sold-out show for the release of the 2008 album \"Evil Urges\" at Ear X-Tacy in Louisville, KY",
+    "description": "Photo size: 12x9 | Print size: 14x10",
+    "limited": true,
+    "limitedDescription": "Limited Run of 25 | Signed and numbered ",
+    "category": "prints",
+    "src": "../assets/images/musicians/my_morning_jacket_2089-Enhanced.jpg",
+    "price": 175.0
+  },
+  {
     "name": "Shooting stars streak across the Milky Way as Jupiter sets along the horizon of the Grafton Peace Pagoda",
     "description": "Photo size: 12x8 | Print size: 13x9",
     "limited": false,

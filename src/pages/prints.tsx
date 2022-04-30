@@ -3,7 +3,6 @@ import { IGatsbyImageData } from 'gatsby-plugin-image';
 import { PageProps, graphql } from 'gatsby';
 import SEO from '../components/SEO/SEO';
 import Header from '../components/Header/Header';
-import Footer from '../components/Footer/Footer';
 import PrintsComponent from '../components/Prints/Prints';
 import recordEvent from '../utilities/recordEvents';
 
@@ -44,8 +43,6 @@ const Prints: React.FC<PageProps & PrintsProps> = ({ data }) => (
     <Header bioDescription={data.bioDescription.edges[0].node} />
 
     <PrintsComponent data={data} />
-
-    <Footer />
   </main>
 );
 
