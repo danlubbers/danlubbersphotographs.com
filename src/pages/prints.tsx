@@ -41,7 +41,7 @@ const Prints: React.FC<PageProps & PrintsProps> = ({ data }) => (
     )}
 
     <SEO />
-    <Header bioDescription={data.bioDescription.edges[0].node} />
+    <Header bioDescription={data.bioDescription.edges[0].node} prints />
     <PrintsDescription />
     <PrintsComponent data={data} />
   </main>

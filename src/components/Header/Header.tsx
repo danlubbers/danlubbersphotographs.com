@@ -10,11 +10,11 @@ import Bio from '../Bio/Bio';
 import Connect from '../Connect/Connect';
 import NavGalleryLinks from '../NavGalleryLinks/NavGalleryLinks';
 
-const Header = ({ bioDescription }) => {
+const Header = ({ bioDescription, prints }) => {
   const [isPortfolio, setIsPortfolio] = useState(false);
   const [isBio, setIsBio] = useState(false);
   const [isConnect, setIsConnect] = useState(false);
-  const [isPrints, setIsPrints] = useState(false);
+  const [isPrints, setIsPrints] = useState(prints);
   const [isMobileDisplay, setIsMobileDisplay] = useState(false);
 
   const handleClickNavDisplays = (navTitle: string) => {
@@ -40,6 +40,7 @@ const Header = ({ bioDescription }) => {
       setIsBio(false);
       setIsPortfolio(false);
       setIsPrints(false);
+
       recordEvents(`Photo: Connect`, `Connect Component is Active`);
     }
     if (navTitle === `prints`) {
@@ -47,6 +48,7 @@ const Header = ({ bioDescription }) => {
       setIsConnect(false);
       setIsBio(false);
       setIsPortfolio(false);
+
       recordEvents(`Photo: Prints`, `Prints Component is Active`);
     }
   };
