@@ -5,17 +5,26 @@ nav {
     position: relative;
     display: flex;
     justify-content: flex-end;
+
     list-style: none;
 
     .navTitle {
       width: 100%;
-      margin: 0 2rem;
+      padding: 0 2rem;
       font-size: 1.6rem;
       font-weight: 300;
       letter-spacing: 1.5px;
       color: $font-color;
       cursor: pointer;
       transition: all 0.5s ease;
+    }
+    .navTitle:first-child {
+      padding-left: 0;
+      padding-right: 2rem;
+    }
+    .navTitle:last-child {
+      padding-left: 2rem;
+      padding-right: 0;
     }
 
     .portfolioDropdownActive {
@@ -40,6 +49,13 @@ nav {
     .connectActive {
       @extend .navTitle;
       color: $hover-color;
+    }
+    .printsLink {
+      text-decoration: none;
+      .printsActive {
+        @extend .navTitle;
+        color: $hover-color;
+      }
     }
     .navTitle:first-child {
       margin: 0;

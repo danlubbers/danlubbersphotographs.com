@@ -78,6 +78,15 @@ const NavGalleryLinks = () => (
     >
       <li className={styles.galleryTitle}>Published</li>
     </Link>
+    <Link
+      className={styles.link}
+      to="/prints"
+      onClick={() =>
+        recordEvents(`Photo: Prints Page`, `User clicked Prints Link`)
+      }
+    >
+      <li className={styles.galleryTitle}>Prints</li>
+    </Link>
     {/* <Link className={styles.link} to="/retouching">
       <li className={styles.galleryTitle}>Retouching Before & After</li>
     </Link> */}

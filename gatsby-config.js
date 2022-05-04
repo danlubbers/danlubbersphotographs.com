@@ -98,6 +98,17 @@ module.exports = {
         id: 'portal',
       },
     },
+    {
+      resolve: `gatsby-plugin-snipcart-advanced`,
+      options: {
+        version: '3.0.29',
+        publicApiKey:
+          'ZjRlNWQwY2YtM2Y5Yy00YTc5LThiOWYtZDlkYTk3ZWQ3OTIwNjM3ODY1MDMxNjYxNzc5NDI3', // test key
+        defaultLang: 'en',
+        openCartOnAdd: true,
+        useSideCart: false,
+      },
+    },
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-robots-txt`,
     `gatsby-plugin-react-helmet`,

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 import * as styles from './Navbar.module.scss';
 
 import NavGalleryLinks from '../NavGalleryLinks/NavGalleryLinks';
@@ -8,6 +9,7 @@ interface NavbarProps {
   isPortfolio: boolean;
   isBio: boolean;
   isConnect: boolean;
+  isPrints: boolean;
 }
 
 const Navbar: React.FC<NavbarProps> = ({
@@ -15,6 +17,7 @@ const Navbar: React.FC<NavbarProps> = ({
   isPortfolio,
   isBio,
   isConnect,
+  isPrints,
 }) => (
   <nav>
     <ul
@@ -52,6 +55,15 @@ const Navbar: React.FC<NavbarProps> = ({
       >
         CONNECT
       </li>
+      <Link className={styles.printsLink} to="/prints">
+        <li
+          className={isPrints ? styles.printsActive : styles.navTitle}
+          onClick={() => handleClickNavDisplays(`prints`)}
+          aria-hidden="true"
+        >
+          PRINTS
+        </li>
+      </Link>
     </ul>
   </nav>
 );

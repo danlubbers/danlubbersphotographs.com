@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Superwolves: Will Oldham & Matt Sweeney",
+    "description": "Photo size: 9x6 | Print size: 10x7",
+    "limited": true,
+    "limitedDescription": "Limited Run of 25 | Signed and numbered ",
+    "category": "prints",
+    "src": "../assets/images/musicians/superwolves-7752.jpg",
+    "price": 125.0,
+    "url": "prints/superwolves"
+  },
+  {
+    "name": "My Morning Jacket performs a sold-out show for the release of the 2008 album \"Evil Urges\" at Ear X-Tacy in Louisville, KY",
+    "description": "Photo size: 12x9 | Print size: 14x10",
+    "limited": true,
+    "limitedDescription": "Limited Run of 25 | Signed and numbered ",
+    "category": "prints",
+    "src": "../assets/images/musicians/my_morning_jacket_2089-Enhanced.jpg",
+    "price": 175.0,
+    "url": "prints/mymorningjacket"
+  },
+  {
+    "name": "Shooting stars streak across the Milky Way as Jupiter sets along the horizon of the Grafton Peace Pagoda",
+    "description": "Photo size: 12x8 | Print size: 13x9",
+    "limited": false,
+    "category": "prints",
+    "src": "../assets/images/scenic/grafton-peace-pagoda-0894-4.jpg",
+    "price": 200.0,
+    "url": "prints/graftonpeacepagoda"
+  }
+]
