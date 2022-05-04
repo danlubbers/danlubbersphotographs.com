@@ -49,12 +49,11 @@ function GallerySlider({ sliderData, show }) {
   const imageSliderData = sliderData.map((data, idx) => {
     const image = getImage(data.src);
     return (
-      <>
+      <div key={data.id}>
         <div
           className={
             idx === current ? `${styles.slideActive}` : `${styles.slide}`
           }
-          key={data.id}
         >
           {idx === current && (
             <div
@@ -91,7 +90,7 @@ function GallerySlider({ sliderData, show }) {
             nextSlide={nextSlide}
           />
         )}
-      </>
+      </div>
     );
   });
 
