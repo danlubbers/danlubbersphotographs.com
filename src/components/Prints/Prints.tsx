@@ -68,7 +68,7 @@ const Prints: React.FC<ImageContentProps> = ({ data }) => {
                   data-item-image={`http://localhost:8000${image.images.fallback.src}`}
                   data-item-name={name}
                   data-item-description={description}
-                  data-item-url={`/${url}`}
+                  data-item-url="/"
                 >
                   Add to cart
                 </button>
