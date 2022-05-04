@@ -14,6 +14,7 @@ interface ImageContentProps {
         category: string;
         src: { childrenImageSharp: IGatsbyImageData };
         price: number;
+        url: string;
       }[];
     };
   };
@@ -33,9 +34,11 @@ const Prints: React.FC<ImageContentProps> = ({ data }) => {
           limitedDescription,
           src,
           price,
+          url,
         }) => {
           const image = getImage(src.childrenImageSharp[0]);
-
+          console.log(`url`, url);
+          console.log(`id`, id);
           return (
             <div className={styles.printWrapper} key={id}>
               <div className="Product__image">
@@ -65,11 +68,9 @@ const Prints: React.FC<ImageContentProps> = ({ data }) => {
                   data-item-image={`http://localhost:8000${image.images.fallback.src}`}
                   data-item-name={name}
                   data-item-description={description}
-                  data-item-custom1-name="size"
-                  data-item-custom1-options="9x6|12x8[+75.00]|18x12[+150.00]"
-                  data-item-url="/"
+                  data-item-url={`/${url}`}
                 >
-                  Buy now
+                  Add to cart
                 </button>
               </div>
             </div>

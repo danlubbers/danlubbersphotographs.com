@@ -19,6 +19,7 @@ interface PrintsProps {
         category: string;
         src: { childrenImageSharp: IGatsbyImageData };
         price: number;
+        url: string;
       }[];
     };
     bioDescription: {
@@ -60,6 +61,7 @@ export const query = graphql`
         id
         name
         price
+        url
         src {
           childrenImageSharp {
             gatsbyImageData(
