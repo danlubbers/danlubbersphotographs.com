@@ -1,5 +1,5 @@
 import React from 'react';
-import bioImage from '../../assets/images/dan-portrait-arcteryx-sv-web-icon.jpg';
+import bioImage from '../../assets/images/dan-lubbers-tetons-portrait-IMG_7552-web.jpg';
 import * as styles from './Bio.module.scss';
 import clients from '../../data/clients.json';
 import editorials from '../../data/editorials.json';
