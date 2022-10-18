@@ -103,7 +103,7 @@ module.exports = {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
         host: 'https://danlubbersphotographs.com',
-        sitemap: 'https://danlubbersphotographs.com/sitemap.xml',
+        sitemap: 'https://danlubbersphotographs.com/sitemap/sitemap-index.xml',
         policy: [{ userAgent: '*', allow: '/' }],
       },
     },
