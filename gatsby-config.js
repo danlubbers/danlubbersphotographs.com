@@ -125,19 +125,8 @@ module.exports = {
         }
       `,
         resolveSiteUrl: () => siteUrl,
-        resolvePages: ({
-          allSitePage: { nodes: allPages },
-          allWpContentNode: { nodes: allWpNodes },
-        }) => {
-          const wpNodeMap = allWpNodes.reduce((acc, node) => {
-            const { uri } = node;
-            acc[uri] = node;
-
-            return acc;
-          }, {});
-
-          return allPages.map((page) => ({ ...page, ...wpNodeMap[page.path] }));
-        },
+        resolvePages: ({ allSitePage: { nodes: allPages } }) =>
+          allPages.map((page) => ({ ...page })),
         serialize: ({ path, modifiedGmt }) => ({
           url: path,
           lastmod: modifiedGmt,
