@@ -1,0 +1,17 @@
+@import '../../styles/variables.scss';
+
+.errorBoundaryWrapper {
+  width: 100%;
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h1 {
+    margin-bottom: 2rem;
+
+    em {
+      color: $hover-color;
+    }
+  }
+}

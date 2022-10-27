@@ -9,6 +9,7 @@ import PWAModal from '../components/PWAModal/PWAModal';
 import GalleryCategories from '../components/GalleryCategories/GalleryCategories';
 
 const Home: React.FC<PageProps> = ({ data }) => {
+  console.log('data', data);
   const { prompt } = useIsIOS();
   const [openModal, setOpenModal] = useState<boolean>(true);
 
