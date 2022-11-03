@@ -19,9 +19,9 @@ const Connect: React.FC<ConnectProps> = ({ isConnect }) => (
         Email:{` `}
         <a
           className={styles.emailLink}
-          href="mailto:lubbers.dan@gmail.com?subject=Mailed from danlubbersphotographs.com"
+          href="mailto:dan@danlubbers.com?subject=Mailed from danlubbersphotographs.com"
         >
-          lubbers.dan@gmail.com
+          dan@danlubbers.com
         </a>
       </p>
       <SocialMedia />
