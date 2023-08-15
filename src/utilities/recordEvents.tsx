@@ -1,12 +1,11 @@
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 
-ReactGA.initialize(`UA-1733817-2`);
+ReactGA.initialize(`G-0GS0GXHCBM`);
 
-const recordEvent = (category: string, action: string) => {
+const recordEvent = (category: string, action: string) =>
   ReactGA.event({
     category,
     action,
   });
-};
 
 export default recordEvent;
