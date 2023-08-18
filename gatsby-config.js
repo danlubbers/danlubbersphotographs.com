@@ -121,6 +121,7 @@ module.exports = {
         }),
       },
     },
+    `gatsby-plugin-netlify`,
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
     `gatsby-transformer-json`,
