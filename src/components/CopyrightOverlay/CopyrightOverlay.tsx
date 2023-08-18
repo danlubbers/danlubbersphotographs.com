@@ -1,6 +1,6 @@
 import React from 'react';
-import * as styles from './CopyrightOverlay.module.scss';
 import Portal from 'components/Portal/Portal';
+import * as styles from './CopyrightOverlay.module.scss';
 
 const CopyrightOverlay = () => (
   <Portal>

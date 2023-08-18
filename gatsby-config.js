@@ -109,7 +109,7 @@ module.exports = {
             nodes {
               path
             }
-          }         
+          }
         }
       `,
         resolveSiteUrl: () => siteUrl,
