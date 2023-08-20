@@ -10,7 +10,8 @@
 
 # gatsby
 .cache/
-public/
+public/*
+!public/robots.txt
 
 # misc
 .DS_Store
