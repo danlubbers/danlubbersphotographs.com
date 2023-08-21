@@ -42,6 +42,7 @@ const SEO = ({ title, lang, description, image, article, keywords }) => {
   return (
     <>
       <html lang={seo.lang} />
+      <title>{seo.title}</title>
       <meta name="description" content={seo.description} />
       <meta name="image" content={seo.image} />
       {seo.url && <meta property="og:url" content={seo.url} />}
