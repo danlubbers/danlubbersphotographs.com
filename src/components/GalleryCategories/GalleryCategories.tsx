@@ -1,6 +1,5 @@
 import React, { useState, useCallback, useEffect } from 'react';
 import * as styles from './GalleryCategories.module.scss';
-import SEO from '../SEO/SEO';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import GallerySlider from '../GallerySlider/GallerySlider';
@@ -39,9 +38,7 @@ const GalleryCategories = ({ data }) => {
 
   return (
     <>
-      <SEO />
       <Header bioDescription={data.bioDescription.edges[0].node} />
-
       <div>
         <GallerySlider sliderData={data.imageContent.nodes} show={show} />
       </div>
@@ -50,10 +47,11 @@ const GalleryCategories = ({ data }) => {
         <BioMobile bioDescription={data.bioDescription.edges[0].node} />
         <ConnectMobile />
       </div>
-
       <Footer />
     </>
   );
 };
 
 export default GalleryCategories;
+
+// export const Head: HeadFC = () => <SEO />;
