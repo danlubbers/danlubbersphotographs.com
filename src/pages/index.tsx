@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import { PageProps, graphql } from 'gatsby';
+import { HeadFC, PageProps, graphql } from 'gatsby';
 import './index.scss';
 import useIsIOS from 'utilities/useIsIOS';
 import recordEvent from 'utilities/recordEvents';
 import Portal from '../components/Portal/Portal';
-
 import PWAModal from '../components/PWAModal/PWAModal';
 import GalleryCategories from '../components/GalleryCategories/GalleryCategories';
+import SEO from '../components/SEO/SEO';
 
 const Home: React.FC<PageProps> = ({ data }) => {
   const { prompt } = useIsIOS() as any;
@@ -29,6 +29,8 @@ const Home: React.FC<PageProps> = ({ data }) => {
 };
 
 export default Home;
+
+export const Head: HeadFC = () => <SEO />;
 
 export const query = graphql`
   query {
