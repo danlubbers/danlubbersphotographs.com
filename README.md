@@ -31,7 +31,7 @@ I am proud to say that I achieved all 100% scores across Google's Lighthouse Aud
 Updated performance metrics on Aug 21, 2023 show a 100% performance rating on GTMetrix
 
 <p align="center">
- <img src="https://s3.amazonaws.com/content.danlubbers.com/img/gtmetrix-score-danlubbersphotographs_2023.jpg" alt="dan lubbers photographs GTMetrix Performance Metrics">
+ <img src="https://s3.amazonaws.com/content.danlubbers.com/img/gtmetrix-score-danlubbersphotographs_2023.png" alt="dan lubbers photographs GTMetrix Performance Metrics">
  </p>
  <br>
 
