@@ -9,6 +9,12 @@
     "src": "../assets/images/index/floro-cristina-5107.jpg"
   },
   {
+    "name": "Light beams from the Aurora Borealis ( Northern Lights ) dance across the night sky on May 11, 2024",
+    "description": "Vernal, UT",
+    "category": "index",
+    "src": "../assets/images/index/aurora-vernal-ut-9834.jpg"
+  },
+  {
     "name": "Shooting stars streak across the Milky Way as Jupiter sets along the horizon of the Grafton Peace Pagoda",
     "description": "Grafton, NY",
     "category": "index",
@@ -328,6 +334,12 @@
     "description": "Saratoga Springs, NY",
     "category": "scenic",
     "src": "../assets/images/scenic/spac-geyser-20181116-_MG_3722.jpg"
+  },
+  {
+    "name": "Vibrant pink/purple hues from the Aurora Borealis ( Northern Lights ) light up the night sky on May 11, 2024",
+    "description": "Vernal, UT",
+    "category": "index",
+    "src": "../assets/images/index/aurora-vernal-ut-9851.jpg"
   },
   {
     "name": "Creation Falls",
