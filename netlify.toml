@@ -1,0 +1,14 @@
+[build]
+  command = "npm run build"
+  publish = "public/"
+
+[build.environment]
+  NODE_VERSION = "18.18.0"
+  NPM_FLAGS = "--legacy-peer-deps"
+
+[[plugins]]
+  package = "@netlify/plugin-gatsby"
+
+# Optional: Preview deployments
+[context.deploy-preview]
+  command = "npm run build"

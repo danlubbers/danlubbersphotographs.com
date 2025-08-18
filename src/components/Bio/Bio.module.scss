@@ -68,6 +68,10 @@
       font-size: 1.6rem;
       text-align: left;
       line-height: 2rem;
+
+      a {
+        color: $hover-color;
+      }
     }
 
     .descriptionQuote {
