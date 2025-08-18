@@ -1,4 +1,6 @@
 import React from 'react';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 import * as styles from './BioMobile.module.scss';
 
 import clients from '../../data/clients.json';
@@ -36,8 +38,20 @@ const BioMobile = ({ bioDescription }) => {
     <article className={styles.bioMobileContainer}>
       {` `}
       <div className={styles.descriptionContainer}>
-        <h3 className={styles.bioTitle}>BIO</h3>
-        <p className={styles.descriptionText}>{bio}</p>
+        {/* BIO with Markdown + safe links */}
+        <ReactMarkdown
+          remarkPlugins={[remarkGfm]}
+          components={{
+            a: (props) => (
+              <a {...props} target="_blank" rel="noopener noreferrer" />
+            ),
+            p: (props) => <p className={styles.descriptionText} {...props} />,
+          }}
+        >
+          {bio}
+        </ReactMarkdown>
+
+        {/* Quote stays plain text (or switch to ReactMarkdown if you want formatting) */}
         <p className={styles.descriptionQuote}>{quote}</p>
       </div>
       <div className={styles.clientsEditorialPressContainer}>
