@@ -4,7 +4,7 @@ import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import GallerySlider from '../GallerySlider/GallerySlider';
 import BioMobile from '../BioMobile/BioMobile';
-import ConnectMobile from '../ConnectMobile/ConnectMobile';
+// import ConnectMobile from '../ConnectMobile/ConnectMobile';
 
 import recordEvent from '../../utilities/recordEvents';
 
@@ -45,7 +45,8 @@ const GalleryCategories = ({ data }) => {
 
       <div className={styles.mobileComponents}>
         <BioMobile bioDescription={data.bioDescription.edges[0].node} />
-        <ConnectMobile />
+        {/* removed due to not seeking new clients */}
+        {/* <ConnectMobile /> */}
       </div>
       <Footer />
     </>

@@ -62,7 +62,8 @@ const Header = ({ bioDescription }) => {
           isConnect={isConnect}
         />
         <Bio isBio={isBio} bioDescription={bioDescription} />
-        <Connect isConnect={isConnect} />
+        {/* Removed due to not seeking new work from clients */}
+        {/* <Connect isConnect={isConnect} /> */}
       </header>
 
       <header className={styles.headerMobileContainer}>

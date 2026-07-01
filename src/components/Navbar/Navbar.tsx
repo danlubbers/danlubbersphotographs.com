@@ -44,14 +44,14 @@ const Navbar: React.FC<NavbarProps> = ({
       >
         BIO
       </li>
-
-      <li
+      {/* Remove connections since not activly seeking work */}
+      {/* <li
         className={isConnect ? styles.connectActive : styles.navTitle}
         onClick={() => handleClickNavDisplays(`connect`)}
         aria-hidden="true"
       >
         CONNECT
-      </li>
+      </li> */}
     </ul>
   </nav>
 );
